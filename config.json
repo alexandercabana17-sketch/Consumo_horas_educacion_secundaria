@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "carrera": "Educación Secundaria",
+    "programas": ["LLYA", "MYC"],
+    "fecha_analisis": "2025-01-20",
+    "version": "1.0"
+  },
+  "parametros": {
+    "tamano_seccion_aula": 30,
+    "tamano_seccion_laboratorio": 20,
+    "tamano_seccion_taller": 25,
+    "semanas_por_semestre": 16
+  },
+  "archivos": {
+    "LLYA": {
+      "malla": "datos/Malla_Curricular_LLYA.xlsx",
+      "proyeccion": "datos/Proyeccion_LLYA.xlsx"
+    },
+    "MYC": {
+      "malla": "datos/Malla_Curricular_MYC.xlsx",
+      "proyeccion": "datos/Proyeccion_MYC.xlsx"
+    }
+  },
+  "output": {
+    "json": "salida/json/consumo_horas_educacion_secundaria.json",
+    "excel": "salida/excel/consumo_horas_educacion_secundaria.xlsx",
+    "log": "salida/logs/analisis.log"
+  }
+}
