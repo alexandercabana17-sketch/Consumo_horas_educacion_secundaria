@@ -30,12 +30,7 @@ class AnalizadorHorasAula:
         # DataFrames
         self.mallas = {}
         self.proyecciones = {}
-        self.equivalencias = {}
         self.resultados = {}
-        
-        # Información de equivalencias
-        self.cursos_compartidos = []  # Cursos compartidos entre LLYA y MYC
-        self.cursos_a_eliminar = {'LLYA': [], 'MYC': []}  # Cursos que van a otras carreras
         
         print("=" * 80)
         print(f"ANALIZADOR DE HORAS-AULA - {self.config['metadata']['carrera']}")
@@ -50,7 +45,7 @@ class AnalizadorHorasAula:
         print("=" * 80)
     
     def cargar_datos(self):
-        """Carga las mallas curriculares, proyecciones de matrícula y equivalencias."""
+        """Carga las mallas curriculares y proyecciones de matrícula."""
         print("\n📂 Cargando datos...")
         
         for programa in self.config['metadata']['programas']:
@@ -63,84 +58,8 @@ class AnalizadorHorasAula:
             proy_path = self.archivos[programa]['proyeccion']
             self.proyecciones[programa] = pd.read_excel(proy_path)
             print(f"  ✓ Proyección {programa}: {len(self.proyecciones[programa])} registros")
-            
-            # Cargar equivalencias
-            equiv_path = self.archivos[programa]['equivalencias']
-            self.equivalencias[programa] = pd.read_excel(equiv_path)
-            print(f"  ✓ Equivalencias {programa}: {len(self.equivalencias[programa])} registros")
         
         print("  ✅ Datos cargados exitosamente\n")
-    
-    def identificar_cursos_compartidos(self):
-        """
-        Identifica cursos compartidos entre LLYA y MYC.
-        Un curso es compartido si PROGRAMA_EQUIVALENTE indica el otro programa.
-        """
-        print("\n🔍 Identificando cursos compartidos entre LLYA y MYC...")
-        
-        equiv_llya = self.equivalencias['LLYA']
-        equiv_myc = self.equivalencias['MYC']
-        
-        # Cursos de LLYA que equivalen con MYC
-        llya_to_myc = equiv_llya[equiv_llya['PROGRAMA_EQUIVALENTE'] == 'Educación MYC'].copy()
-        
-        # Cursos de MYC que equivalen con LLYA
-        myc_to_llya = equiv_myc[equiv_myc['PROGRAMA_EQUIVALENTE'] == 'Educación LLYA'].copy()
-        
-        # Verificar que los nombres coincidan y crear lista de compartidos
-        for _, row_llya in llya_to_myc.iterrows():
-            codigo_llya = row_llya['CODIGO_CURSO']
-            nombre_llya = row_llya['CURSO']
-            codigo_equiv_myc = row_llya['CODIGO_CURSO_EQUIVALENTE']
-            nombre_equiv = row_llya['CURSO_EQUIVALENTE']
-            
-            # Buscar el curso correspondiente en MYC
-            myc_match = myc_to_llya[myc_to_llya['CODIGO_CURSO'] == codigo_equiv_myc]
-            
-            if len(myc_match) > 0:
-                # Verificar que los nombres coincidan
-                if nombre_llya == nombre_equiv:
-                    self.cursos_compartidos.append({
-                        'nombre': nombre_llya,
-                        'codigo_llya': codigo_llya,
-                        'codigo_myc': codigo_equiv_myc,
-                        'semestre_llya': row_llya['SEMESTRE'],
-                        'semestre_myc': myc_match.iloc[0]['SEMESTRE']
-                    })
-                else:
-                    print(f"  ⚠️ Advertencia: Nombres no coinciden - LLYA: '{nombre_llya}' vs Equiv: '{nombre_equiv}'")
-        
-        print(f"  ✅ {len(self.cursos_compartidos)} cursos compartidos identificados:")
-        for curso in self.cursos_compartidos:
-            print(f"    - {curso['nombre']}")
-        print()
-        
-        return self.cursos_compartidos
-    
-    def identificar_cursos_a_eliminar(self):
-        """
-        Identifica cursos que equivalen con otras carreras (no LLYA/MYC).
-        Estos cursos se eliminan del análisis.
-        """
-        print("\n🗑️ Identificando cursos que van a otras carreras...")
-        
-        for programa in ['LLYA', 'MYC']:
-            equiv = self.equivalencias[programa]
-            
-            # Cursos que tienen equivalencia con programas diferentes a LLYA/MYC
-            otros_programas = equiv[
-                (equiv['PROGRAMA_EQUIVALENTE'].notna()) &
-                (equiv['PROGRAMA_EQUIVALENTE'] != 'Educación LLYA') &
-                (equiv['PROGRAMA_EQUIVALENTE'] != 'Educación MYC')
-            ]
-            
-            self.cursos_a_eliminar[programa] = otros_programas['CODIGO_CURSO'].tolist()
-            
-            print(f"  📋 {programa}: {len(self.cursos_a_eliminar[programa])} cursos a eliminar")
-        
-        print(f"  ✅ Total de cursos a eliminar: {sum(len(v) for v in self.cursos_a_eliminar.values())}\n")
-        
-        return self.cursos_a_eliminar
     
     def mapear_tipo_ambiente(self, row):
         """
@@ -205,13 +124,6 @@ class AnalizadorHorasAula:
         malla = self.mallas[programa].copy()
         proyeccion = self.proyecciones[programa].copy()
         
-        # NUEVO: Filtrar cursos a eliminar
-        cursos_eliminar = self.cursos_a_eliminar[programa]
-        if len(cursos_eliminar) > 0:
-            malla = malla[~malla['CODIGO_CURSO'].isin(cursos_eliminar)]
-            proyeccion = proyeccion[~proyeccion['CODIGO_CURSO'].isin(cursos_eliminar)]
-            print(f"  🗑️ Eliminados {len(cursos_eliminar)} cursos que van a otras carreras")
-        
         # Preparar proyección
         proyeccion['PERIODO_STR'] = pd.to_datetime(proyeccion['PERIODO']).dt.strftime('%Y-%m')
         proyeccion['AÑO'] = pd.to_datetime(proyeccion['PERIODO']).dt.year
@@ -256,73 +168,6 @@ class AnalizadorHorasAula:
         print(f"  ✅ {programa} procesado: {len(datos)} registros")
         
         return datos
-    
-    def procesar_cursos_compartidos(self):
-        """
-        Procesa los cursos compartidos entre LLYA y MYC.
-        Combina los estudiantes de ambos programas y calcula una sola sección.
-        """
-        print("\n🤝 Procesando cursos compartidos...")
-        
-        if len(self.cursos_compartidos) == 0:
-            print("  ℹ️ No hay cursos compartidos para procesar")
-            return
-        
-        # Para cada curso compartido
-        for curso_comp in self.cursos_compartidos:
-            codigo_llya = curso_comp['codigo_llya']
-            codigo_myc = curso_comp['codigo_myc']
-            nombre = curso_comp['nombre']
-            
-            # Obtener datos de ambos programas
-            datos_llya = self.resultados['LLYA'][self.resultados['LLYA']['CODIGO_CURSO'] == codigo_llya].copy()
-            datos_myc = self.resultados['MYC'][self.resultados['MYC']['CODIGO_CURSO'] == codigo_myc].copy()
-            
-            if len(datos_llya) == 0 or len(datos_myc) == 0:
-                print(f"  ⚠️ Advertencia: Curso '{nombre}' no tiene datos en ambos programas")
-                continue
-            
-            # Para cada periodo, combinar estudiantes
-            periodos_unicos = set(datos_llya['PERIODO_STR'].unique()) | set(datos_myc['PERIODO_STR'].unique())
-            
-            for periodo in periodos_unicos:
-                llya_periodo = datos_llya[datos_llya['PERIODO_STR'] == periodo]
-                myc_periodo = datos_myc[datos_myc['PERIODO_STR'] == periodo]
-                
-                if len(llya_periodo) > 0 and len(myc_periodo) > 0:
-                    # Sumar estudiantes
-                    est_llya = llya_periodo['TOTAL_MATRICULADOS'].iloc[0]
-                    est_myc = myc_periodo['TOTAL_MATRICULADOS'].iloc[0]
-                    est_total = est_llya + est_myc
-                    
-                    # Para cada tipo de ambiente, recalcular secciones
-                    for tipo_ambiente in llya_periodo['TIPO_AMBIENTE'].unique():
-                        # Obtener horas del curso
-                        horas_curso = llya_periodo[llya_periodo['TIPO_AMBIENTE'] == tipo_ambiente]['HORAS_SEMANALES'].iloc[0]
-                        
-                        # Calcular nueva sección con estudiantes combinados
-                        secciones_compartidas = self.calcular_secciones(est_total, tipo_ambiente)
-                        horas_compartidas = horas_curso * secciones_compartidas
-                        
-                        # Actualizar en LLYA (mantener todos los estudiantes)
-                        mask_llya = (self.resultados['LLYA']['CODIGO_CURSO'] == codigo_llya) & \
-                                   (self.resultados['LLYA']['PERIODO_STR'] == periodo) & \
-                                   (self.resultados['LLYA']['TIPO_AMBIENTE'] == tipo_ambiente)
-                        
-                        self.resultados['LLYA'].loc[mask_llya, 'SECCIONES'] = secciones_compartidas
-                        self.resultados['LLYA'].loc[mask_llya, 'HORAS_TOTALES'] = horas_compartidas
-                        self.resultados['LLYA'].loc[mask_llya, 'TOTAL_MATRICULADOS'] = est_total
-                        
-                        # Eliminar de MYC (ya está contado en LLYA)
-                        mask_myc = (self.resultados['MYC']['CODIGO_CURSO'] == codigo_myc) & \
-                                  (self.resultados['MYC']['PERIODO_STR'] == periodo) & \
-                                  (self.resultados['MYC']['TIPO_AMBIENTE'] == tipo_ambiente)
-                        
-                        self.resultados['MYC'] = self.resultados['MYC'][~mask_myc]
-            
-            print(f"  ✓ {nombre}: estudiantes combinados, secciones optimizadas")
-        
-        print(f"  ✅ {len(self.cursos_compartidos)} cursos compartidos procesados\n")
     
     def generar_resumen_por_periodo(self):
         """Genera el resumen de consumo por periodo."""
@@ -613,37 +458,27 @@ class AnalizadorHorasAula:
         return resultado_json
     
     def ejecutar(self):
-        """Ejecuta el análisis completo con optimización de equivalencias."""
-        print("\n🚀 Iniciando análisis completo con equivalencias...\n")
+        """Ejecuta el análisis completo."""
+        print("\n🚀 Iniciando análisis completo...\n")
         
-        # 1. Cargar datos (incluye equivalencias)
+        # 1. Cargar datos
         self.cargar_datos()
         
-        # 2. Identificar equivalencias
-        self.identificar_cursos_compartidos()
-        self.identificar_cursos_a_eliminar()
-        
-        # 3. Procesar cada programa (con filtros)
+        # 2. Procesar cada programa
         for programa in self.config['metadata']['programas']:
             self.procesar_programa(programa)
         
-        # 4. Procesar cursos compartidos
-        self.procesar_cursos_compartidos()
-        
-        # 5. Generar resúmenes
+        # 3. Generar resúmenes
         resumen_periodos = self.generar_resumen_por_periodo()
         resumen_semestres = self.generar_resumen_por_semestre()
         resumen_años = self.generar_resumen_por_año()
         
-        # 6. Generar JSON
+        # 4. Generar JSON
         resultado_json = self.generar_json(resumen_periodos, resumen_semestres, resumen_años)
         
         print("\n" + "=" * 80)
-        print("✅ ANÁLISIS COMPLETADO EXITOSAMENTE (CON EQUIVALENCIAS)")
+        print("✅ ANÁLISIS COMPLETADO EXITOSAMENTE")
         print("=" * 80)
-        print(f"\n📊 Optimización aplicada:")
-        print(f"  - Cursos compartidos LLYA↔MYC: {len(self.cursos_compartidos)}")
-        print(f"  - Cursos eliminados (van a otras carreras): {sum(len(v) for v in self.cursos_a_eliminar.values())}")
         print(f"\nPeriodo pico: {resultado_json['resumen_total']['periodo_pico']['periodo']}")
         print(f"Horas semanales totales (pico): {resultado_json['resumen_total']['periodo_pico']['horas_semanales_totales']:.2f}")
         print(f"Estudiantes (pico): {resultado_json['resumen_total']['periodo_pico']['estudiantes']}")

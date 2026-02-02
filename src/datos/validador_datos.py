@@ -1,3 +1,8 @@
+"""
+Módulo Validador de Datos
+Valida la estructura y contenido de los datos cargados
+"""
+
 import pandas as pd
 from typing import Dict, List
 from ..utilidades.registro import obtener_registrador
@@ -70,6 +75,6 @@ class ValidadorDatos:
             for error in self.errores:
                 self.registro.error(f"  - {error}")
         else:
-            self.registro.info(" Validación exitosa\n")
+            self.registro.info("  ✅ Validación exitosa\n")
         
         return len(self.errores) == 0

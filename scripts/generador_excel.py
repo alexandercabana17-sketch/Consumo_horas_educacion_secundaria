@@ -22,11 +22,13 @@ class GeneradorExcel:
         with open(json_path, 'r', encoding='utf-8') as f:
             self.datos = json.load(f)
         
+        print("\n" + "=" * 80)
         print("GENERADOR DE EXCEL - VERIFICACIÓN")
-        
+        print("=" * 80)
+    
     def crear_hoja_resumen(self, writer):
         """Crea la hoja de resumen ejecutivo."""
-        print("\n Generando hoja: Resumen Ejecutivo...")
+        print("\n📊 Generando hoja: Resumen Ejecutivo...")
         
         resumen_data = []
         
@@ -67,11 +69,11 @@ class GeneradorExcel:
         df_resumen = pd.DataFrame(resumen_data, columns=['Concepto', 'Valor'])
         df_resumen.to_excel(writer, sheet_name='Resumen Ejecutivo', index=False)
         
-        print("   Hoja 'Resumen Ejecutivo' creada")
+        print("  ✅ Hoja 'Resumen Ejecutivo' creada")
     
     def crear_hoja_por_periodo(self, writer):
         """Crea la hoja con consumo por periodo."""
-        print("\n Generando hoja: Consumo por Periodo...")
+        print("\n📊 Generando hoja: Consumo por Periodo...")
         
         periodos_data = []
         
@@ -103,11 +105,11 @@ class GeneradorExcel:
         df_periodos = pd.DataFrame(periodos_data)
         df_periodos.to_excel(writer, sheet_name='Consumo por Periodo', index=False)
         
-        print(f"  Hoja 'Consumo por Periodo' creada ({len(periodos_data)} periodos)")
+        print(f"  ✅ Hoja 'Consumo por Periodo' creada ({len(periodos_data)} periodos)")
     
     def crear_hoja_por_semestre(self, writer):
         """Crea la hoja con consumo por semestre académico."""
-        print("\n Generando hoja: Consumo por Semestre...")
+        print("\n📊 Generando hoja: Consumo por Semestre...")
         
         semestres_data = []
         
@@ -135,11 +137,11 @@ class GeneradorExcel:
         df_semestres = pd.DataFrame(semestres_data)
         df_semestres.to_excel(writer, sheet_name='Consumo por Semestre', index=False)
         
-        print(f"  Hoja 'Consumo por Semestre' creada ({len(semestres_data)} semestres)")
+        print(f"  ✅ Hoja 'Consumo por Semestre' creada ({len(semestres_data)} semestres)")
     
     def crear_hoja_por_año(self, writer):
         """Crea la hoja con consumo por año."""
-        print("\n Generando hoja: Consumo por Año...")
+        print("\n📊 Generando hoja: Consumo por Año...")
         
         años_data = []
         
@@ -160,11 +162,11 @@ class GeneradorExcel:
         df_años = pd.DataFrame(años_data)
         df_años.to_excel(writer, sheet_name='Consumo por Año', index=False)
         
-        print(f"  Hoja 'Consumo por Año' creada ({len(años_data)} años)")
+        print(f"  ✅ Hoja 'Consumo por Año' creada ({len(años_data)} años)")
     
     def crear_hoja_tabla_pivote(self, writer):
         """Crea una tabla pivote simplificada."""
-        print("\n Generando hoja: Tabla Pivote...")
+        print("\n📊 Generando hoja: Tabla Pivote...")
         
         # Crear matriz Periodo x Tipo de Ambiente
         periodos = []
@@ -181,11 +183,11 @@ class GeneradorExcel:
         df_pivote = pd.DataFrame(periodos)
         df_pivote.to_excel(writer, sheet_name='Tabla Pivote', index=False)
         
-        print("  Hoja 'Tabla Pivote' creada")
+        print("  ✅ Hoja 'Tabla Pivote' creada")
     
     def generar(self):
         """Genera el archivo Excel completo."""
-        print("\n Generando archivo Excel...")
+        print("\n💾 Generando archivo Excel...")
         
         with pd.ExcelWriter(self.output_path, engine='openpyxl') as writer:
             self.crear_hoja_resumen(writer)
@@ -194,10 +196,11 @@ class GeneradorExcel:
             self.crear_hoja_por_año(writer)
             self.crear_hoja_tabla_pivote(writer)
         
-        print(f"\n Excel guardado en: {self.output_path}")
-        
-        print(" EXCEL DE VERIFICACIÓN GENERADO EXITOSAMENTE")
-        
+        print(f"\n✅ Excel guardado en: {self.output_path}")
+        print("\n" + "=" * 80)
+        print("✅ EXCEL DE VERIFICACIÓN GENERADO EXITOSAMENTE")
+        print("=" * 80)
+
 
 if __name__ == "__main__":
     import sys

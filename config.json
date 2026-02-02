@@ -14,11 +14,13 @@
   "archivos": {
     "LLYA": {
       "malla": "datos/Malla_Curricular_LLYA.xlsx",
-      "proyeccion": "datos/Proyeccion_LLYA.xlsx"
+      "proyeccion": "datos/Proyeccion_LLYA.xlsx",
+      "equivalencias": "datos/Equivalencias_LLYA.xlsx"
     },
     "MYC": {
       "malla": "datos/Malla_Curricular_MYC.xlsx",
-      "proyeccion": "datos/Proyeccion_MYC.xlsx"
+      "proyeccion": "datos/Proyeccion_MYC.xlsx",
+      "equivalencias": "datos/Equivalencias_MYC.xlsx"
     }
   },
   "output": {

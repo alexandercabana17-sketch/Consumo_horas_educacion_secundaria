@@ -1,3 +1,8 @@
+"""
+Módulo de Ayudantes
+Funciones auxiliares y utilidades generales
+"""
+
 import pandas as pd
 import numpy as np
 import math
@@ -35,14 +40,14 @@ def convertir_a_tipos_python(objeto: Any) -> Any:
 
 def calcular_numero_secciones(num_estudiantes: int, capacidad_maxima: int) -> int:
     """
-    Calcula el número de grupos necesarias.
+    Calcula el número de secciones necesarias.
     
     Args:
         num_estudiantes: Número de estudiantes matriculados
         capacidad_maxima: Capacidad máxima por sección
         
     Returns:
-        Número de grupos necesarias
+        Número de secciones necesarias
     """
     if num_estudiantes == 0 or capacidad_maxima == 0:
         return 0

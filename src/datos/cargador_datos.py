@@ -1,3 +1,8 @@
+"""
+Módulo Cargador de Datos
+Carga los archivos Excel de mallas y proyecciones
+"""
+
 import pandas as pd
 from pathlib import Path
 from typing import Dict
@@ -57,6 +62,6 @@ class CargadorDatos:
             self.mallas[programa] = self.cargar_malla(programa)
             self.proyecciones[programa] = self.cargar_proyeccion(programa)
         
-        self.registro.info(" Datos cargados exitosamente\n")
+        self.registro.info("  ✅ Datos cargados exitosamente\n")
         
         return self.mallas, self.proyecciones
