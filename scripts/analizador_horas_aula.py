@@ -119,26 +119,39 @@ class AnalizadorHorasAula:
     
     def identificar_cursos_a_eliminar(self):
         """
-        Identifica cursos que equivalen con otras carreras (no LLYA/MYC).
-        Estos cursos se eliminan del análisis.
+        Identifica cursos que equivalen SOLO con Educación Inicial.
+        Solo estos cursos se eliminan del análisis.
+        Cursos equivalentes a otras carreras (Psicología, etc.) se mantienen.
         """
-        print("\n🗑️ Identificando cursos que van a otras carreras...")
+        print("\n🗑️ Identificando cursos que van a Educación Inicial...")
         
         for programa in ['LLYA', 'MYC']:
             equiv = self.equivalencias[programa]
             
-            # Cursos que tienen equivalencia con programas diferentes a LLYA/MYC
-            otros_programas = equiv[
+            # NUEVA LÓGICA: Solo eliminar cursos que van a Educación Inicial
+            # Cursos de Psicología u otras carreras SÍ se cuentan
+            cursos_a_inicial = equiv[
                 (equiv['PROGRAMA_EQUIVALENTE'].notna()) &
+                (equiv['PROGRAMA_EQUIVALENTE'] == 'Educación Inicial')
+            ]
+            
+            self.cursos_a_eliminar[programa] = cursos_a_inicial['CODIGO_CURSO'].tolist()
+            
+            print(f"  📋 {programa}: {len(self.cursos_a_eliminar[programa])} cursos van a Educación Inicial")
+            
+            # Información adicional: cursos a otras carreras (que SÍ se cuentan)
+            cursos_otras_carreras = equiv[
+                (equiv['PROGRAMA_EQUIVALENTE'].notna()) &
+                (equiv['PROGRAMA_EQUIVALENTE'] != 'Educación Inicial') &
                 (equiv['PROGRAMA_EQUIVALENTE'] != 'Educación LLYA') &
                 (equiv['PROGRAMA_EQUIVALENTE'] != 'Educación MYC')
             ]
             
-            self.cursos_a_eliminar[programa] = otros_programas['CODIGO_CURSO'].tolist()
-            
-            print(f"  📋 {programa}: {len(self.cursos_a_eliminar[programa])} cursos a eliminar")
+            if len(cursos_otras_carreras) > 0:
+                print(f"  ℹ️  {programa}: {len(cursos_otras_carreras)} cursos de otras carreras (se mantienen)")
+                print(f"      Carreras: {cursos_otras_carreras['PROGRAMA_EQUIVALENTE'].unique().tolist()}")
         
-        print(f"  ✅ Total de cursos a eliminar: {sum(len(v) for v in self.cursos_a_eliminar.values())}\n")
+        print(f"  ✅ Total eliminados (solo Educación Inicial): {sum(len(v) for v in self.cursos_a_eliminar.values())}\n")
         
         return self.cursos_a_eliminar
     
