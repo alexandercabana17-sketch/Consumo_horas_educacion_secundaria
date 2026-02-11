@@ -13,8 +13,8 @@ from pathlib import Path
 # Agregar directorio de scripts al path
 sys.path.insert(0, str(Path(__file__).parent / 'scripts'))
 
-from scripts.analizador_horas_aula import AnalizadorHorasAula
-from scripts.generador_excel import GeneradorExcel
+from analizador_horas_aula import AnalizadorHorasAula
+from generador_excel import GeneradorExcel
 
 def main():
     """Función principal que ejecuta todo el proceso."""

@@ -165,25 +165,84 @@ class GeneradorExcel:
         print(f"  ✅ Hoja 'Consumo por Año' creada ({len(años_data)} años)")
     
     def crear_hoja_tabla_pivote(self, writer):
-        """Crea una tabla pivote simplificada."""
+        """Crea una tabla pivote con ambientes específicos (laboratorios separados)."""
         print("\n📊 Generando hoja: Tabla Pivote...")
         
-        # Crear matriz Periodo x Tipo de Ambiente
-        periodos = []
-        for p in self.datos['consumo_por_periodo']:
-            periodos.append({
-                'Periodo': p['periodo'],
-                'Aula': p['horas_semanales']['aula'],
-                'Laboratorio': p['horas_semanales']['laboratorio'],
-                'Taller': p['horas_semanales']['taller'],
-                'Virtual': p['horas_semanales']['virtual'],
-                'Total': p['horas_semanales']['total']
-            })
+        # Usar el detalle de ambientes específicos si está disponible
+        if 'detalle_ambientes_especificos' in self.datos:
+            periodos = []
+            
+            for p in self.datos['detalle_ambientes_especificos']:
+                periodo_data = {'Periodo': p['periodo']}
+                
+                # Agregar cada ambiente específico como columna
+                for ambiente, info in sorted(p['ambientes'].items()):
+                    periodo_data[ambiente] = info['horas_semanales']
+                
+                # Calcular total
+                periodo_data['Total'] = sum(info['horas_semanales'] for info in p['ambientes'].values())
+                
+                periodos.append(periodo_data)
+            
+            df_pivote = pd.DataFrame(periodos)
+            
+            # Asegurar que las columnas estén en orden lógico
+            # Primero identificar todas las columnas únicas
+            columnas_ambientes = []
+            for p in periodos:
+                for col in p.keys():
+                    if col not in ['Periodo', 'Total'] and col not in columnas_ambientes:
+                        columnas_ambientes.append(col)
+            
+            # Ordenar columnas: Aula primero, luego laboratorios, taller, virtual
+            columnas_ordenadas = ['Periodo']
+            
+            # Aula primero
+            if 'Aula' in columnas_ambientes:
+                columnas_ordenadas.append('Aula')
+            
+            # Luego laboratorios (ordenados alfabéticamente)
+            labs = sorted([c for c in columnas_ambientes if 'Laboratorio' in c])
+            columnas_ordenadas.extend(labs)
+            
+            # Taller
+            if 'Taller' in columnas_ambientes:
+                columnas_ordenadas.append('Taller')
+            
+            # Virtual
+            if 'Virtual' in columnas_ambientes:
+                columnas_ordenadas.append('Virtual')
+            
+            # Agregar cualquier otro ambiente que no hayamos cubierto
+            for col in columnas_ambientes:
+                if col not in columnas_ordenadas:
+                    columnas_ordenadas.append(col)
+            
+            # Total al final
+            columnas_ordenadas.append('Total')
+            
+            # Reordenar dataframe
+            df_pivote = df_pivote[columnas_ordenadas]
+            
+        else:
+            # Fallback al método anterior si no hay detalle específico
+            periodos = []
+            for p in self.datos['consumo_por_periodo']:
+                periodos.append({
+                    'Periodo': p['periodo'],
+                    'Aula': p['horas_semanales']['aula'],
+                    'Laboratorio': p['horas_semanales']['laboratorio'],
+                    'Taller': p['horas_semanales']['taller'],
+                    'Virtual': p['horas_semanales']['virtual'],
+                    'Total': p['horas_semanales']['total']
+                })
+            
+            df_pivote = pd.DataFrame(periodos)
         
-        df_pivote = pd.DataFrame(periodos)
         df_pivote.to_excel(writer, sheet_name='Tabla Pivote', index=False)
         
         print("  ✅ Hoja 'Tabla Pivote' creada")
+
     
     def generar(self):
         """Genera el archivo Excel completo."""

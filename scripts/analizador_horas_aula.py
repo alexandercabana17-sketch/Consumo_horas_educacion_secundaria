@@ -158,6 +158,7 @@ class AnalizadorHorasAula:
     def mapear_tipo_ambiente(self, row):
         """
         Determina el tipo de ambiente basado en las columnas de la malla.
+        Mantiene los nombres específicos de laboratorios.
         Retorna: lista de tuplas (tipo_ambiente, horas)
         """
         ambientes = []
@@ -165,27 +166,37 @@ class AnalizadorHorasAula:
         # Horas teóricas
         if pd.notna(row['HORAS_TEORICAS']) and row['HORAS_TEORICAS'] > 0:
             if pd.notna(row['TIPO_AMBIENTE_TEORIA']):
-                if str(row['TIPO_AMBIENTE_TEORIA']).lower() == 'virtual':
-                    ambientes.append(('virtual', row['HORAS_TEORICAS']))
+                tipo_teoria = str(row['TIPO_AMBIENTE_TEORIA']).strip()
+                if tipo_teoria.lower() == 'virtual':
+                    ambientes.append(('Virtual', row['HORAS_TEORICAS']))
                 else:
-                    ambientes.append(('aula', row['HORAS_TEORICAS']))
+                    # Mantener el nombre específico (Aula, etc.)
+                    ambientes.append((tipo_teoria, row['HORAS_TEORICAS']))
             else:
-                ambientes.append(('aula', row['HORAS_TEORICAS']))
+                ambientes.append(('Aula', row['HORAS_TEORICAS']))
         
         # Horas prácticas
         if pd.notna(row['HORAS_PRACTICAS']) and row['HORAS_PRACTICAS'] > 0:
             if pd.notna(row['TIPO_AMBIENTE_PRACTICA']):
-                tipo_prac = str(row['TIPO_AMBIENTE_PRACTICA']).lower()
-                if 'laboratorio' in tipo_prac:
-                    ambientes.append(('laboratorio', row['HORAS_PRACTICAS']))
-                elif 'taller' in tipo_prac:
-                    ambientes.append(('taller', row['HORAS_PRACTICAS']))
-                elif 'virtual' in tipo_prac:
-                    ambientes.append(('virtual', row['HORAS_PRACTICAS']))
+                tipo_practica = str(row['TIPO_AMBIENTE_PRACTICA']).strip()
+                
+                # Mantener el nombre ESPECÍFICO del laboratorio
+                if 'Laboratorio' in tipo_practica:
+                    # Usar el nombre completo: "Laboratorio de Química", "Laboratorio de Computadoras", etc.
+                    ambientes.append((tipo_practica, row['HORAS_PRACTICAS']))
+                elif tipo_practica.lower() == 'taller':
+                    ambientes.append(('Taller', row['HORAS_PRACTICAS']))
+                elif tipo_practica.lower() == 'virtual':
+                    ambientes.append(('Virtual', row['HORAS_PRACTICAS']))
+                elif tipo_practica.lower() == 'aula':
+                    ambientes.append(('Aula', row['HORAS_PRACTICAS']))
                 else:
-                    ambientes.append(('laboratorio', row['HORAS_PRACTICAS']))
+                    # Para cualquier otro ambiente, mantener nombre original
+                    ambientes.append((tipo_practica, row['HORAS_PRACTICAS']))
             else:
-                ambientes.append(('laboratorio', row['HORAS_PRACTICAS']))
+                # Por defecto si no se especifica
+                ambientes.append(('Aula', row['HORAS_PRACTICAS']))
+
         
         # Si no hay ambientes, retornar lista vacía
         if not ambientes:
@@ -196,18 +207,28 @@ class AnalizadorHorasAula:
     def calcular_secciones(self, num_estudiantes, tipo_ambiente):
         """
         Calcula el número de secciones necesarias según el tipo de ambiente.
+        Maneja laboratorios específicos (Química, Computadoras, etc.)
         """
         if num_estudiantes == 0:
             return 0
         
-        if tipo_ambiente == 'aula':
+        tipo_ambiente_lower = str(tipo_ambiente).lower()
+        
+        # Aula
+        if tipo_ambiente_lower == 'aula':
             max_estudiantes = self.parametros['tamano_seccion_aula']
-        elif tipo_ambiente == 'laboratorio':
+        # Cualquier tipo de Laboratorio usa la capacidad de laboratorio
+        elif 'laboratorio' in tipo_ambiente_lower:
             max_estudiantes = self.parametros['tamano_seccion_laboratorio']
-        elif tipo_ambiente == 'taller':
+        # Taller
+        elif tipo_ambiente_lower == 'taller':
             max_estudiantes = self.parametros['tamano_seccion_taller']
-        else:  # virtual
+        # Virtual
+        elif tipo_ambiente_lower == 'virtual':
             return 1  # Virtual no se divide en secciones
+        # Cualquier otro ambiente, usar capacidad de aula por defecto
+        else:
+            max_estudiantes = self.parametros['tamano_seccion_aula']
         
         return math.ceil(num_estudiantes / max_estudiantes)
     
@@ -337,6 +358,40 @@ class AnalizadorHorasAula:
         
         print(f"  ✅ {len(self.cursos_compartidos)} cursos compartidos procesados\n")
     
+    def normalizar_tipo_ambiente(self, tipo_ambiente):
+        """
+        Normaliza el tipo de ambiente para agrupación en resúmenes.
+        Mantiene los nombres específicos pero permite agrupar por categoría si es necesario.
+        """
+        if pd.isna(tipo_ambiente):
+            return 'Aula'
+        
+        tipo_str = str(tipo_ambiente).strip()
+        
+        # Devolver el nombre exacto
+        return tipo_str
+    
+    def agrupar_por_categoria_ambiente(self, tipo_ambiente):
+        """
+        Agrupa tipos de ambiente en categorías principales para resúmenes legacy.
+        SOLO para compatibilidad con reportes existentes.
+        """
+        if pd.isna(tipo_ambiente):
+            return 'aula'
+            
+        tipo_lower = str(tipo_ambiente).lower()
+        
+        if tipo_lower == 'aula':
+            return 'aula'
+        elif 'laboratorio' in tipo_lower:
+            return 'laboratorio'
+        elif tipo_lower == 'taller':
+            return 'taller'
+        elif tipo_lower == 'virtual':
+            return 'virtual'
+        else:
+            return 'aula'  # Por defecto
+    
     def generar_resumen_por_periodo(self):
         """Genera el resumen de consumo por periodo."""
         print("\n📊 Generando resumen por periodo...")
@@ -408,17 +463,21 @@ class AnalizadorHorasAula:
                         'secciones': {}
                     }
                     
-                    for ambiente in ['aula', 'laboratorio', 'taller', 'virtual']:
-                        datos_amb = datos_periodo[datos_periodo['TIPO_AMBIENTE'] == ambiente]
+                    # Agrupar por categoría de ambiente
+                    for ambiente_categoria in ['aula', 'laboratorio', 'taller', 'virtual']:
+                        # Filtrar datos usando la función de agrupación
+                        datos_amb = datos_periodo[
+                            datos_periodo['TIPO_AMBIENTE'].apply(self.agrupar_por_categoria_ambiente) == ambiente_categoria
+                        ]
                         
                         horas = datos_amb['HORAS_TOTALES'].sum()
                         secciones = datos_amb['SECCIONES'].sum()
                         
-                        resumen_periodo['horas_semanales'][ambiente] += horas
-                        resumen_periodo['secciones'][ambiente] += secciones
+                        resumen_periodo['horas_semanales'][ambiente_categoria] += horas
+                        resumen_periodo['secciones'][ambiente_categoria] += secciones
                         
-                        detalle_programa['horas_semanales'][ambiente] = float(horas)
-                        detalle_programa['secciones'][ambiente] = int(secciones)
+                        detalle_programa['horas_semanales'][ambiente_categoria] = float(horas)
+                        detalle_programa['secciones'][ambiente_categoria] = int(secciones)
                     
                     resumen_periodo['detalle_por_programa'][programa] = detalle_programa
             
@@ -585,9 +644,56 @@ class AnalizadorHorasAula:
         else:
             return obj
     
+    def generar_detalle_ambientes_especificos(self):
+        """
+        Genera un detalle de horas por tipo de ambiente ESPECÍFICO (sin agrupar).
+        Muestra por separado: Laboratorio de Química, Laboratorio de Computadoras, etc.
+        """
+        print("\n📋 Generando detalle de ambientes específicos...")
+        
+        detalle_ambientes = []
+        
+        # Combinar datos de todos los programas
+        todos_datos = pd.concat([self.resultados[prog] for prog in self.config['metadata']['programas']])
+        
+        # Obtener todos los periodos únicos
+        periodos_unicos = sorted(todos_datos['PERIODO_STR'].unique())
+        
+        for periodo in periodos_unicos:
+            datos_periodo = todos_datos[todos_datos['PERIODO_STR'] == periodo]
+            
+            # Agrupar por tipo de ambiente ESPECÍFICO
+            resumen_ambientes = datos_periodo.groupby('TIPO_AMBIENTE').agg({
+                'HORAS_TOTALES': 'sum',
+                'SECCIONES': 'sum',
+                'TOTAL_MATRICULADOS': 'first'  # Solo para referencia
+            }).reset_index()
+            
+            detalle_periodo = {
+                'periodo': periodo,
+                'ambientes': {}
+            }
+            
+            for _, row in resumen_ambientes.iterrows():
+                ambiente = row['TIPO_AMBIENTE']
+                detalle_periodo['ambientes'][ambiente] = {
+                    'horas_semanales': float(row['HORAS_TOTALES']),
+                    'secciones': int(row['SECCIONES']),
+                    'horas_semestre': float(row['HORAS_TOTALES'] * self.parametros['semanas_por_semestre'])
+                }
+            
+            detalle_ambientes.append(detalle_periodo)
+        
+        print(f"  ✅ Detalle de ambientes específicos generado para {len(detalle_ambientes)} periodos")
+        
+        return detalle_ambientes
+    
     def generar_json(self, resumen_periodos, resumen_semestres, resumen_años):
         """Genera el archivo JSON con todos los resultados."""
         print("\n💾 Generando archivo JSON...")
+        
+        # Generar detalle de ambientes específicos
+        detalle_ambientes = self.generar_detalle_ambientes_especificos()
         
         # Encontrar periodo pico
         periodo_pico = max(resumen_periodos, key=lambda x: x['horas_semanales']['total'])
@@ -610,7 +716,8 @@ class AnalizadorHorasAula:
             },
             'consumo_por_periodo': resumen_periodos,
             'consumo_por_semestre_academico': resumen_semestres,
-            'consumo_por_año': resumen_años
+            'consumo_por_año': resumen_años,
+            'detalle_ambientes_especificos': detalle_ambientes  # NUEVO
         }
         
         # Convertir todos los tipos numpy a tipos nativos de Python
