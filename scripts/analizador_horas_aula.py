@@ -159,9 +159,37 @@ class AnalizadorHorasAula:
         """
         Determina el tipo de ambiente basado en las columnas de la malla.
         Mantiene los nombres específicos de laboratorios.
+        Incluye tratamiento especial para cursos de ciencias.
         Retorna: lista de tuplas (tipo_ambiente, horas)
         """
         ambientes = []
+        
+        # ===================================================================
+        # CURSOS ESPECIALES - Tratamiento personalizado
+        # ===================================================================
+        nombre_curso = str(row['CURSO']).strip() if pd.notna(row['CURSO']) else ''
+        codigo_curso = str(row['CODIGO_CURSO']).strip() if pd.notna(row['CODIGO_CURSO']) else ''
+        
+        # Diccionario de cursos especiales con su configuración
+        cursos_especiales = {
+            'Física y Astronomía I': [('Laboratorio de Física', 3), ('Aula', 2)],
+            'Física y Astronomía II': [('Laboratorio de Física', 3), ('Aula', 2)],
+            'Biología': [('Laboratorio de Química', 3), ('Aula', 2)],
+            'Química I': [('Laboratorio de Química', 2), ('Aula', 3)],
+            'Química II': [('Laboratorio de Química', 2), ('Aula', 3)],
+            'Didáctica de las Ciencias Naturales I': [('Laboratorio de Química', 3), ('Aula', 2)],
+            'Didáctica de las Ciencias Naturales II': [('Laboratorio de Física', 3), ('Aula', 2)]
+        }
+        
+        # Verificar si es un curso especial
+        for curso_especial, config in cursos_especiales.items():
+            if curso_especial.lower() in nombre_curso.lower():
+                # Aplicar configuración especial
+                return config
+        
+        # ===================================================================
+        # PROCESAMIENTO NORMAL (para cursos que NO son especiales)
+        # ===================================================================
         
         # Horas teóricas
         if pd.notna(row['HORAS_TEORICAS']) and row['HORAS_TEORICAS'] > 0:
@@ -200,7 +228,7 @@ class AnalizadorHorasAula:
         
         # Si no hay ambientes, retornar lista vacía
         if not ambientes:
-            ambientes.append(('aula', 0))
+            ambientes.append(('Aula', 0))
         
         return ambientes
     
