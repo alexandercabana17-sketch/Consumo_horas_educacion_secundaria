@@ -165,7 +165,7 @@ class GeneradorExcel:
         print(f"  ✅ Hoja 'Consumo por Año' creada ({len(años_data)} años)")
     
     def crear_hoja_tabla_pivote(self, writer):
-        """Crea una tabla pivote con ambientes específicos (laboratorios separados)."""
+        """Crea una tabla pivote con ambientes específicos y columnas de incremento."""
         print("\n📊 Generando hoja: Tabla Pivote...")
         
         # Usar el detalle de ambientes específicos si está disponible
@@ -194,32 +194,72 @@ class GeneradorExcel:
                     if col not in ['Periodo', 'Total'] and col not in columnas_ambientes:
                         columnas_ambientes.append(col)
             
-            # Ordenar columnas: Aula primero, luego laboratorios, taller, virtual
+            # ================================================================
+            # AGREGAR COLUMNAS DE INCREMENTO
+            # ================================================================
+            
+            # Calcular incrementos para cada columna de ambiente
+            for ambiente in columnas_ambientes:
+                incrementos = []
+                for i in range(len(df_pivote)):
+                    if i == 0:
+                        # Primer periodo: incremento = valor inicial
+                        incrementos.append(df_pivote[ambiente].iloc[i])
+                    else:
+                        # Incremento = valor actual - valor anterior
+                        incremento = df_pivote[ambiente].iloc[i] - df_pivote[ambiente].iloc[i-1]
+                        incrementos.append(incremento)
+                
+                # Agregar columna de incremento
+                df_pivote[f'{ambiente}_Incremento'] = incrementos
+            
+            # Calcular incremento total
+            incrementos_total = []
+            for i in range(len(df_pivote)):
+                if i == 0:
+                    incrementos_total.append(df_pivote['Total'].iloc[i])
+                else:
+                    incremento = df_pivote['Total'].iloc[i] - df_pivote['Total'].iloc[i-1]
+                    incrementos_total.append(incremento)
+            
+            df_pivote['Total_Incremento'] = incrementos_total
+            
+            # ================================================================
+            # ORDENAR COLUMNAS: Acumulado + Incremento intercalados
+            # ================================================================
             columnas_ordenadas = ['Periodo']
             
-            # Aula primero
+            # Aula
             if 'Aula' in columnas_ambientes:
                 columnas_ordenadas.append('Aula')
+                columnas_ordenadas.append('Aula_Incremento')
             
-            # Luego laboratorios (ordenados alfabéticamente)
+            # Laboratorios (ordenados alfabéticamente)
             labs = sorted([c for c in columnas_ambientes if 'Laboratorio' in c])
-            columnas_ordenadas.extend(labs)
+            for lab in labs:
+                columnas_ordenadas.append(lab)
+                columnas_ordenadas.append(f'{lab}_Incremento')
             
             # Taller
             if 'Taller' in columnas_ambientes:
                 columnas_ordenadas.append('Taller')
+                columnas_ordenadas.append('Taller_Incremento')
             
             # Virtual
             if 'Virtual' in columnas_ambientes:
                 columnas_ordenadas.append('Virtual')
+                columnas_ordenadas.append('Virtual_Incremento')
             
             # Agregar cualquier otro ambiente que no hayamos cubierto
             for col in columnas_ambientes:
-                if col not in columnas_ordenadas:
-                    columnas_ordenadas.append(col)
+                if col not in ['Aula', 'Taller', 'Virtual'] and 'Laboratorio' not in col:
+                    if col not in columnas_ordenadas:
+                        columnas_ordenadas.append(col)
+                        columnas_ordenadas.append(f'{col}_Incremento')
             
             # Total al final
             columnas_ordenadas.append('Total')
+            columnas_ordenadas.append('Total_Incremento')
             
             # Reordenar dataframe
             df_pivote = df_pivote[columnas_ordenadas]
