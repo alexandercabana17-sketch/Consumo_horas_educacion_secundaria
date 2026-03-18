@@ -26,6 +26,7 @@
   "output": {
     "json": "salida/json/consumo_horas_educacion_secundaria.json",
     "excel": "salida/excel/consumo_horas_educacion_secundaria.xlsx",
+    "reporte_cursos": "salida/excel/reporte_cursos.xlsx",
     "log": "salida/logs/analisis.log"
   }
 }
