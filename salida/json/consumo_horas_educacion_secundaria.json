@@ -17,15 +17,15 @@
   "resumen_total": {
     "periodo_pico": {
       "periodo": "2031-02",
-      "horas_semanales_totales": 233,
+      "horas_semanales_totales": 235.0,
       "estudiantes": 8
     },
     "distribucion_pico": {
-      "aula": 177,
-      "laboratorio": 24,
-      "taller": 8,
-      "virtual": 24,
-      "total": 233
+      "aula": 179.0,
+      "laboratorio": 24.0,
+      "taller": 8.0,
+      "virtual": 24.0,
+      "total": 235.0
     }
   },
   "consumo_por_periodo": [
@@ -39,18 +39,18 @@
         "myc": 5
       },
       "horas_semanales": {
-        "aula": 6,
-        "laboratorio": 0,
-        "taller": 4,
-        "virtual": 0,
-        "total": 10
+        "aula": 6.0,
+        "laboratorio": 0.0,
+        "taller": 4.0,
+        "virtual": 0.0,
+        "total": 10.0
       },
       "horas_semestre": {
-        "aula": 96,
-        "laboratorio": 0,
-        "taller": 64,
-        "virtual": 0,
-        "total": 160
+        "aula": 96.0,
+        "laboratorio": 0.0,
+        "taller": 64.0,
+        "virtual": 0.0,
+        "total": 160.0
       },
       "secciones": {
         "aula": 3,
@@ -102,18 +102,18 @@
         "myc": 1
       },
       "horas_semanales": {
-        "aula": 32,
-        "laboratorio": 0,
-        "taller": 4,
-        "virtual": 3,
-        "total": 39
+        "aula": 32.0,
+        "laboratorio": 0.0,
+        "taller": 4.0,
+        "virtual": 3.0,
+        "total": 39.0
       },
       "horas_semestre": {
-        "aula": 512,
-        "laboratorio": 0,
-        "taller": 64,
-        "virtual": 48,
-        "total": 624
+        "aula": 512.0,
+        "laboratorio": 0.0,
+        "taller": 64.0,
+        "virtual": 48.0,
+        "total": 624.0
       },
       "secciones": {
         "aula": 13,
@@ -165,18 +165,18 @@
         "myc": 6
       },
       "horas_semanales": {
-        "aula": 48,
-        "laboratorio": 3,
-        "taller": 4,
-        "virtual": 8,
-        "total": 63
+        "aula": 48.0,
+        "laboratorio": 3.0,
+        "taller": 4.0,
+        "virtual": 8.0,
+        "total": 63.0
       },
       "horas_semestre": {
-        "aula": 768,
-        "laboratorio": 48,
-        "taller": 64,
-        "virtual": 128,
-        "total": 1008
+        "aula": 768.0,
+        "laboratorio": 48.0,
+        "taller": 64.0,
+        "virtual": 128.0,
+        "total": 1008.0
       },
       "secciones": {
         "aula": 21,
@@ -228,37 +228,37 @@
         "myc": 2
       },
       "horas_semanales": {
-        "aula": 69,
-        "laboratorio": 5,
-        "taller": 4,
-        "virtual": 13,
-        "total": 91
+        "aula": 71.0,
+        "laboratorio": 5.0,
+        "taller": 4.0,
+        "virtual": 13.0,
+        "total": 93.0
       },
       "horas_semestre": {
-        "aula": 1104,
-        "laboratorio": 80,
-        "taller": 64,
-        "virtual": 208,
-        "total": 1456
+        "aula": 1136.0,
+        "laboratorio": 80.0,
+        "taller": 64.0,
+        "virtual": 208.0,
+        "total": 1488.0
       },
       "secciones": {
-        "aula": 30,
+        "aula": 31,
         "laboratorio": 2,
         "taller": 1,
         "virtual": 6,
-        "total": 39
+        "total": 40
       },
       "detalle_por_programa": {
         "LLYA": {
           "estudiantes": 3,
           "horas_semanales": {
-            "aula": 40.0,
+            "aula": 42.0,
             "laboratorio": 0.0,
             "taller": 4.0,
             "virtual": 10.0
           },
           "secciones": {
-            "aula": 17,
+            "aula": 18,
             "laboratorio": 0,
             "taller": 1,
             "virtual": 4
@@ -291,37 +291,37 @@
         "myc": 6
       },
       "horas_semanales": {
-        "aula": 87,
-        "laboratorio": 7,
-        "taller": 4,
-        "virtual": 13,
-        "total": 111
+        "aula": 89.0,
+        "laboratorio": 7.0,
+        "taller": 4.0,
+        "virtual": 13.0,
+        "total": 113.0
       },
       "horas_semestre": {
-        "aula": 1392,
-        "laboratorio": 112,
-        "taller": 64,
-        "virtual": 208,
-        "total": 1776
+        "aula": 1424.0,
+        "laboratorio": 112.0,
+        "taller": 64.0,
+        "virtual": 208.0,
+        "total": 1808.0
       },
       "secciones": {
-        "aula": 36,
+        "aula": 37,
         "laboratorio": 3,
         "taller": 1,
         "virtual": 6,
-        "total": 46
+        "total": 47
       },
       "detalle_por_programa": {
         "LLYA": {
           "estudiantes": 11,
           "horas_semanales": {
-            "aula": 45.0,
+            "aula": 47.0,
             "laboratorio": 0.0,
             "taller": 4.0,
             "virtual": 10.0
           },
           "secciones": {
-            "aula": 19,
+            "aula": 20,
             "laboratorio": 0,
             "taller": 1,
             "virtual": 4
@@ -354,37 +354,37 @@
         "myc": 2
       },
       "horas_semanales": {
-        "aula": 119,
-        "laboratorio": 18,
-        "taller": 4,
-        "virtual": 16,
-        "total": 157
+        "aula": 121.0,
+        "laboratorio": 18.0,
+        "taller": 4.0,
+        "virtual": 16.0,
+        "total": 159.0
       },
       "horas_semestre": {
-        "aula": 1904,
-        "laboratorio": 288,
-        "taller": 64,
-        "virtual": 256,
-        "total": 2512
+        "aula": 1936.0,
+        "laboratorio": 288.0,
+        "taller": 64.0,
+        "virtual": 256.0,
+        "total": 2544.0
       },
       "secciones": {
-        "aula": 50,
+        "aula": 51,
         "laboratorio": 7,
         "taller": 1,
         "virtual": 7,
-        "total": 65
+        "total": 66
       },
       "detalle_por_programa": {
         "LLYA": {
           "estudiantes": 3,
           "horas_semanales": {
-            "aula": 66.0,
+            "aula": 68.0,
             "laboratorio": 0.0,
             "taller": 4.0,
             "virtual": 10.0
           },
           "secciones": {
-            "aula": 28,
+            "aula": 29,
             "laboratorio": 0,
             "taller": 1,
             "virtual": 4
@@ -417,37 +417,37 @@
         "myc": 7
       },
       "horas_semanales": {
-        "aula": 145,
-        "laboratorio": 21,
-        "taller": 4,
-        "virtual": 16,
-        "total": 186
+        "aula": 147.0,
+        "laboratorio": 21.0,
+        "taller": 4.0,
+        "virtual": 16.0,
+        "total": 188.0
       },
       "horas_semestre": {
-        "aula": 2320,
-        "laboratorio": 336,
-        "taller": 64,
-        "virtual": 256,
-        "total": 2976
+        "aula": 2352.0,
+        "laboratorio": 336.0,
+        "taller": 64.0,
+        "virtual": 256.0,
+        "total": 3008.0
       },
       "secciones": {
-        "aula": 61,
+        "aula": 62,
         "laboratorio": 8,
         "taller": 1,
         "virtual": 7,
-        "total": 77
+        "total": 78
       },
       "detalle_por_programa": {
         "LLYA": {
           "estudiantes": 12,
           "horas_semanales": {
-            "aula": 82.0,
+            "aula": 84.0,
             "laboratorio": 0.0,
             "taller": 4.0,
             "virtual": 10.0
           },
           "secciones": {
-            "aula": 35,
+            "aula": 36,
             "laboratorio": 0,
             "taller": 1,
             "virtual": 4
@@ -480,37 +480,37 @@
         "myc": 2
       },
       "horas_semanales": {
-        "aula": 157,
-        "laboratorio": 24,
-        "taller": 8,
-        "virtual": 16,
-        "total": 205
+        "aula": 159.0,
+        "laboratorio": 24.0,
+        "taller": 8.0,
+        "virtual": 16.0,
+        "total": 207.0
       },
       "horas_semestre": {
-        "aula": 2512,
-        "laboratorio": 384,
-        "taller": 128,
-        "virtual": 256,
-        "total": 3280
+        "aula": 2544.0,
+        "laboratorio": 384.0,
+        "taller": 128.0,
+        "virtual": 256.0,
+        "total": 3312.0
       },
       "secciones": {
-        "aula": 68,
+        "aula": 69,
         "laboratorio": 9,
         "taller": 2,
         "virtual": 7,
-        "total": 86
+        "total": 87
       },
       "detalle_por_programa": {
         "LLYA": {
           "estudiantes": 3,
           "horas_semanales": {
-            "aula": 92.0,
+            "aula": 94.0,
             "laboratorio": 0.0,
             "taller": 8.0,
             "virtual": 10.0
           },
           "secciones": {
-            "aula": 41,
+            "aula": 42,
             "laboratorio": 0,
             "taller": 2,
             "virtual": 4
@@ -543,37 +543,37 @@
         "myc": 8
       },
       "horas_semanales": {
-        "aula": 169,
-        "laboratorio": 24,
-        "taller": 8,
-        "virtual": 20,
-        "total": 221
+        "aula": 171.0,
+        "laboratorio": 24.0,
+        "taller": 8.0,
+        "virtual": 20.0,
+        "total": 223.0
       },
       "horas_semestre": {
-        "aula": 2704,
-        "laboratorio": 384,
-        "taller": 128,
-        "virtual": 320,
-        "total": 3536
+        "aula": 2736.0,
+        "laboratorio": 384.0,
+        "taller": 128.0,
+        "virtual": 320.0,
+        "total": 3568.0
       },
       "secciones": {
-        "aula": 72,
+        "aula": 73,
         "laboratorio": 9,
         "taller": 2,
         "virtual": 9,
-        "total": 92
+        "total": 93
       },
       "detalle_por_programa": {
         "LLYA": {
           "estudiantes": 13,
           "horas_semanales": {
-            "aula": 96.0,
+            "aula": 98.0,
             "laboratorio": 0.0,
             "taller": 8.0,
             "virtual": 14.0
           },
           "secciones": {
-            "aula": 42,
+            "aula": 43,
             "laboratorio": 0,
             "taller": 2,
             "virtual": 6
@@ -606,37 +606,37 @@
         "myc": 3
       },
       "horas_semanales": {
-        "aula": 177,
-        "laboratorio": 24,
-        "taller": 8,
-        "virtual": 24,
-        "total": 233
+        "aula": 179.0,
+        "laboratorio": 24.0,
+        "taller": 8.0,
+        "virtual": 24.0,
+        "total": 235.0
       },
       "horas_semestre": {
-        "aula": 2832,
-        "laboratorio": 384,
-        "taller": 128,
-        "virtual": 384,
-        "total": 3728
+        "aula": 2864.0,
+        "laboratorio": 384.0,
+        "taller": 128.0,
+        "virtual": 384.0,
+        "total": 3760.0
       },
       "secciones": {
-        "aula": 74,
+        "aula": 75,
         "laboratorio": 9,
         "taller": 2,
         "virtual": 11,
-        "total": 96
+        "total": 97
       },
       "detalle_por_programa": {
         "LLYA": {
           "estudiantes": 5,
           "horas_semanales": {
-            "aula": 100.0,
+            "aula": 102.0,
             "laboratorio": 0.0,
             "taller": 8.0,
             "virtual": 18.0
           },
           "secciones": {
-            "aula": 43,
+            "aula": 44,
             "laboratorio": 0,
             "taller": 2,
             "virtual": 8
@@ -669,37 +669,37 @@
         "myc": 9
       },
       "horas_semanales": {
-        "aula": 177,
-        "laboratorio": 24,
-        "taller": 8,
-        "virtual": 24,
-        "total": 233
+        "aula": 179.0,
+        "laboratorio": 24.0,
+        "taller": 8.0,
+        "virtual": 24.0,
+        "total": 235.0
       },
       "horas_semestre": {
-        "aula": 2832,
-        "laboratorio": 384,
-        "taller": 128,
-        "virtual": 384,
-        "total": 3728
+        "aula": 2864.0,
+        "laboratorio": 384.0,
+        "taller": 128.0,
+        "virtual": 384.0,
+        "total": 3760.0
       },
       "secciones": {
-        "aula": 74,
+        "aula": 75,
         "laboratorio": 9,
         "taller": 2,
         "virtual": 11,
-        "total": 96
+        "total": 97
       },
       "detalle_por_programa": {
         "LLYA": {
           "estudiantes": 15,
           "horas_semanales": {
-            "aula": 100.0,
+            "aula": 102.0,
             "laboratorio": 0.0,
             "taller": 8.0,
             "virtual": 18.0
           },
           "secciones": {
-            "aula": 43,
+            "aula": 44,
             "laboratorio": 0,
             "taller": 2,
             "virtual": 8
@@ -732,37 +732,37 @@
         "myc": 3
       },
       "horas_semanales": {
-        "aula": 177,
-        "laboratorio": 24,
-        "taller": 8,
-        "virtual": 24,
-        "total": 233
+        "aula": 179.0,
+        "laboratorio": 24.0,
+        "taller": 8.0,
+        "virtual": 24.0,
+        "total": 235.0
       },
       "horas_semestre": {
-        "aula": 2832,
-        "laboratorio": 384,
-        "taller": 128,
-        "virtual": 384,
-        "total": 3728
+        "aula": 2864.0,
+        "laboratorio": 384.0,
+        "taller": 128.0,
+        "virtual": 384.0,
+        "total": 3760.0
       },
       "secciones": {
-        "aula": 74,
+        "aula": 75,
         "laboratorio": 9,
         "taller": 2,
         "virtual": 11,
-        "total": 96
+        "total": 97
       },
       "detalle_por_programa": {
         "LLYA": {
           "estudiantes": 5,
           "horas_semanales": {
-            "aula": 100.0,
+            "aula": 102.0,
             "laboratorio": 0.0,
             "taller": 8.0,
             "virtual": 18.0
           },
           "secciones": {
-            "aula": 43,
+            "aula": 44,
             "laboratorio": 0,
             "taller": 2,
             "virtual": 8
@@ -795,37 +795,37 @@
         "myc": 9
       },
       "horas_semanales": {
-        "aula": 177,
-        "laboratorio": 24,
-        "taller": 8,
-        "virtual": 24,
-        "total": 233
+        "aula": 179.0,
+        "laboratorio": 24.0,
+        "taller": 8.0,
+        "virtual": 24.0,
+        "total": 235.0
       },
       "horas_semestre": {
-        "aula": 2832,
-        "laboratorio": 384,
-        "taller": 128,
-        "virtual": 384,
-        "total": 3728
+        "aula": 2864.0,
+        "laboratorio": 384.0,
+        "taller": 128.0,
+        "virtual": 384.0,
+        "total": 3760.0
       },
       "secciones": {
-        "aula": 74,
+        "aula": 75,
         "laboratorio": 9,
         "taller": 2,
         "virtual": 11,
-        "total": 96
+        "total": 97
       },
       "detalle_por_programa": {
         "LLYA": {
           "estudiantes": 16,
           "horas_semanales": {
-            "aula": 100.0,
+            "aula": 102.0,
             "laboratorio": 0.0,
             "taller": 8.0,
             "virtual": 18.0
           },
           "secciones": {
-            "aula": 43,
+            "aula": 44,
             "laboratorio": 0,
             "taller": 2,
             "virtual": 8
@@ -858,37 +858,37 @@
         "myc": 3
       },
       "horas_semanales": {
-        "aula": 177,
-        "laboratorio": 24,
-        "taller": 8,
-        "virtual": 24,
-        "total": 233
+        "aula": 179.0,
+        "laboratorio": 24.0,
+        "taller": 8.0,
+        "virtual": 24.0,
+        "total": 235.0
       },
       "horas_semestre": {
-        "aula": 2832,
-        "laboratorio": 384,
-        "taller": 128,
-        "virtual": 384,
-        "total": 3728
+        "aula": 2864.0,
+        "laboratorio": 384.0,
+        "taller": 128.0,
+        "virtual": 384.0,
+        "total": 3760.0
       },
       "secciones": {
-        "aula": 74,
+        "aula": 75,
         "laboratorio": 9,
         "taller": 2,
         "virtual": 11,
-        "total": 96
+        "total": 97
       },
       "detalle_por_programa": {
         "LLYA": {
           "estudiantes": 5,
           "horas_semanales": {
-            "aula": 100.0,
+            "aula": 102.0,
             "laboratorio": 0.0,
             "taller": 8.0,
             "virtual": 18.0
           },
           "secciones": {
-            "aula": 43,
+            "aula": 44,
             "laboratorio": 0,
             "taller": 2,
             "virtual": 8
@@ -921,37 +921,37 @@
         "myc": 10
       },
       "horas_semanales": {
-        "aula": 177,
-        "laboratorio": 24,
-        "taller": 8,
-        "virtual": 24,
-        "total": 233
+        "aula": 179.0,
+        "laboratorio": 24.0,
+        "taller": 8.0,
+        "virtual": 24.0,
+        "total": 235.0
       },
       "horas_semestre": {
-        "aula": 2832,
-        "laboratorio": 384,
-        "taller": 128,
-        "virtual": 384,
-        "total": 3728
+        "aula": 2864.0,
+        "laboratorio": 384.0,
+        "taller": 128.0,
+        "virtual": 384.0,
+        "total": 3760.0
       },
       "secciones": {
-        "aula": 74,
+        "aula": 75,
         "laboratorio": 9,
         "taller": 2,
         "virtual": 11,
-        "total": 96
+        "total": 97
       },
       "detalle_por_programa": {
         "LLYA": {
           "estudiantes": 17,
           "horas_semanales": {
-            "aula": 100.0,
+            "aula": 102.0,
             "laboratorio": 0.0,
             "taller": 8.0,
             "virtual": 18.0
           },
           "secciones": {
-            "aula": 43,
+            "aula": 44,
             "laboratorio": 0,
             "taller": 2,
             "virtual": 8
@@ -984,37 +984,37 @@
         "myc": 3
       },
       "horas_semanales": {
-        "aula": 177,
-        "laboratorio": 24,
-        "taller": 8,
-        "virtual": 24,
-        "total": 233
+        "aula": 179.0,
+        "laboratorio": 24.0,
+        "taller": 8.0,
+        "virtual": 24.0,
+        "total": 235.0
       },
       "horas_semestre": {
-        "aula": 2832,
-        "laboratorio": 384,
-        "taller": 128,
-        "virtual": 384,
-        "total": 3728
+        "aula": 2864.0,
+        "laboratorio": 384.0,
+        "taller": 128.0,
+        "virtual": 384.0,
+        "total": 3760.0
       },
       "secciones": {
-        "aula": 74,
+        "aula": 75,
         "laboratorio": 9,
         "taller": 2,
         "virtual": 11,
-        "total": 96
+        "total": 97
       },
       "detalle_por_programa": {
         "LLYA": {
           "estudiantes": 5,
           "horas_semanales": {
-            "aula": 100.0,
+            "aula": 102.0,
             "laboratorio": 0.0,
             "taller": 8.0,
             "virtual": 18.0
           },
           "secciones": {
-            "aula": 43,
+            "aula": 44,
             "laboratorio": 0,
             "taller": 2,
             "virtual": 8
@@ -1047,37 +1047,37 @@
         "myc": 10
       },
       "horas_semanales": {
-        "aula": 177,
-        "laboratorio": 24,
-        "taller": 8,
-        "virtual": 24,
-        "total": 233
+        "aula": 179.0,
+        "laboratorio": 24.0,
+        "taller": 8.0,
+        "virtual": 24.0,
+        "total": 235.0
       },
       "horas_semestre": {
-        "aula": 2832,
-        "laboratorio": 384,
-        "taller": 128,
-        "virtual": 384,
-        "total": 3728
+        "aula": 2864.0,
+        "laboratorio": 384.0,
+        "taller": 128.0,
+        "virtual": 384.0,
+        "total": 3760.0
       },
       "secciones": {
-        "aula": 74,
+        "aula": 75,
         "laboratorio": 9,
         "taller": 2,
         "virtual": 11,
-        "total": 96
+        "total": 97
       },
       "detalle_por_programa": {
         "LLYA": {
           "estudiantes": 17,
           "horas_semanales": {
-            "aula": 100.0,
+            "aula": 102.0,
             "laboratorio": 0.0,
             "taller": 8.0,
             "virtual": 18.0
           },
           "secciones": {
-            "aula": 43,
+            "aula": 44,
             "laboratorio": 0,
             "taller": 2,
             "virtual": 8
@@ -1110,37 +1110,37 @@
         "myc": 5
       },
       "horas_semanales": {
-        "aula": 177,
-        "laboratorio": 24,
-        "taller": 8,
-        "virtual": 24,
-        "total": 233
+        "aula": 179.0,
+        "laboratorio": 24.0,
+        "taller": 8.0,
+        "virtual": 24.0,
+        "total": 235.0
       },
       "horas_semestre": {
-        "aula": 2832,
-        "laboratorio": 384,
-        "taller": 128,
-        "virtual": 384,
-        "total": 3728
+        "aula": 2864.0,
+        "laboratorio": 384.0,
+        "taller": 128.0,
+        "virtual": 384.0,
+        "total": 3760.0
       },
       "secciones": {
-        "aula": 74,
+        "aula": 75,
         "laboratorio": 9,
         "taller": 2,
         "virtual": 11,
-        "total": 96
+        "total": 97
       },
       "detalle_por_programa": {
         "LLYA": {
           "estudiantes": 8,
           "horas_semanales": {
-            "aula": 100.0,
+            "aula": 102.0,
             "laboratorio": 0.0,
             "taller": 8.0,
             "virtual": 18.0
           },
           "secciones": {
-            "aula": 43,
+            "aula": 44,
             "laboratorio": 0,
             "taller": 2,
             "virtual": 8
@@ -1173,37 +1173,37 @@
         "myc": 13
       },
       "horas_semanales": {
-        "aula": 177,
-        "laboratorio": 24,
-        "taller": 8,
-        "virtual": 24,
-        "total": 233
+        "aula": 179.0,
+        "laboratorio": 24.0,
+        "taller": 8.0,
+        "virtual": 24.0,
+        "total": 235.0
       },
       "horas_semestre": {
-        "aula": 2832,
-        "laboratorio": 384,
-        "taller": 128,
-        "virtual": 384,
-        "total": 3728
+        "aula": 2864.0,
+        "laboratorio": 384.0,
+        "taller": 128.0,
+        "virtual": 384.0,
+        "total": 3760.0
       },
       "secciones": {
-        "aula": 74,
+        "aula": 75,
         "laboratorio": 9,
         "taller": 2,
         "virtual": 11,
-        "total": 96
+        "total": 97
       },
       "detalle_por_programa": {
         "LLYA": {
           "estudiantes": 21,
           "horas_semanales": {
-            "aula": 100.0,
+            "aula": 102.0,
             "laboratorio": 0.0,
             "taller": 8.0,
             "virtual": 18.0
           },
           "secciones": {
-            "aula": 43,
+            "aula": 44,
             "laboratorio": 0,
             "taller": 2,
             "virtual": 8
@@ -1236,37 +1236,37 @@
         "myc": 4
       },
       "horas_semanales": {
-        "aula": 177,
-        "laboratorio": 24,
-        "taller": 8,
-        "virtual": 24,
-        "total": 233
+        "aula": 179.0,
+        "laboratorio": 24.0,
+        "taller": 8.0,
+        "virtual": 24.0,
+        "total": 235.0
       },
       "horas_semestre": {
-        "aula": 2832,
-        "laboratorio": 384,
-        "taller": 128,
-        "virtual": 384,
-        "total": 3728
+        "aula": 2864.0,
+        "laboratorio": 384.0,
+        "taller": 128.0,
+        "virtual": 384.0,
+        "total": 3760.0
       },
       "secciones": {
-        "aula": 74,
+        "aula": 75,
         "laboratorio": 9,
         "taller": 2,
         "virtual": 11,
-        "total": 96
+        "total": 97
       },
       "detalle_por_programa": {
         "LLYA": {
           "estudiantes": 7,
           "horas_semanales": {
-            "aula": 100.0,
+            "aula": 102.0,
             "laboratorio": 0.0,
             "taller": 8.0,
             "virtual": 18.0
           },
           "secciones": {
-            "aula": 43,
+            "aula": 44,
             "laboratorio": 0,
             "taller": 2,
             "virtual": 8
@@ -1388,22 +1388,22 @@
       "semestre": 4,
       "cursos": 13,
       "creditos_totales": 44,
-      "horas_curso_semanales": 57,
+      "horas_curso_semanales": 54,
       "estadisticas": {
-        "promedio_estudiantes": 2.775,
+        "promedio_estudiantes": 2.746153846153846,
         "maximo_estudiantes": 8,
         "minimo_estudiantes": 0,
         "promedio_secciones": 0.85,
-        "promedio_horas_semanales": 23.8
+        "promedio_horas_semanales": 25.5
       },
       "distribucion_tipo_ambiente": {
         "aula": {
-          "horas_semanales": 17.85,
-          "porcentaje": 75.0
+          "horas_semanales": 19.55,
+          "porcentaje": 76.66666666666667
         },
         "laboratorio": {
           "horas_semanales": 1.7,
-          "porcentaje": 7.142857142857142
+          "porcentaje": 6.666666666666667
         },
         "taller": {
           "horas_semanales": 0,
@@ -1411,7 +1411,7 @@
         },
         "virtual": {
           "horas_semanales": 4.25,
-          "porcentaje": 17.857142857142858
+          "porcentaje": 16.666666666666664
         }
       }
     },
@@ -1419,12 +1419,12 @@
       "semestre": 5,
       "cursos": 14,
       "creditos_totales": 44,
-      "horas_curso_semanales": 60,
+      "horas_curso_semanales": 57,
       "estadisticas": {
-        "promedio_estudiantes": 2.6,
+        "promedio_estudiantes": 2.625,
         "maximo_estudiantes": 7,
         "minimo_estudiantes": 0,
-        "promedio_secciones": 0.8,
+        "promedio_secciones": 0.7,
         "promedio_horas_semanales": 16.0
       },
       "distribucion_tipo_ambiente": {
@@ -1623,144 +1623,144 @@
       "año": 2028,
       "total_estudiantes_año": 11,
       "horas_anuales": {
-        "aula": 1872.0,
+        "aula": 1904.0,
         "laboratorio": 128.0,
         "taller": 128.0,
         "virtual": 336.0,
-        "total": 2464.0
+        "total": 2496.0
       },
       "promedio_semanal": {
         "ciclo_i": 63.0,
-        "ciclo_ii": 91.0,
-        "promedio": 77.0
+        "ciclo_ii": 93.0,
+        "promedio": 78.0
       }
     },
     {
       "año": 2029,
       "total_estudiantes_año": 11,
       "horas_anuales": {
-        "aula": 3296.0,
+        "aula": 3360.0,
         "laboratorio": 400.0,
         "taller": 128.0,
         "virtual": 464.0,
-        "total": 4288.0
+        "total": 4352.0
       },
       "promedio_semanal": {
-        "ciclo_i": 111.0,
-        "ciclo_ii": 157.0,
-        "promedio": 134.0
+        "ciclo_i": 113.0,
+        "ciclo_ii": 159.0,
+        "promedio": 136.0
       }
     },
     {
       "año": 2030,
       "total_estudiantes_año": 12,
       "horas_anuales": {
-        "aula": 4832.0,
+        "aula": 4896.0,
         "laboratorio": 720.0,
         "taller": 192.0,
         "virtual": 512.0,
-        "total": 6256.0
+        "total": 6320.0
       },
       "promedio_semanal": {
-        "ciclo_i": 186.0,
-        "ciclo_ii": 205.0,
-        "promedio": 195.5
+        "ciclo_i": 188.0,
+        "ciclo_ii": 207.0,
+        "promedio": 197.5
       }
     },
     {
       "año": 2031,
       "total_estudiantes_año": 13,
       "horas_anuales": {
-        "aula": 5536.0,
+        "aula": 5600.0,
         "laboratorio": 768.0,
         "taller": 256.0,
         "virtual": 704.0,
-        "total": 7264.0
+        "total": 7328.0
       },
       "promedio_semanal": {
-        "ciclo_i": 221.0,
-        "ciclo_ii": 233.0,
-        "promedio": 227.0
+        "ciclo_i": 223.0,
+        "ciclo_ii": 235.0,
+        "promedio": 229.0
       }
     },
     {
       "año": 2032,
       "total_estudiantes_año": 15,
       "horas_anuales": {
-        "aula": 5664.0,
+        "aula": 5728.0,
         "laboratorio": 768.0,
         "taller": 256.0,
         "virtual": 768.0,
-        "total": 7456.0
+        "total": 7520.0
       },
       "promedio_semanal": {
-        "ciclo_i": 233.0,
-        "ciclo_ii": 233.0,
-        "promedio": 233.0
+        "ciclo_i": 235.0,
+        "ciclo_ii": 235.0,
+        "promedio": 235.0
       }
     },
     {
       "año": 2033,
       "total_estudiantes_año": 16,
       "horas_anuales": {
-        "aula": 5664.0,
+        "aula": 5728.0,
         "laboratorio": 768.0,
         "taller": 256.0,
         "virtual": 768.0,
-        "total": 7456.0
+        "total": 7520.0
       },
       "promedio_semanal": {
-        "ciclo_i": 233.0,
-        "ciclo_ii": 233.0,
-        "promedio": 233.0
+        "ciclo_i": 235.0,
+        "ciclo_ii": 235.0,
+        "promedio": 235.0
       }
     },
     {
       "año": 2034,
       "total_estudiantes_año": 17,
       "horas_anuales": {
-        "aula": 5664.0,
+        "aula": 5728.0,
         "laboratorio": 768.0,
         "taller": 256.0,
         "virtual": 768.0,
-        "total": 7456.0
+        "total": 7520.0
       },
       "promedio_semanal": {
-        "ciclo_i": 233.0,
-        "ciclo_ii": 233.0,
-        "promedio": 233.0
+        "ciclo_i": 235.0,
+        "ciclo_ii": 235.0,
+        "promedio": 235.0
       }
     },
     {
       "año": 2035,
       "total_estudiantes_año": 17,
       "horas_anuales": {
-        "aula": 5664.0,
+        "aula": 5728.0,
         "laboratorio": 768.0,
         "taller": 256.0,
         "virtual": 768.0,
-        "total": 7456.0
+        "total": 7520.0
       },
       "promedio_semanal": {
-        "ciclo_i": 233.0,
-        "ciclo_ii": 233.0,
-        "promedio": 233.0
+        "ciclo_i": 235.0,
+        "ciclo_ii": 235.0,
+        "promedio": 235.0
       }
     },
     {
       "año": 2036,
       "total_estudiantes_año": 21,
       "horas_anuales": {
-        "aula": 5664.0,
+        "aula": 5728.0,
         "laboratorio": 768.0,
         "taller": 256.0,
         "virtual": 768.0,
-        "total": 7456.0
+        "total": 7520.0
       },
       "promedio_semanal": {
-        "ciclo_i": 233.0,
-        "ciclo_ii": 233.0,
-        "promedio": 233.0
+        "ciclo_i": 235.0,
+        "ciclo_ii": 235.0,
+        "promedio": 235.0
       }
     }
   ],
@@ -1874,9 +1874,9 @@
       "periodo": "2028-02",
       "ambientes": {
         "Aula": {
-          "horas_semanales": 69.0,
-          "secciones": 30,
-          "horas_semestre": 1104.0
+          "horas_semanales": 71.0,
+          "secciones": 31,
+          "horas_semestre": 1136.0
         },
         "Laboratorio de Computadoras": {
           "horas_semanales": 0.0,
@@ -1909,9 +1909,9 @@
       "periodo": "2029-01",
       "ambientes": {
         "Aula": {
-          "horas_semanales": 87.0,
-          "secciones": 36,
-          "horas_semestre": 1392.0
+          "horas_semanales": 89.0,
+          "secciones": 37,
+          "horas_semestre": 1424.0
         },
         "Laboratorio de Computadoras": {
           "horas_semanales": 0.0,
@@ -1944,9 +1944,9 @@
       "periodo": "2029-02",
       "ambientes": {
         "Aula": {
-          "horas_semanales": 119.0,
-          "secciones": 50,
-          "horas_semestre": 1904.0
+          "horas_semanales": 121.0,
+          "secciones": 51,
+          "horas_semestre": 1936.0
         },
         "Laboratorio de Computadoras": {
           "horas_semanales": 3.0,
@@ -1979,9 +1979,9 @@
       "periodo": "2030-01",
       "ambientes": {
         "Aula": {
-          "horas_semanales": 145.0,
-          "secciones": 61,
-          "horas_semestre": 2320.0
+          "horas_semanales": 147.0,
+          "secciones": 62,
+          "horas_semestre": 2352.0
         },
         "Laboratorio de Computadoras": {
           "horas_semanales": 3.0,
@@ -2014,9 +2014,9 @@
       "periodo": "2030-02",
       "ambientes": {
         "Aula": {
-          "horas_semanales": 157.0,
-          "secciones": 68,
-          "horas_semestre": 2512.0
+          "horas_semanales": 159.0,
+          "secciones": 69,
+          "horas_semestre": 2544.0
         },
         "Laboratorio de Computadoras": {
           "horas_semanales": 3.0,
@@ -2049,9 +2049,9 @@
       "periodo": "2031-01",
       "ambientes": {
         "Aula": {
-          "horas_semanales": 169.0,
-          "secciones": 72,
-          "horas_semestre": 2704.0
+          "horas_semanales": 171.0,
+          "secciones": 73,
+          "horas_semestre": 2736.0
         },
         "Laboratorio de Computadoras": {
           "horas_semanales": 3.0,
@@ -2084,9 +2084,9 @@
       "periodo": "2031-02",
       "ambientes": {
         "Aula": {
-          "horas_semanales": 177.0,
-          "secciones": 74,
-          "horas_semestre": 2832.0
+          "horas_semanales": 179.0,
+          "secciones": 75,
+          "horas_semestre": 2864.0
         },
         "Laboratorio de Computadoras": {
           "horas_semanales": 3.0,
@@ -2119,9 +2119,9 @@
       "periodo": "2032-01",
       "ambientes": {
         "Aula": {
-          "horas_semanales": 177.0,
-          "secciones": 74,
-          "horas_semestre": 2832.0
+          "horas_semanales": 179.0,
+          "secciones": 75,
+          "horas_semestre": 2864.0
         },
         "Laboratorio de Computadoras": {
           "horas_semanales": 3.0,
@@ -2154,9 +2154,9 @@
       "periodo": "2032-02",
       "ambientes": {
         "Aula": {
-          "horas_semanales": 177.0,
-          "secciones": 74,
-          "horas_semestre": 2832.0
+          "horas_semanales": 179.0,
+          "secciones": 75,
+          "horas_semestre": 2864.0
         },
         "Laboratorio de Computadoras": {
           "horas_semanales": 3.0,
@@ -2189,9 +2189,9 @@
       "periodo": "2033-01",
       "ambientes": {
         "Aula": {
-          "horas_semanales": 177.0,
-          "secciones": 74,
-          "horas_semestre": 2832.0
+          "horas_semanales": 179.0,
+          "secciones": 75,
+          "horas_semestre": 2864.0
         },
         "Laboratorio de Computadoras": {
           "horas_semanales": 3.0,
@@ -2224,9 +2224,9 @@
       "periodo": "2033-02",
       "ambientes": {
         "Aula": {
-          "horas_semanales": 177.0,
-          "secciones": 74,
-          "horas_semestre": 2832.0
+          "horas_semanales": 179.0,
+          "secciones": 75,
+          "horas_semestre": 2864.0
         },
         "Laboratorio de Computadoras": {
           "horas_semanales": 3.0,
@@ -2259,9 +2259,9 @@
       "periodo": "2034-01",
       "ambientes": {
         "Aula": {
-          "horas_semanales": 177.0,
-          "secciones": 74,
-          "horas_semestre": 2832.0
+          "horas_semanales": 179.0,
+          "secciones": 75,
+          "horas_semestre": 2864.0
         },
         "Laboratorio de Computadoras": {
           "horas_semanales": 3.0,
@@ -2294,9 +2294,9 @@
       "periodo": "2034-02",
       "ambientes": {
         "Aula": {
-          "horas_semanales": 177.0,
-          "secciones": 74,
-          "horas_semestre": 2832.0
+          "horas_semanales": 179.0,
+          "secciones": 75,
+          "horas_semestre": 2864.0
         },
         "Laboratorio de Computadoras": {
           "horas_semanales": 3.0,
@@ -2329,9 +2329,9 @@
       "periodo": "2035-01",
       "ambientes": {
         "Aula": {
-          "horas_semanales": 177.0,
-          "secciones": 74,
-          "horas_semestre": 2832.0
+          "horas_semanales": 179.0,
+          "secciones": 75,
+          "horas_semestre": 2864.0
         },
         "Laboratorio de Computadoras": {
           "horas_semanales": 3.0,
@@ -2364,9 +2364,9 @@
       "periodo": "2035-02",
       "ambientes": {
         "Aula": {
-          "horas_semanales": 177.0,
-          "secciones": 74,
-          "horas_semestre": 2832.0
+          "horas_semanales": 179.0,
+          "secciones": 75,
+          "horas_semestre": 2864.0
         },
         "Laboratorio de Computadoras": {
           "horas_semanales": 3.0,
@@ -2399,9 +2399,9 @@
       "periodo": "2036-01",
       "ambientes": {
         "Aula": {
-          "horas_semanales": 177.0,
-          "secciones": 74,
-          "horas_semestre": 2832.0
+          "horas_semanales": 179.0,
+          "secciones": 75,
+          "horas_semestre": 2864.0
         },
         "Laboratorio de Computadoras": {
           "horas_semanales": 3.0,
@@ -2434,9 +2434,9 @@
       "periodo": "2036-02",
       "ambientes": {
         "Aula": {
-          "horas_semanales": 177.0,
-          "secciones": 74,
-          "horas_semestre": 2832.0
+          "horas_semanales": 179.0,
+          "secciones": 75,
+          "horas_semestre": 2864.0
         },
         "Laboratorio de Computadoras": {
           "horas_semanales": 3.0,
@@ -3225,6 +3225,17 @@
         {
           "programa": "LLYA",
           "semestre": 4,
+          "codigo_curso": "3064",
+          "curso": "Moral",
+          "tipo_ambiente": "Aula",
+          "estudiantes": 2,
+          "horas_semanales": 2.0,
+          "secciones": 1,
+          "horas_totales": 2.0
+        },
+        {
+          "programa": "LLYA",
+          "semestre": 4,
           "codigo_curso": "8726",
           "curso": "Taller de Poesía",
           "tipo_ambiente": "Aula",
@@ -3650,6 +3661,17 @@
           "semestre": 4,
           "codigo_curso": "4661",
           "curso": "Literatura Española",
+          "tipo_ambiente": "Aula",
+          "estudiantes": 1,
+          "horas_semanales": 2.0,
+          "secciones": 1,
+          "horas_totales": 2.0
+        },
+        {
+          "programa": "LLYA",
+          "semestre": 4,
+          "codigo_curso": "3064",
+          "curso": "Moral",
           "tipo_ambiente": "Aula",
           "estudiantes": 1,
           "horas_semanales": 2.0,
@@ -4161,6 +4183,17 @@
           "semestre": 4,
           "codigo_curso": "4661",
           "curso": "Literatura Española",
+          "tipo_ambiente": "Aula",
+          "estudiantes": 3,
+          "horas_semanales": 2.0,
+          "secciones": 1,
+          "horas_totales": 2.0
+        },
+        {
+          "programa": "LLYA",
+          "semestre": 4,
+          "codigo_curso": "3064",
+          "curso": "Moral",
           "tipo_ambiente": "Aula",
           "estudiantes": 3,
           "horas_semanales": 2.0,
@@ -4881,6 +4914,17 @@
           "semestre": 4,
           "codigo_curso": "4661",
           "curso": "Literatura Española",
+          "tipo_ambiente": "Aula",
+          "estudiantes": 1,
+          "horas_semanales": 2.0,
+          "secciones": 1,
+          "horas_totales": 2.0
+        },
+        {
+          "programa": "LLYA",
+          "semestre": 4,
+          "codigo_curso": "3064",
+          "curso": "Moral",
           "tipo_ambiente": "Aula",
           "estudiantes": 1,
           "horas_semanales": 2.0,
@@ -5733,6 +5777,17 @@
           "semestre": 4,
           "codigo_curso": "4661",
           "curso": "Literatura Española",
+          "tipo_ambiente": "Aula",
+          "estudiantes": 3,
+          "horas_semanales": 2.0,
+          "secciones": 1,
+          "horas_totales": 2.0
+        },
+        {
+          "programa": "LLYA",
+          "semestre": 4,
+          "codigo_curso": "3064",
+          "curso": "Moral",
           "tipo_ambiente": "Aula",
           "estudiantes": 3,
           "horas_semanales": 2.0,
@@ -6684,6 +6739,17 @@
           "semestre": 4,
           "codigo_curso": "4661",
           "curso": "Literatura Española",
+          "tipo_ambiente": "Aula",
+          "estudiantes": 1,
+          "horas_semanales": 2.0,
+          "secciones": 1,
+          "horas_totales": 2.0
+        },
+        {
+          "programa": "LLYA",
+          "semestre": 4,
+          "codigo_curso": "3064",
+          "curso": "Moral",
           "tipo_ambiente": "Aula",
           "estudiantes": 1,
           "horas_semanales": 2.0,
@@ -7701,6 +7767,17 @@
           "semestre": 4,
           "codigo_curso": "4661",
           "curso": "Literatura Española",
+          "tipo_ambiente": "Aula",
+          "estudiantes": 3,
+          "horas_semanales": 2.0,
+          "secciones": 1,
+          "horas_totales": 2.0
+        },
+        {
+          "programa": "LLYA",
+          "semestre": 4,
+          "codigo_curso": "3064",
+          "curso": "Moral",
           "tipo_ambiente": "Aula",
           "estudiantes": 3,
           "horas_semanales": 2.0,
@@ -8771,6 +8848,17 @@
         {
           "programa": "LLYA",
           "semestre": 4,
+          "codigo_curso": "3064",
+          "curso": "Moral",
+          "tipo_ambiente": "Aula",
+          "estudiantes": 1,
+          "horas_semanales": 2.0,
+          "secciones": 1,
+          "horas_totales": 2.0
+        },
+        {
+          "programa": "LLYA",
+          "semestre": 4,
           "codigo_curso": "8726",
           "curso": "Taller de Poesía",
           "tipo_ambiente": "Aula",
@@ -9823,6 +9911,17 @@
           "semestre": 4,
           "codigo_curso": "4661",
           "curso": "Literatura Española",
+          "tipo_ambiente": "Aula",
+          "estudiantes": 3,
+          "horas_semanales": 2.0,
+          "secciones": 1,
+          "horas_totales": 2.0
+        },
+        {
+          "programa": "LLYA",
+          "semestre": 4,
+          "codigo_curso": "3064",
+          "curso": "Moral",
           "tipo_ambiente": "Aula",
           "estudiantes": 3,
           "horas_semanales": 2.0,
@@ -10893,6 +10992,17 @@
         {
           "programa": "LLYA",
           "semestre": 4,
+          "codigo_curso": "3064",
+          "curso": "Moral",
+          "tipo_ambiente": "Aula",
+          "estudiantes": 2,
+          "horas_semanales": 2.0,
+          "secciones": 1,
+          "horas_totales": 2.0
+        },
+        {
+          "programa": "LLYA",
+          "semestre": 4,
           "codigo_curso": "8726",
           "curso": "Taller de Poesía",
           "tipo_ambiente": "Aula",
@@ -11945,6 +12055,17 @@
           "semestre": 4,
           "codigo_curso": "4661",
           "curso": "Literatura Española",
+          "tipo_ambiente": "Aula",
+          "estudiantes": 5,
+          "horas_semanales": 2.0,
+          "secciones": 1,
+          "horas_totales": 2.0
+        },
+        {
+          "programa": "LLYA",
+          "semestre": 4,
+          "codigo_curso": "3064",
+          "curso": "Moral",
           "tipo_ambiente": "Aula",
           "estudiantes": 5,
           "horas_semanales": 2.0,
@@ -13015,6 +13136,17 @@
         {
           "programa": "LLYA",
           "semestre": 4,
+          "codigo_curso": "3064",
+          "curso": "Moral",
+          "tipo_ambiente": "Aula",
+          "estudiantes": 2,
+          "horas_semanales": 2.0,
+          "secciones": 1,
+          "horas_totales": 2.0
+        },
+        {
+          "programa": "LLYA",
+          "semestre": 4,
           "codigo_curso": "8726",
           "curso": "Taller de Poesía",
           "tipo_ambiente": "Aula",
@@ -14076,6 +14208,17 @@
         {
           "programa": "LLYA",
           "semestre": 4,
+          "codigo_curso": "3064",
+          "curso": "Moral",
+          "tipo_ambiente": "Aula",
+          "estudiantes": 5,
+          "horas_semanales": 2.0,
+          "secciones": 1,
+          "horas_totales": 2.0
+        },
+        {
+          "programa": "LLYA",
+          "semestre": 4,
           "codigo_curso": "8726",
           "curso": "Taller de Poesía",
           "tipo_ambiente": "Aula",
@@ -15128,6 +15271,17 @@
           "semestre": 4,
           "codigo_curso": "4661",
           "curso": "Literatura Española",
+          "tipo_ambiente": "Aula",
+          "estudiantes": 2,
+          "horas_semanales": 2.0,
+          "secciones": 1,
+          "horas_totales": 2.0
+        },
+        {
+          "programa": "LLYA",
+          "semestre": 4,
+          "codigo_curso": "3064",
+          "curso": "Moral",
           "tipo_ambiente": "Aula",
           "estudiantes": 2,
           "horas_semanales": 2.0,
@@ -16198,6 +16352,17 @@
         {
           "programa": "LLYA",
           "semestre": 4,
+          "codigo_curso": "3064",
+          "curso": "Moral",
+          "tipo_ambiente": "Aula",
+          "estudiantes": 6,
+          "horas_semanales": 2.0,
+          "secciones": 1,
+          "horas_totales": 2.0
+        },
+        {
+          "programa": "LLYA",
+          "semestre": 4,
           "codigo_curso": "8726",
           "curso": "Taller de Poesía",
           "tipo_ambiente": "Aula",
@@ -17259,6 +17424,17 @@
         {
           "programa": "LLYA",
           "semestre": 4,
+          "codigo_curso": "3064",
+          "curso": "Moral",
+          "tipo_ambiente": "Aula",
+          "estudiantes": 2,
+          "horas_semanales": 2.0,
+          "secciones": 1,
+          "horas_totales": 2.0
+        },
+        {
+          "programa": "LLYA",
+          "semestre": 4,
           "codigo_curso": "8726",
           "curso": "Taller de Poesía",
           "tipo_ambiente": "Aula",
@@ -18311,6 +18487,17 @@
           "semestre": 4,
           "codigo_curso": "4661",
           "curso": "Literatura Española",
+          "tipo_ambiente": "Aula",
+          "estudiantes": 6,
+          "horas_semanales": 2.0,
+          "secciones": 1,
+          "horas_totales": 2.0
+        },
+        {
+          "programa": "LLYA",
+          "semestre": 4,
+          "codigo_curso": "3064",
+          "curso": "Moral",
           "tipo_ambiente": "Aula",
           "estudiantes": 6,
           "horas_semanales": 2.0,
