@@ -1,14 +1,3 @@
-"""
-Script Principal - Análisis de Consumo de Horas-Aula
-Carrera: Educación Secundaria
-
-Menú de opciones:
-  1. Análisis completo  →  Reporte de cursos + JSON + Excel de consumo
-  2. Reporte de cursos  →  Solo muestra los cursos considerados tras equivalencias
-  3. Generar Excel      →  Genera el Excel de consumo desde el JSON existente
-  0. Salir
-"""
-
 import sys
 from pathlib import Path
 
