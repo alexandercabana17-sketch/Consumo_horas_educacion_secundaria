@@ -158,39 +158,12 @@ class AnalizadorHorasAula:
     def mapear_tipo_ambiente(self, row):
         """
         Determina el tipo de ambiente basado en las columnas de la malla.
-        Mantiene los nombres específicos de laboratorios.
-        Incluye tratamiento especial para cursos de ciencias.
+        Lee directamente HORAS_TEORICAS/TIPO_AMBIENTE_TEORIA y
+        HORAS_PRACTICAS/TIPO_AMBIENTE_PRACTICA sin sobreescrituras.
         Retorna: lista de tuplas (tipo_ambiente, horas)
         """
         ambientes = []
-        
-        # ===================================================================
-        # CURSOS ESPECIALES - Tratamiento personalizado
-        # ===================================================================
-        nombre_curso = str(row['CURSO']).strip() if pd.notna(row['CURSO']) else ''
-        codigo_curso = str(row['CODIGO_CURSO']).strip() if pd.notna(row['CODIGO_CURSO']) else ''
-        
-        # Diccionario de cursos especiales con su configuración
-        cursos_especiales = {
-            'Física y Astronomía I': [('Laboratorio de Física', 3), ('Aula', 2)],
-            'Física y Astronomía II': [('Laboratorio de Física', 3), ('Aula', 2)],
-            'Biología': [('Laboratorio de Química', 3), ('Aula', 2)],
-            'Química I': [('Laboratorio de Química', 2), ('Aula', 3)],
-            'Química II': [('Laboratorio de Química', 2), ('Aula', 3)],
-            'Didáctica de las Ciencias Naturales I': [('Laboratorio de Química', 3), ('Aula', 2)],
-            'Didáctica de las Ciencias Naturales II': [('Laboratorio de Física', 3), ('Aula', 2)]
-        }
-        
-        # Verificar si es un curso especial
-        for curso_especial, config in cursos_especiales.items():
-            if curso_especial.lower() in nombre_curso.lower():
-                # Aplicar configuración especial
-                return config
-        
-        # ===================================================================
-        # PROCESAMIENTO NORMAL (para cursos que NO son especiales)
-        # ===================================================================
-        
+
         # Horas teóricas
         if pd.notna(row['HORAS_TEORICAS']) and row['HORAS_TEORICAS'] > 0:
             if pd.notna(row['TIPO_AMBIENTE_TEORIA']):
@@ -198,7 +171,6 @@ class AnalizadorHorasAula:
                 if tipo_teoria.lower() == 'virtual':
                     ambientes.append(('Virtual', row['HORAS_TEORICAS']))
                 else:
-                    # Mantener el nombre específico (Aula, etc.)
                     ambientes.append((tipo_teoria, row['HORAS_TEORICAS']))
             else:
                 ambientes.append(('Aula', row['HORAS_TEORICAS']))
@@ -208,9 +180,7 @@ class AnalizadorHorasAula:
             if pd.notna(row['TIPO_AMBIENTE_PRACTICA']):
                 tipo_practica = str(row['TIPO_AMBIENTE_PRACTICA']).strip()
                 
-                # Mantener el nombre ESPECÍFICO del laboratorio
                 if 'Laboratorio' in tipo_practica:
-                    # Usar el nombre completo: "Laboratorio de Química", "Laboratorio de Computadoras", etc.
                     ambientes.append((tipo_practica, row['HORAS_PRACTICAS']))
                 elif tipo_practica.lower() == 'taller':
                     ambientes.append(('Taller', row['HORAS_PRACTICAS']))
@@ -219,7 +189,6 @@ class AnalizadorHorasAula:
                 elif tipo_practica.lower() == 'aula':
                     ambientes.append(('Aula', row['HORAS_PRACTICAS']))
                 else:
-                    # Para cualquier otro ambiente, mantener nombre original
                     ambientes.append((tipo_practica, row['HORAS_PRACTICAS']))
             else:
                 # Por defecto si no se especifica
@@ -376,27 +345,24 @@ class AnalizadorHorasAula:
                     est_myc   = myc_p['TOTAL_MATRICULADOS'].iloc[0]
                     est_total = est_llya + est_myc
 
-                    for tipo_ambiente in llya_p['TIPO_AMBIENTE'].unique():
-                        horas_curso = llya_p[llya_p['TIPO_AMBIENTE'] == tipo_ambiente]['HORAS_SEMANALES'].iloc[0]
-                        secciones   = self.calcular_secciones(est_total, tipo_ambiente)
-                        horas_total = horas_curso * secciones
+                    # Iterar por índice de fila para preservar cada fila
+                    # aunque varias compartan el mismo TIPO_AMBIENTE.
+                    for idx in llya_p.index:
+                        tipo_ambiente = self.resultados['LLYA'].loc[idx, 'TIPO_AMBIENTE']
+                        horas_curso   = self.resultados['LLYA'].loc[idx, 'HORAS_SEMANALES']
+                        secciones     = self.calcular_secciones(est_total, tipo_ambiente)
+                        horas_total   = horas_curso * secciones
 
-                        mask_llya = (
-                            (self.resultados['LLYA']['CODIGO_CURSO'] == codigo_llya) &
-                            (self.resultados['LLYA']['PERIODO_STR']  == periodo) &
-                            (self.resultados['LLYA']['TIPO_AMBIENTE'] == tipo_ambiente)
-                        )
-                        self.resultados['LLYA'].loc[mask_llya, 'TOTAL_MATRICULADOS'] = est_total
-                        self.resultados['LLYA'].loc[mask_llya, 'SECCIONES']          = secciones
-                        self.resultados['LLYA'].loc[mask_llya, 'HORAS_TOTALES']      = horas_total
+                        self.resultados['LLYA'].loc[idx, 'TOTAL_MATRICULADOS'] = est_total
+                        self.resultados['LLYA'].loc[idx, 'SECCIONES']          = secciones
+                        self.resultados['LLYA'].loc[idx, 'HORAS_TOTALES']      = horas_total
 
-                        # Eliminar de MYC: ya está contado en LLYA
-                        mask_myc = (
-                            (self.resultados['MYC']['CODIGO_CURSO'] == codigo_myc) &
-                            (self.resultados['MYC']['PERIODO_STR']  == periodo) &
-                            (self.resultados['MYC']['TIPO_AMBIENTE'] == tipo_ambiente)
-                        )
-                        self.resultados['MYC'] = self.resultados['MYC'][~mask_myc]
+                    # Eliminar TODAS las filas de MYC para este curso/periodo de una sola vez
+                    mask_myc = (
+                        (self.resultados['MYC']['CODIGO_CURSO'] == codigo_myc) &
+                        (self.resultados['MYC']['PERIODO_STR']  == periodo)
+                    )
+                    self.resultados['MYC'] = self.resultados['MYC'][~mask_myc]
 
                 elif llya_activo and not myc_activo:
                     # FASE 1: solo LLYA activo (periodo prematuro)

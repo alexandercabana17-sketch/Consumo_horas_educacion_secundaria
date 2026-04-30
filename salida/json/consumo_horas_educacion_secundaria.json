@@ -17,15 +17,23 @@
   "resumen_total": {
     "periodo_pico": {
       "periodo": "2031-02",
-      "horas_semanales_totales": 235.0,
+      "horas_semanales_totales": 242.0,
       "estudiantes": 8
     },
     "distribucion_pico": {
+<<<<<<< HEAD
       "aula": 183.0,
       "laboratorio": 24.0,
       "taller": 8.0,
       "virtual": 20.0,
       "total": 235.0
+=======
+      "aula": 185.0,
+      "laboratorio": 25.0,
+      "taller": 8.0,
+      "virtual": 24.0,
+      "total": 242.0
+>>>>>>> e8c6a12184dbc7be0759e794450f0a93a3d98caa
     }
   },
   "consumo_por_periodo": [
@@ -165,18 +173,18 @@
         "myc": 6
       },
       "horas_semanales": {
-        "aula": 48.0,
-        "laboratorio": 3.0,
+        "aula": 49.0,
+        "laboratorio": 4.0,
         "taller": 4.0,
         "virtual": 8.0,
-        "total": 63.0
+        "total": 65.0
       },
       "horas_semestre": {
-        "aula": 768.0,
-        "laboratorio": 48.0,
+        "aula": 784.0,
+        "laboratorio": 64.0,
         "taller": 64.0,
         "virtual": 128.0,
-        "total": 1008.0
+        "total": 1040.0
       },
       "secciones": {
         "aula": 21,
@@ -189,7 +197,7 @@
         "LLYA": {
           "estudiantes": 11,
           "horas_semanales": {
-            "aula": 31.0,
+            "aula": 33.0,
             "laboratorio": 0.0,
             "taller": 4.0,
             "virtual": 5.0
@@ -204,8 +212,8 @@
         "MYC": {
           "estudiantes": 6,
           "horas_semanales": {
-            "aula": 17.0,
-            "laboratorio": 3.0,
+            "aula": 16.0,
+            "laboratorio": 4.0,
             "taller": 0.0,
             "virtual": 3.0
           },
@@ -228,18 +236,18 @@
         "myc": 2
       },
       "horas_semanales": {
-        "aula": 71.0,
-        "laboratorio": 5.0,
+        "aula": 72.0,
+        "laboratorio": 6.0,
         "taller": 4.0,
         "virtual": 13.0,
-        "total": 93.0
+        "total": 95.0
       },
       "horas_semestre": {
-        "aula": 1136.0,
-        "laboratorio": 80.0,
+        "aula": 1152.0,
+        "laboratorio": 96.0,
         "taller": 64.0,
         "virtual": 208.0,
-        "total": 1488.0
+        "total": 1520.0
       },
       "secciones": {
         "aula": 31,
@@ -252,7 +260,7 @@
         "LLYA": {
           "estudiantes": 3,
           "horas_semanales": {
-            "aula": 42.0,
+            "aula": 44.0,
             "laboratorio": 0.0,
             "taller": 4.0,
             "virtual": 10.0
@@ -267,8 +275,8 @@
         "MYC": {
           "estudiantes": 2,
           "horas_semanales": {
-            "aula": 29.0,
-            "laboratorio": 5.0,
+            "aula": 28.0,
+            "laboratorio": 6.0,
             "taller": 0.0,
             "virtual": 3.0
           },
@@ -291,18 +299,18 @@
         "myc": 6
       },
       "horas_semanales": {
-        "aula": 89.0,
-        "laboratorio": 7.0,
+        "aula": 90.0,
+        "laboratorio": 8.0,
         "taller": 4.0,
         "virtual": 13.0,
-        "total": 113.0
+        "total": 115.0
       },
       "horas_semestre": {
-        "aula": 1424.0,
-        "laboratorio": 112.0,
+        "aula": 1440.0,
+        "laboratorio": 128.0,
         "taller": 64.0,
         "virtual": 208.0,
-        "total": 1808.0
+        "total": 1840.0
       },
       "secciones": {
         "aula": 37,
@@ -315,7 +323,7 @@
         "LLYA": {
           "estudiantes": 11,
           "horas_semanales": {
-            "aula": 47.0,
+            "aula": 49.0,
             "laboratorio": 0.0,
             "taller": 4.0,
             "virtual": 10.0
@@ -330,8 +338,8 @@
         "MYC": {
           "estudiantes": 6,
           "horas_semanales": {
-            "aula": 42.0,
-            "laboratorio": 7.0,
+            "aula": 41.0,
+            "laboratorio": 8.0,
             "taller": 0.0,
             "virtual": 3.0
           },
@@ -354,18 +362,18 @@
         "myc": 2
       },
       "horas_semanales": {
-        "aula": 121.0,
-        "laboratorio": 18.0,
+        "aula": 122.0,
+        "laboratorio": 19.0,
         "taller": 4.0,
         "virtual": 16.0,
-        "total": 159.0
+        "total": 161.0
       },
       "horas_semestre": {
-        "aula": 1936.0,
-        "laboratorio": 288.0,
+        "aula": 1952.0,
+        "laboratorio": 304.0,
         "taller": 64.0,
         "virtual": 256.0,
-        "total": 2544.0
+        "total": 2576.0
       },
       "secciones": {
         "aula": 51,
@@ -378,7 +386,7 @@
         "LLYA": {
           "estudiantes": 3,
           "horas_semanales": {
-            "aula": 68.0,
+            "aula": 70.0,
             "laboratorio": 0.0,
             "taller": 4.0,
             "virtual": 10.0
@@ -393,8 +401,8 @@
         "MYC": {
           "estudiantes": 2,
           "horas_semanales": {
-            "aula": 53.0,
-            "laboratorio": 18.0,
+            "aula": 52.0,
+            "laboratorio": 19.0,
             "taller": 0.0,
             "virtual": 6.0
           },
@@ -417,18 +425,18 @@
         "myc": 7
       },
       "horas_semanales": {
-        "aula": 147.0,
-        "laboratorio": 21.0,
+        "aula": 148.0,
+        "laboratorio": 22.0,
         "taller": 4.0,
         "virtual": 16.0,
-        "total": 188.0
+        "total": 190.0
       },
       "horas_semestre": {
-        "aula": 2352.0,
-        "laboratorio": 336.0,
+        "aula": 2368.0,
+        "laboratorio": 352.0,
         "taller": 64.0,
         "virtual": 256.0,
-        "total": 3008.0
+        "total": 3040.0
       },
       "secciones": {
         "aula": 62,
@@ -441,7 +449,7 @@
         "LLYA": {
           "estudiantes": 12,
           "horas_semanales": {
-            "aula": 84.0,
+            "aula": 86.0,
             "laboratorio": 0.0,
             "taller": 4.0,
             "virtual": 10.0
@@ -456,8 +464,8 @@
         "MYC": {
           "estudiantes": 7,
           "horas_semanales": {
-            "aula": 63.0,
-            "laboratorio": 21.0,
+            "aula": 62.0,
+            "laboratorio": 22.0,
             "taller": 0.0,
             "virtual": 6.0
           },
@@ -480,18 +488,18 @@
         "myc": 2
       },
       "horas_semanales": {
-        "aula": 159.0,
-        "laboratorio": 24.0,
+        "aula": 165.0,
+        "laboratorio": 25.0,
         "taller": 8.0,
         "virtual": 16.0,
-        "total": 207.0
+        "total": 214.0
       },
       "horas_semestre": {
-        "aula": 2544.0,
-        "laboratorio": 384.0,
+        "aula": 2640.0,
+        "laboratorio": 400.0,
         "taller": 128.0,
         "virtual": 256.0,
-        "total": 3312.0
+        "total": 3424.0
       },
       "secciones": {
         "aula": 69,
@@ -504,7 +512,7 @@
         "LLYA": {
           "estudiantes": 3,
           "horas_semanales": {
-            "aula": 94.0,
+            "aula": 101.0,
             "laboratorio": 0.0,
             "taller": 8.0,
             "virtual": 10.0
@@ -519,8 +527,8 @@
         "MYC": {
           "estudiantes": 2,
           "horas_semanales": {
-            "aula": 65.0,
-            "laboratorio": 24.0,
+            "aula": 64.0,
+            "laboratorio": 25.0,
             "taller": 0.0,
             "virtual": 6.0
           },
@@ -543,6 +551,7 @@
         "myc": 8
       },
       "horas_semanales": {
+<<<<<<< HEAD
         "aula": 175.0,
         "laboratorio": 24.0,
         "taller": 8.0,
@@ -555,6 +564,20 @@
         "taller": 128.0,
         "virtual": 256.0,
         "total": 3568.0
+=======
+        "aula": 177.0,
+        "laboratorio": 25.0,
+        "taller": 8.0,
+        "virtual": 20.0,
+        "total": 230.0
+      },
+      "horas_semestre": {
+        "aula": 2832.0,
+        "laboratorio": 400.0,
+        "taller": 128.0,
+        "virtual": 320.0,
+        "total": 3680.0
+>>>>>>> e8c6a12184dbc7be0759e794450f0a93a3d98caa
       },
       "secciones": {
         "aula": 75,
@@ -567,7 +590,11 @@
         "LLYA": {
           "estudiantes": 13,
           "horas_semanales": {
+<<<<<<< HEAD
             "aula": 102.0,
+=======
+            "aula": 105.0,
+>>>>>>> e8c6a12184dbc7be0759e794450f0a93a3d98caa
             "laboratorio": 0.0,
             "taller": 8.0,
             "virtual": 10.0
@@ -582,8 +609,8 @@
         "MYC": {
           "estudiantes": 8,
           "horas_semanales": {
-            "aula": 73.0,
-            "laboratorio": 24.0,
+            "aula": 72.0,
+            "laboratorio": 25.0,
             "taller": 0.0,
             "virtual": 6.0
           },
@@ -606,6 +633,7 @@
         "myc": 3
       },
       "horas_semanales": {
+<<<<<<< HEAD
         "aula": 183.0,
         "laboratorio": 24.0,
         "taller": 8.0,
@@ -618,6 +646,20 @@
         "taller": 128.0,
         "virtual": 320.0,
         "total": 3760.0
+=======
+        "aula": 185.0,
+        "laboratorio": 25.0,
+        "taller": 8.0,
+        "virtual": 24.0,
+        "total": 242.0
+      },
+      "horas_semestre": {
+        "aula": 2960.0,
+        "laboratorio": 400.0,
+        "taller": 128.0,
+        "virtual": 384.0,
+        "total": 3872.0
+>>>>>>> e8c6a12184dbc7be0759e794450f0a93a3d98caa
       },
       "secciones": {
         "aula": 77,
@@ -630,7 +672,11 @@
         "LLYA": {
           "estudiantes": 5,
           "horas_semanales": {
+<<<<<<< HEAD
             "aula": 106.0,
+=======
+            "aula": 109.0,
+>>>>>>> e8c6a12184dbc7be0759e794450f0a93a3d98caa
             "laboratorio": 0.0,
             "taller": 8.0,
             "virtual": 14.0
@@ -645,8 +691,8 @@
         "MYC": {
           "estudiantes": 3,
           "horas_semanales": {
-            "aula": 77.0,
-            "laboratorio": 24.0,
+            "aula": 76.0,
+            "laboratorio": 25.0,
             "taller": 0.0,
             "virtual": 6.0
           },
@@ -669,6 +715,7 @@
         "myc": 9
       },
       "horas_semanales": {
+<<<<<<< HEAD
         "aula": 183.0,
         "laboratorio": 24.0,
         "taller": 8.0,
@@ -681,6 +728,20 @@
         "taller": 128.0,
         "virtual": 320.0,
         "total": 3760.0
+=======
+        "aula": 185.0,
+        "laboratorio": 25.0,
+        "taller": 8.0,
+        "virtual": 24.0,
+        "total": 242.0
+      },
+      "horas_semestre": {
+        "aula": 2960.0,
+        "laboratorio": 400.0,
+        "taller": 128.0,
+        "virtual": 384.0,
+        "total": 3872.0
+>>>>>>> e8c6a12184dbc7be0759e794450f0a93a3d98caa
       },
       "secciones": {
         "aula": 77,
@@ -693,7 +754,11 @@
         "LLYA": {
           "estudiantes": 15,
           "horas_semanales": {
+<<<<<<< HEAD
             "aula": 106.0,
+=======
+            "aula": 109.0,
+>>>>>>> e8c6a12184dbc7be0759e794450f0a93a3d98caa
             "laboratorio": 0.0,
             "taller": 8.0,
             "virtual": 14.0
@@ -708,8 +773,8 @@
         "MYC": {
           "estudiantes": 9,
           "horas_semanales": {
-            "aula": 77.0,
-            "laboratorio": 24.0,
+            "aula": 76.0,
+            "laboratorio": 25.0,
             "taller": 0.0,
             "virtual": 6.0
           },
@@ -732,6 +797,7 @@
         "myc": 3
       },
       "horas_semanales": {
+<<<<<<< HEAD
         "aula": 183.0,
         "laboratorio": 24.0,
         "taller": 8.0,
@@ -744,6 +810,20 @@
         "taller": 128.0,
         "virtual": 320.0,
         "total": 3760.0
+=======
+        "aula": 185.0,
+        "laboratorio": 25.0,
+        "taller": 8.0,
+        "virtual": 24.0,
+        "total": 242.0
+      },
+      "horas_semestre": {
+        "aula": 2960.0,
+        "laboratorio": 400.0,
+        "taller": 128.0,
+        "virtual": 384.0,
+        "total": 3872.0
+>>>>>>> e8c6a12184dbc7be0759e794450f0a93a3d98caa
       },
       "secciones": {
         "aula": 77,
@@ -756,7 +836,11 @@
         "LLYA": {
           "estudiantes": 5,
           "horas_semanales": {
+<<<<<<< HEAD
             "aula": 106.0,
+=======
+            "aula": 109.0,
+>>>>>>> e8c6a12184dbc7be0759e794450f0a93a3d98caa
             "laboratorio": 0.0,
             "taller": 8.0,
             "virtual": 14.0
@@ -771,8 +855,8 @@
         "MYC": {
           "estudiantes": 3,
           "horas_semanales": {
-            "aula": 77.0,
-            "laboratorio": 24.0,
+            "aula": 76.0,
+            "laboratorio": 25.0,
             "taller": 0.0,
             "virtual": 6.0
           },
@@ -795,6 +879,7 @@
         "myc": 9
       },
       "horas_semanales": {
+<<<<<<< HEAD
         "aula": 183.0,
         "laboratorio": 24.0,
         "taller": 8.0,
@@ -807,6 +892,20 @@
         "taller": 128.0,
         "virtual": 320.0,
         "total": 3760.0
+=======
+        "aula": 185.0,
+        "laboratorio": 25.0,
+        "taller": 8.0,
+        "virtual": 24.0,
+        "total": 242.0
+      },
+      "horas_semestre": {
+        "aula": 2960.0,
+        "laboratorio": 400.0,
+        "taller": 128.0,
+        "virtual": 384.0,
+        "total": 3872.0
+>>>>>>> e8c6a12184dbc7be0759e794450f0a93a3d98caa
       },
       "secciones": {
         "aula": 77,
@@ -819,7 +918,11 @@
         "LLYA": {
           "estudiantes": 16,
           "horas_semanales": {
+<<<<<<< HEAD
             "aula": 106.0,
+=======
+            "aula": 109.0,
+>>>>>>> e8c6a12184dbc7be0759e794450f0a93a3d98caa
             "laboratorio": 0.0,
             "taller": 8.0,
             "virtual": 14.0
@@ -834,8 +937,8 @@
         "MYC": {
           "estudiantes": 9,
           "horas_semanales": {
-            "aula": 77.0,
-            "laboratorio": 24.0,
+            "aula": 76.0,
+            "laboratorio": 25.0,
             "taller": 0.0,
             "virtual": 6.0
           },
@@ -858,6 +961,7 @@
         "myc": 3
       },
       "horas_semanales": {
+<<<<<<< HEAD
         "aula": 183.0,
         "laboratorio": 24.0,
         "taller": 8.0,
@@ -870,6 +974,20 @@
         "taller": 128.0,
         "virtual": 320.0,
         "total": 3760.0
+=======
+        "aula": 185.0,
+        "laboratorio": 25.0,
+        "taller": 8.0,
+        "virtual": 24.0,
+        "total": 242.0
+      },
+      "horas_semestre": {
+        "aula": 2960.0,
+        "laboratorio": 400.0,
+        "taller": 128.0,
+        "virtual": 384.0,
+        "total": 3872.0
+>>>>>>> e8c6a12184dbc7be0759e794450f0a93a3d98caa
       },
       "secciones": {
         "aula": 77,
@@ -882,7 +1000,11 @@
         "LLYA": {
           "estudiantes": 5,
           "horas_semanales": {
+<<<<<<< HEAD
             "aula": 106.0,
+=======
+            "aula": 109.0,
+>>>>>>> e8c6a12184dbc7be0759e794450f0a93a3d98caa
             "laboratorio": 0.0,
             "taller": 8.0,
             "virtual": 14.0
@@ -897,8 +1019,8 @@
         "MYC": {
           "estudiantes": 3,
           "horas_semanales": {
-            "aula": 77.0,
-            "laboratorio": 24.0,
+            "aula": 76.0,
+            "laboratorio": 25.0,
             "taller": 0.0,
             "virtual": 6.0
           },
@@ -921,6 +1043,7 @@
         "myc": 10
       },
       "horas_semanales": {
+<<<<<<< HEAD
         "aula": 183.0,
         "laboratorio": 24.0,
         "taller": 8.0,
@@ -933,6 +1056,20 @@
         "taller": 128.0,
         "virtual": 320.0,
         "total": 3760.0
+=======
+        "aula": 185.0,
+        "laboratorio": 25.0,
+        "taller": 8.0,
+        "virtual": 24.0,
+        "total": 242.0
+      },
+      "horas_semestre": {
+        "aula": 2960.0,
+        "laboratorio": 400.0,
+        "taller": 128.0,
+        "virtual": 384.0,
+        "total": 3872.0
+>>>>>>> e8c6a12184dbc7be0759e794450f0a93a3d98caa
       },
       "secciones": {
         "aula": 77,
@@ -945,7 +1082,11 @@
         "LLYA": {
           "estudiantes": 17,
           "horas_semanales": {
+<<<<<<< HEAD
             "aula": 106.0,
+=======
+            "aula": 109.0,
+>>>>>>> e8c6a12184dbc7be0759e794450f0a93a3d98caa
             "laboratorio": 0.0,
             "taller": 8.0,
             "virtual": 14.0
@@ -960,8 +1101,8 @@
         "MYC": {
           "estudiantes": 10,
           "horas_semanales": {
-            "aula": 77.0,
-            "laboratorio": 24.0,
+            "aula": 76.0,
+            "laboratorio": 25.0,
             "taller": 0.0,
             "virtual": 6.0
           },
@@ -984,6 +1125,7 @@
         "myc": 3
       },
       "horas_semanales": {
+<<<<<<< HEAD
         "aula": 183.0,
         "laboratorio": 24.0,
         "taller": 8.0,
@@ -996,6 +1138,20 @@
         "taller": 128.0,
         "virtual": 320.0,
         "total": 3760.0
+=======
+        "aula": 185.0,
+        "laboratorio": 25.0,
+        "taller": 8.0,
+        "virtual": 24.0,
+        "total": 242.0
+      },
+      "horas_semestre": {
+        "aula": 2960.0,
+        "laboratorio": 400.0,
+        "taller": 128.0,
+        "virtual": 384.0,
+        "total": 3872.0
+>>>>>>> e8c6a12184dbc7be0759e794450f0a93a3d98caa
       },
       "secciones": {
         "aula": 77,
@@ -1008,7 +1164,11 @@
         "LLYA": {
           "estudiantes": 5,
           "horas_semanales": {
+<<<<<<< HEAD
             "aula": 106.0,
+=======
+            "aula": 109.0,
+>>>>>>> e8c6a12184dbc7be0759e794450f0a93a3d98caa
             "laboratorio": 0.0,
             "taller": 8.0,
             "virtual": 14.0
@@ -1023,8 +1183,8 @@
         "MYC": {
           "estudiantes": 3,
           "horas_semanales": {
-            "aula": 77.0,
-            "laboratorio": 24.0,
+            "aula": 76.0,
+            "laboratorio": 25.0,
             "taller": 0.0,
             "virtual": 6.0
           },
@@ -1047,6 +1207,7 @@
         "myc": 10
       },
       "horas_semanales": {
+<<<<<<< HEAD
         "aula": 183.0,
         "laboratorio": 24.0,
         "taller": 8.0,
@@ -1059,6 +1220,20 @@
         "taller": 128.0,
         "virtual": 320.0,
         "total": 3760.0
+=======
+        "aula": 185.0,
+        "laboratorio": 25.0,
+        "taller": 8.0,
+        "virtual": 24.0,
+        "total": 242.0
+      },
+      "horas_semestre": {
+        "aula": 2960.0,
+        "laboratorio": 400.0,
+        "taller": 128.0,
+        "virtual": 384.0,
+        "total": 3872.0
+>>>>>>> e8c6a12184dbc7be0759e794450f0a93a3d98caa
       },
       "secciones": {
         "aula": 77,
@@ -1071,7 +1246,11 @@
         "LLYA": {
           "estudiantes": 17,
           "horas_semanales": {
+<<<<<<< HEAD
             "aula": 106.0,
+=======
+            "aula": 109.0,
+>>>>>>> e8c6a12184dbc7be0759e794450f0a93a3d98caa
             "laboratorio": 0.0,
             "taller": 8.0,
             "virtual": 14.0
@@ -1086,8 +1265,8 @@
         "MYC": {
           "estudiantes": 10,
           "horas_semanales": {
-            "aula": 77.0,
-            "laboratorio": 24.0,
+            "aula": 76.0,
+            "laboratorio": 25.0,
             "taller": 0.0,
             "virtual": 6.0
           },
@@ -1110,6 +1289,7 @@
         "myc": 5
       },
       "horas_semanales": {
+<<<<<<< HEAD
         "aula": 183.0,
         "laboratorio": 24.0,
         "taller": 8.0,
@@ -1122,6 +1302,20 @@
         "taller": 128.0,
         "virtual": 320.0,
         "total": 3760.0
+=======
+        "aula": 185.0,
+        "laboratorio": 25.0,
+        "taller": 8.0,
+        "virtual": 24.0,
+        "total": 242.0
+      },
+      "horas_semestre": {
+        "aula": 2960.0,
+        "laboratorio": 400.0,
+        "taller": 128.0,
+        "virtual": 384.0,
+        "total": 3872.0
+>>>>>>> e8c6a12184dbc7be0759e794450f0a93a3d98caa
       },
       "secciones": {
         "aula": 77,
@@ -1134,7 +1328,11 @@
         "LLYA": {
           "estudiantes": 8,
           "horas_semanales": {
+<<<<<<< HEAD
             "aula": 106.0,
+=======
+            "aula": 109.0,
+>>>>>>> e8c6a12184dbc7be0759e794450f0a93a3d98caa
             "laboratorio": 0.0,
             "taller": 8.0,
             "virtual": 14.0
@@ -1149,8 +1347,8 @@
         "MYC": {
           "estudiantes": 5,
           "horas_semanales": {
-            "aula": 77.0,
-            "laboratorio": 24.0,
+            "aula": 76.0,
+            "laboratorio": 25.0,
             "taller": 0.0,
             "virtual": 6.0
           },
@@ -1173,6 +1371,7 @@
         "myc": 13
       },
       "horas_semanales": {
+<<<<<<< HEAD
         "aula": 183.0,
         "laboratorio": 24.0,
         "taller": 8.0,
@@ -1185,6 +1384,20 @@
         "taller": 128.0,
         "virtual": 320.0,
         "total": 3760.0
+=======
+        "aula": 185.0,
+        "laboratorio": 25.0,
+        "taller": 8.0,
+        "virtual": 24.0,
+        "total": 242.0
+      },
+      "horas_semestre": {
+        "aula": 2960.0,
+        "laboratorio": 400.0,
+        "taller": 128.0,
+        "virtual": 384.0,
+        "total": 3872.0
+>>>>>>> e8c6a12184dbc7be0759e794450f0a93a3d98caa
       },
       "secciones": {
         "aula": 77,
@@ -1197,7 +1410,11 @@
         "LLYA": {
           "estudiantes": 21,
           "horas_semanales": {
+<<<<<<< HEAD
             "aula": 106.0,
+=======
+            "aula": 109.0,
+>>>>>>> e8c6a12184dbc7be0759e794450f0a93a3d98caa
             "laboratorio": 0.0,
             "taller": 8.0,
             "virtual": 14.0
@@ -1212,8 +1429,8 @@
         "MYC": {
           "estudiantes": 13,
           "horas_semanales": {
-            "aula": 77.0,
-            "laboratorio": 24.0,
+            "aula": 76.0,
+            "laboratorio": 25.0,
             "taller": 0.0,
             "virtual": 6.0
           },
@@ -1236,6 +1453,7 @@
         "myc": 4
       },
       "horas_semanales": {
+<<<<<<< HEAD
         "aula": 183.0,
         "laboratorio": 24.0,
         "taller": 8.0,
@@ -1248,6 +1466,20 @@
         "taller": 128.0,
         "virtual": 320.0,
         "total": 3760.0
+=======
+        "aula": 185.0,
+        "laboratorio": 25.0,
+        "taller": 8.0,
+        "virtual": 24.0,
+        "total": 242.0
+      },
+      "horas_semestre": {
+        "aula": 2960.0,
+        "laboratorio": 400.0,
+        "taller": 128.0,
+        "virtual": 384.0,
+        "total": 3872.0
+>>>>>>> e8c6a12184dbc7be0759e794450f0a93a3d98caa
       },
       "secciones": {
         "aula": 77,
@@ -1260,7 +1492,11 @@
         "LLYA": {
           "estudiantes": 7,
           "horas_semanales": {
+<<<<<<< HEAD
             "aula": 106.0,
+=======
+            "aula": 109.0,
+>>>>>>> e8c6a12184dbc7be0759e794450f0a93a3d98caa
             "laboratorio": 0.0,
             "taller": 8.0,
             "virtual": 14.0
@@ -1275,8 +1511,8 @@
         "MYC": {
           "estudiantes": 4,
           "horas_semanales": {
-            "aula": 77.0,
-            "laboratorio": 24.0,
+            "aula": 76.0,
+            "laboratorio": 25.0,
             "taller": 0.0,
             "virtual": 6.0
           },
@@ -1332,12 +1568,12 @@
         "maximo_estudiantes": 16,
         "minimo_estudiantes": 0,
         "promedio_secciones": 0.946058091286307,
-        "promedio_horas_semanales": 25.75
+        "promedio_horas_semanales": 27.55
       },
       "distribucion_tipo_ambiente": {
         "aula": {
-          "horas_semanales": 22.9,
-          "porcentaje": 88.93203883495146
+          "horas_semanales": 24.7,
+          "porcentaje": 89.6551724137931
         },
         "laboratorio": {
           "horas_semanales": 0,
@@ -1349,7 +1585,7 @@
         },
         "virtual": {
           "horas_semanales": 2.85,
-          "porcentaje": 11.067961165048544
+          "porcentaje": 10.344827586206897
         }
       }
     },
@@ -1367,12 +1603,12 @@
       },
       "distribucion_tipo_ambiente": {
         "aula": {
-          "horas_semanales": 16.2,
-          "porcentaje": 69.23076923076923
+          "horas_semanales": 15.3,
+          "porcentaje": 65.3846153846154
         },
         "laboratorio": {
-          "horas_semanales": 2.7,
-          "porcentaje": 11.53846153846154
+          "horas_semanales": 3.6,
+          "porcentaje": 15.384615384615385
         },
         "taller": {
           "horas_semanales": 0,
@@ -1518,20 +1754,20 @@
         "maximo_estudiantes": 12,
         "minimo_estudiantes": 0,
         "promedio_secciones": 0.5625,
-        "promedio_horas_semanales": 12.35
+        "promedio_horas_semanales": 15.6
       },
       "distribucion_tipo_ambiente": {
         "aula": {
-          "horas_semanales": 7.8,
-          "porcentaje": 63.1578947368421
+          "horas_semanales": 11.05,
+          "porcentaje": 70.83333333333334
         },
         "laboratorio": {
           "horas_semanales": 1.95,
-          "porcentaje": 15.789473684210526
+          "porcentaje": 12.5
         },
         "taller": {
           "horas_semanales": 2.6,
-          "porcentaje": 21.05263157894737
+          "porcentaje": 16.666666666666668
         },
         "virtual": {
           "horas_semanales": 0,
@@ -1623,144 +1859,192 @@
       "año": 2028,
       "total_estudiantes_año": 11,
       "horas_anuales": {
-        "aula": 1904.0,
-        "laboratorio": 128.0,
+        "aula": 1936.0,
+        "laboratorio": 160.0,
         "taller": 128.0,
         "virtual": 336.0,
-        "total": 2496.0
+        "total": 2560.0
       },
       "promedio_semanal": {
-        "ciclo_i": 63.0,
-        "ciclo_ii": 93.0,
-        "promedio": 78.0
+        "ciclo_i": 65.0,
+        "ciclo_ii": 95.0,
+        "promedio": 80.0
       }
     },
     {
       "año": 2029,
       "total_estudiantes_año": 11,
       "horas_anuales": {
-        "aula": 3360.0,
-        "laboratorio": 400.0,
+        "aula": 3392.0,
+        "laboratorio": 432.0,
         "taller": 128.0,
         "virtual": 464.0,
-        "total": 4352.0
+        "total": 4416.0
       },
       "promedio_semanal": {
-        "ciclo_i": 113.0,
-        "ciclo_ii": 159.0,
-        "promedio": 136.0
+        "ciclo_i": 115.0,
+        "ciclo_ii": 161.0,
+        "promedio": 138.0
       }
     },
     {
       "año": 2030,
       "total_estudiantes_año": 12,
       "horas_anuales": {
-        "aula": 4896.0,
-        "laboratorio": 720.0,
+        "aula": 5008.0,
+        "laboratorio": 752.0,
         "taller": 192.0,
         "virtual": 512.0,
-        "total": 6320.0
+        "total": 6464.0
       },
       "promedio_semanal": {
-        "ciclo_i": 188.0,
-        "ciclo_ii": 207.0,
-        "promedio": 197.5
+        "ciclo_i": 190.0,
+        "ciclo_ii": 214.0,
+        "promedio": 202.0
       }
     },
     {
       "año": 2031,
       "total_estudiantes_año": 13,
       "horas_anuales": {
+<<<<<<< HEAD
         "aula": 5728.0,
         "laboratorio": 768.0,
         "taller": 256.0,
         "virtual": 576.0,
         "total": 7328.0
+=======
+        "aula": 5792.0,
+        "laboratorio": 800.0,
+        "taller": 256.0,
+        "virtual": 704.0,
+        "total": 7552.0
+>>>>>>> e8c6a12184dbc7be0759e794450f0a93a3d98caa
       },
       "promedio_semanal": {
-        "ciclo_i": 223.0,
-        "ciclo_ii": 235.0,
-        "promedio": 229.0
+        "ciclo_i": 230.0,
+        "ciclo_ii": 242.0,
+        "promedio": 236.0
       }
     },
     {
       "año": 2032,
       "total_estudiantes_año": 15,
       "horas_anuales": {
+<<<<<<< HEAD
         "aula": 5856.0,
         "laboratorio": 768.0,
         "taller": 256.0,
         "virtual": 640.0,
         "total": 7520.0
+=======
+        "aula": 5920.0,
+        "laboratorio": 800.0,
+        "taller": 256.0,
+        "virtual": 768.0,
+        "total": 7744.0
+>>>>>>> e8c6a12184dbc7be0759e794450f0a93a3d98caa
       },
       "promedio_semanal": {
-        "ciclo_i": 235.0,
-        "ciclo_ii": 235.0,
-        "promedio": 235.0
+        "ciclo_i": 242.0,
+        "ciclo_ii": 242.0,
+        "promedio": 242.0
       }
     },
     {
       "año": 2033,
       "total_estudiantes_año": 16,
       "horas_anuales": {
+<<<<<<< HEAD
         "aula": 5856.0,
         "laboratorio": 768.0,
         "taller": 256.0,
         "virtual": 640.0,
         "total": 7520.0
+=======
+        "aula": 5920.0,
+        "laboratorio": 800.0,
+        "taller": 256.0,
+        "virtual": 768.0,
+        "total": 7744.0
+>>>>>>> e8c6a12184dbc7be0759e794450f0a93a3d98caa
       },
       "promedio_semanal": {
-        "ciclo_i": 235.0,
-        "ciclo_ii": 235.0,
-        "promedio": 235.0
+        "ciclo_i": 242.0,
+        "ciclo_ii": 242.0,
+        "promedio": 242.0
       }
     },
     {
       "año": 2034,
       "total_estudiantes_año": 17,
       "horas_anuales": {
+<<<<<<< HEAD
         "aula": 5856.0,
         "laboratorio": 768.0,
         "taller": 256.0,
         "virtual": 640.0,
         "total": 7520.0
+=======
+        "aula": 5920.0,
+        "laboratorio": 800.0,
+        "taller": 256.0,
+        "virtual": 768.0,
+        "total": 7744.0
+>>>>>>> e8c6a12184dbc7be0759e794450f0a93a3d98caa
       },
       "promedio_semanal": {
-        "ciclo_i": 235.0,
-        "ciclo_ii": 235.0,
-        "promedio": 235.0
+        "ciclo_i": 242.0,
+        "ciclo_ii": 242.0,
+        "promedio": 242.0
       }
     },
     {
       "año": 2035,
       "total_estudiantes_año": 17,
       "horas_anuales": {
+<<<<<<< HEAD
         "aula": 5856.0,
         "laboratorio": 768.0,
         "taller": 256.0,
         "virtual": 640.0,
         "total": 7520.0
+=======
+        "aula": 5920.0,
+        "laboratorio": 800.0,
+        "taller": 256.0,
+        "virtual": 768.0,
+        "total": 7744.0
+>>>>>>> e8c6a12184dbc7be0759e794450f0a93a3d98caa
       },
       "promedio_semanal": {
-        "ciclo_i": 235.0,
-        "ciclo_ii": 235.0,
-        "promedio": 235.0
+        "ciclo_i": 242.0,
+        "ciclo_ii": 242.0,
+        "promedio": 242.0
       }
     },
     {
       "año": 2036,
       "total_estudiantes_año": 21,
       "horas_anuales": {
+<<<<<<< HEAD
         "aula": 5856.0,
         "laboratorio": 768.0,
         "taller": 256.0,
         "virtual": 640.0,
         "total": 7520.0
+=======
+        "aula": 5920.0,
+        "laboratorio": 800.0,
+        "taller": 256.0,
+        "virtual": 768.0,
+        "total": 7744.0
+>>>>>>> e8c6a12184dbc7be0759e794450f0a93a3d98caa
       },
       "promedio_semanal": {
-        "ciclo_i": 235.0,
-        "ciclo_ii": 235.0,
-        "promedio": 235.0
+        "ciclo_i": 242.0,
+        "ciclo_ii": 242.0,
+        "promedio": 242.0
       }
     }
   ],
@@ -1772,6 +2056,11 @@
           "horas_semanales": 6.0,
           "secciones": 3,
           "horas_semestre": 96.0
+        },
+        "Laboratorio de Biología": {
+          "horas_semanales": 0.0,
+          "secciones": 0,
+          "horas_semestre": 0.0
         },
         "Laboratorio de Computadoras": {
           "horas_semanales": 0.0,
@@ -1808,6 +2097,11 @@
           "secciones": 13,
           "horas_semestre": 512.0
         },
+        "Laboratorio de Biología": {
+          "horas_semanales": 0.0,
+          "secciones": 0,
+          "horas_semestre": 0.0
+        },
         "Laboratorio de Computadoras": {
           "horas_semanales": 0.0,
           "secciones": 0,
@@ -1839,9 +2133,14 @@
       "periodo": "2028-01",
       "ambientes": {
         "Aula": {
-          "horas_semanales": 48.0,
+          "horas_semanales": 49.0,
           "secciones": 21,
-          "horas_semestre": 768.0
+          "horas_semestre": 784.0
+        },
+        "Laboratorio de Biología": {
+          "horas_semanales": 4.0,
+          "secciones": 1,
+          "horas_semestre": 64.0
         },
         "Laboratorio de Computadoras": {
           "horas_semanales": 0.0,
@@ -1854,9 +2153,9 @@
           "horas_semestre": 0.0
         },
         "Laboratorio de Química": {
-          "horas_semanales": 3.0,
-          "secciones": 1,
-          "horas_semestre": 48.0
+          "horas_semanales": 0.0,
+          "secciones": 0,
+          "horas_semestre": 0.0
         },
         "Taller": {
           "horas_semanales": 4.0,
@@ -1874,9 +2173,14 @@
       "periodo": "2028-02",
       "ambientes": {
         "Aula": {
-          "horas_semanales": 71.0,
+          "horas_semanales": 72.0,
           "secciones": 31,
-          "horas_semestre": 1136.0
+          "horas_semestre": 1152.0
+        },
+        "Laboratorio de Biología": {
+          "horas_semanales": 4.0,
+          "secciones": 1,
+          "horas_semestre": 64.0
         },
         "Laboratorio de Computadoras": {
           "horas_semanales": 0.0,
@@ -1889,9 +2193,9 @@
           "horas_semestre": 0.0
         },
         "Laboratorio de Química": {
-          "horas_semanales": 5.0,
-          "secciones": 2,
-          "horas_semestre": 80.0
+          "horas_semanales": 2.0,
+          "secciones": 1,
+          "horas_semestre": 32.0
         },
         "Taller": {
           "horas_semanales": 4.0,
@@ -1909,9 +2213,14 @@
       "periodo": "2029-01",
       "ambientes": {
         "Aula": {
-          "horas_semanales": 89.0,
+          "horas_semanales": 90.0,
           "secciones": 37,
-          "horas_semestre": 1424.0
+          "horas_semestre": 1440.0
+        },
+        "Laboratorio de Biología": {
+          "horas_semanales": 4.0,
+          "secciones": 1,
+          "horas_semestre": 64.0
         },
         "Laboratorio de Computadoras": {
           "horas_semanales": 0.0,
@@ -1924,9 +2233,9 @@
           "horas_semestre": 0.0
         },
         "Laboratorio de Química": {
-          "horas_semanales": 7.0,
-          "secciones": 3,
-          "horas_semestre": 112.0
+          "horas_semanales": 4.0,
+          "secciones": 2,
+          "horas_semestre": 64.0
         },
         "Taller": {
           "horas_semanales": 4.0,
@@ -1944,9 +2253,14 @@
       "periodo": "2029-02",
       "ambientes": {
         "Aula": {
-          "horas_semanales": 121.0,
+          "horas_semanales": 122.0,
           "secciones": 51,
-          "horas_semestre": 1936.0
+          "horas_semestre": 1952.0
+        },
+        "Laboratorio de Biología": {
+          "horas_semanales": 7.0,
+          "secciones": 2,
+          "horas_semestre": 112.0
         },
         "Laboratorio de Computadoras": {
           "horas_semanales": 3.0,
@@ -1959,9 +2273,9 @@
           "horas_semestre": 80.0
         },
         "Laboratorio de Química": {
-          "horas_semanales": 10.0,
-          "secciones": 4,
-          "horas_semestre": 160.0
+          "horas_semanales": 4.0,
+          "secciones": 2,
+          "horas_semestre": 64.0
         },
         "Taller": {
           "horas_semanales": 4.0,
@@ -1979,9 +2293,14 @@
       "periodo": "2030-01",
       "ambientes": {
         "Aula": {
-          "horas_semanales": 147.0,
+          "horas_semanales": 148.0,
           "secciones": 62,
-          "horas_semestre": 2352.0
+          "horas_semestre": 2368.0
+        },
+        "Laboratorio de Biología": {
+          "horas_semanales": 7.0,
+          "secciones": 2,
+          "horas_semestre": 112.0
         },
         "Laboratorio de Computadoras": {
           "horas_semanales": 3.0,
@@ -1994,9 +2313,9 @@
           "horas_semestre": 128.0
         },
         "Laboratorio de Química": {
-          "horas_semanales": 10.0,
-          "secciones": 4,
-          "horas_semestre": 160.0
+          "horas_semanales": 4.0,
+          "secciones": 2,
+          "horas_semestre": 64.0
         },
         "Taller": {
           "horas_semanales": 4.0,
@@ -2014,9 +2333,14 @@
       "periodo": "2030-02",
       "ambientes": {
         "Aula": {
-          "horas_semanales": 159.0,
+          "horas_semanales": 165.0,
           "secciones": 69,
-          "horas_semestre": 2544.0
+          "horas_semestre": 2640.0
+        },
+        "Laboratorio de Biología": {
+          "horas_semanales": 10.0,
+          "secciones": 3,
+          "horas_semestre": 160.0
         },
         "Laboratorio de Computadoras": {
           "horas_semanales": 3.0,
@@ -2029,9 +2353,9 @@
           "horas_semestre": 128.0
         },
         "Laboratorio de Química": {
-          "horas_semanales": 13.0,
-          "secciones": 5,
-          "horas_semestre": 208.0
+          "horas_semanales": 4.0,
+          "secciones": 2,
+          "horas_semestre": 64.0
         },
         "Taller": {
           "horas_semanales": 8.0,
@@ -2049,6 +2373,7 @@
       "periodo": "2031-01",
       "ambientes": {
         "Aula": {
+<<<<<<< HEAD
           "horas_semanales": 175.0,
           "secciones": 75,
           "horas_semestre": 2800.0
@@ -2087,6 +2412,16 @@
           "horas_semanales": 183.0,
           "secciones": 77,
           "horas_semestre": 2928.0
+=======
+          "horas_semanales": 177.0,
+          "secciones": 73,
+          "horas_semestre": 2832.0
+        },
+        "Laboratorio de Biología": {
+          "horas_semanales": 10.0,
+          "secciones": 3,
+          "horas_semestre": 160.0
+>>>>>>> e8c6a12184dbc7be0759e794450f0a93a3d98caa
         },
         "Laboratorio de Computadoras": {
           "horas_semanales": 3.0,
@@ -2099,9 +2434,9 @@
           "horas_semestre": 128.0
         },
         "Laboratorio de Química": {
-          "horas_semanales": 13.0,
-          "secciones": 5,
-          "horas_semestre": 208.0
+          "horas_semanales": 4.0,
+          "secciones": 2,
+          "horas_semestre": 64.0
         },
         "Taller": {
           "horas_semanales": 8.0,
@@ -2116,12 +2451,25 @@
       }
     },
     {
+<<<<<<< HEAD
       "periodo": "2032-01",
       "ambientes": {
         "Aula": {
           "horas_semanales": 183.0,
           "secciones": 77,
           "horas_semestre": 2928.0
+=======
+      "periodo": "2031-02",
+      "ambientes": {
+        "Aula": {
+          "horas_semanales": 185.0,
+          "secciones": 75,
+          "horas_semestre": 2960.0
+        },
+        "Laboratorio de Biología": {
+          "horas_semanales": 10.0,
+          "secciones": 3,
+          "horas_semestre": 160.0
         },
         "Laboratorio de Computadoras": {
           "horas_semanales": 3.0,
@@ -2134,9 +2482,50 @@
           "horas_semestre": 128.0
         },
         "Laboratorio de Química": {
-          "horas_semanales": 13.0,
-          "secciones": 5,
-          "horas_semestre": 208.0
+          "horas_semanales": 4.0,
+          "secciones": 2,
+          "horas_semestre": 64.0
+        },
+        "Taller": {
+          "horas_semanales": 8.0,
+          "secciones": 2,
+          "horas_semestre": 128.0
+        },
+        "Virtual": {
+          "horas_semanales": 24.0,
+          "secciones": 11,
+          "horas_semestre": 384.0
+        }
+      }
+    },
+    {
+      "periodo": "2032-01",
+      "ambientes": {
+        "Aula": {
+          "horas_semanales": 185.0,
+          "secciones": 75,
+          "horas_semestre": 2960.0
+        },
+        "Laboratorio de Biología": {
+          "horas_semanales": 10.0,
+          "secciones": 3,
+          "horas_semestre": 160.0
+>>>>>>> e8c6a12184dbc7be0759e794450f0a93a3d98caa
+        },
+        "Laboratorio de Computadoras": {
+          "horas_semanales": 3.0,
+          "secciones": 1,
+          "horas_semestre": 48.0
+        },
+        "Laboratorio de Física": {
+          "horas_semanales": 8.0,
+          "secciones": 3,
+          "horas_semestre": 128.0
+        },
+        "Laboratorio de Química": {
+          "horas_semanales": 4.0,
+          "secciones": 2,
+          "horas_semestre": 64.0
         },
         "Taller": {
           "horas_semanales": 8.0,
@@ -2154,9 +2543,20 @@
       "periodo": "2032-02",
       "ambientes": {
         "Aula": {
+<<<<<<< HEAD
           "horas_semanales": 183.0,
           "secciones": 77,
           "horas_semestre": 2928.0
+=======
+          "horas_semanales": 185.0,
+          "secciones": 75,
+          "horas_semestre": 2960.0
+        },
+        "Laboratorio de Biología": {
+          "horas_semanales": 10.0,
+          "secciones": 3,
+          "horas_semestre": 160.0
+>>>>>>> e8c6a12184dbc7be0759e794450f0a93a3d98caa
         },
         "Laboratorio de Computadoras": {
           "horas_semanales": 3.0,
@@ -2169,9 +2569,9 @@
           "horas_semestre": 128.0
         },
         "Laboratorio de Química": {
-          "horas_semanales": 13.0,
-          "secciones": 5,
-          "horas_semestre": 208.0
+          "horas_semanales": 4.0,
+          "secciones": 2,
+          "horas_semestre": 64.0
         },
         "Taller": {
           "horas_semanales": 8.0,
@@ -2189,9 +2589,20 @@
       "periodo": "2033-01",
       "ambientes": {
         "Aula": {
+<<<<<<< HEAD
           "horas_semanales": 183.0,
           "secciones": 77,
           "horas_semestre": 2928.0
+=======
+          "horas_semanales": 185.0,
+          "secciones": 75,
+          "horas_semestre": 2960.0
+        },
+        "Laboratorio de Biología": {
+          "horas_semanales": 10.0,
+          "secciones": 3,
+          "horas_semestre": 160.0
+>>>>>>> e8c6a12184dbc7be0759e794450f0a93a3d98caa
         },
         "Laboratorio de Computadoras": {
           "horas_semanales": 3.0,
@@ -2204,9 +2615,9 @@
           "horas_semestre": 128.0
         },
         "Laboratorio de Química": {
-          "horas_semanales": 13.0,
-          "secciones": 5,
-          "horas_semestre": 208.0
+          "horas_semanales": 4.0,
+          "secciones": 2,
+          "horas_semestre": 64.0
         },
         "Taller": {
           "horas_semanales": 8.0,
@@ -2224,9 +2635,20 @@
       "periodo": "2033-02",
       "ambientes": {
         "Aula": {
+<<<<<<< HEAD
           "horas_semanales": 183.0,
           "secciones": 77,
           "horas_semestre": 2928.0
+=======
+          "horas_semanales": 185.0,
+          "secciones": 75,
+          "horas_semestre": 2960.0
+        },
+        "Laboratorio de Biología": {
+          "horas_semanales": 10.0,
+          "secciones": 3,
+          "horas_semestre": 160.0
+>>>>>>> e8c6a12184dbc7be0759e794450f0a93a3d98caa
         },
         "Laboratorio de Computadoras": {
           "horas_semanales": 3.0,
@@ -2239,9 +2661,9 @@
           "horas_semestre": 128.0
         },
         "Laboratorio de Química": {
-          "horas_semanales": 13.0,
-          "secciones": 5,
-          "horas_semestre": 208.0
+          "horas_semanales": 4.0,
+          "secciones": 2,
+          "horas_semestre": 64.0
         },
         "Taller": {
           "horas_semanales": 8.0,
@@ -2259,9 +2681,20 @@
       "periodo": "2034-01",
       "ambientes": {
         "Aula": {
+<<<<<<< HEAD
           "horas_semanales": 183.0,
           "secciones": 77,
           "horas_semestre": 2928.0
+=======
+          "horas_semanales": 185.0,
+          "secciones": 75,
+          "horas_semestre": 2960.0
+        },
+        "Laboratorio de Biología": {
+          "horas_semanales": 10.0,
+          "secciones": 3,
+          "horas_semestre": 160.0
+>>>>>>> e8c6a12184dbc7be0759e794450f0a93a3d98caa
         },
         "Laboratorio de Computadoras": {
           "horas_semanales": 3.0,
@@ -2274,9 +2707,9 @@
           "horas_semestre": 128.0
         },
         "Laboratorio de Química": {
-          "horas_semanales": 13.0,
-          "secciones": 5,
-          "horas_semestre": 208.0
+          "horas_semanales": 4.0,
+          "secciones": 2,
+          "horas_semestre": 64.0
         },
         "Taller": {
           "horas_semanales": 8.0,
@@ -2294,9 +2727,20 @@
       "periodo": "2034-02",
       "ambientes": {
         "Aula": {
+<<<<<<< HEAD
           "horas_semanales": 183.0,
           "secciones": 77,
           "horas_semestre": 2928.0
+=======
+          "horas_semanales": 185.0,
+          "secciones": 75,
+          "horas_semestre": 2960.0
+        },
+        "Laboratorio de Biología": {
+          "horas_semanales": 10.0,
+          "secciones": 3,
+          "horas_semestre": 160.0
+>>>>>>> e8c6a12184dbc7be0759e794450f0a93a3d98caa
         },
         "Laboratorio de Computadoras": {
           "horas_semanales": 3.0,
@@ -2309,9 +2753,9 @@
           "horas_semestre": 128.0
         },
         "Laboratorio de Química": {
-          "horas_semanales": 13.0,
-          "secciones": 5,
-          "horas_semestre": 208.0
+          "horas_semanales": 4.0,
+          "secciones": 2,
+          "horas_semestre": 64.0
         },
         "Taller": {
           "horas_semanales": 8.0,
@@ -2329,9 +2773,20 @@
       "periodo": "2035-01",
       "ambientes": {
         "Aula": {
+<<<<<<< HEAD
           "horas_semanales": 183.0,
           "secciones": 77,
           "horas_semestre": 2928.0
+=======
+          "horas_semanales": 185.0,
+          "secciones": 75,
+          "horas_semestre": 2960.0
+        },
+        "Laboratorio de Biología": {
+          "horas_semanales": 10.0,
+          "secciones": 3,
+          "horas_semestre": 160.0
+>>>>>>> e8c6a12184dbc7be0759e794450f0a93a3d98caa
         },
         "Laboratorio de Computadoras": {
           "horas_semanales": 3.0,
@@ -2344,9 +2799,9 @@
           "horas_semestre": 128.0
         },
         "Laboratorio de Química": {
-          "horas_semanales": 13.0,
-          "secciones": 5,
-          "horas_semestre": 208.0
+          "horas_semanales": 4.0,
+          "secciones": 2,
+          "horas_semestre": 64.0
         },
         "Taller": {
           "horas_semanales": 8.0,
@@ -2364,9 +2819,20 @@
       "periodo": "2035-02",
       "ambientes": {
         "Aula": {
+<<<<<<< HEAD
           "horas_semanales": 183.0,
           "secciones": 77,
           "horas_semestre": 2928.0
+=======
+          "horas_semanales": 185.0,
+          "secciones": 75,
+          "horas_semestre": 2960.0
+        },
+        "Laboratorio de Biología": {
+          "horas_semanales": 10.0,
+          "secciones": 3,
+          "horas_semestre": 160.0
+>>>>>>> e8c6a12184dbc7be0759e794450f0a93a3d98caa
         },
         "Laboratorio de Computadoras": {
           "horas_semanales": 3.0,
@@ -2379,9 +2845,9 @@
           "horas_semestre": 128.0
         },
         "Laboratorio de Química": {
-          "horas_semanales": 13.0,
-          "secciones": 5,
-          "horas_semestre": 208.0
+          "horas_semanales": 4.0,
+          "secciones": 2,
+          "horas_semestre": 64.0
         },
         "Taller": {
           "horas_semanales": 8.0,
@@ -2399,9 +2865,20 @@
       "periodo": "2036-01",
       "ambientes": {
         "Aula": {
+<<<<<<< HEAD
           "horas_semanales": 183.0,
           "secciones": 77,
           "horas_semestre": 2928.0
+=======
+          "horas_semanales": 185.0,
+          "secciones": 75,
+          "horas_semestre": 2960.0
+        },
+        "Laboratorio de Biología": {
+          "horas_semanales": 10.0,
+          "secciones": 3,
+          "horas_semestre": 160.0
+>>>>>>> e8c6a12184dbc7be0759e794450f0a93a3d98caa
         },
         "Laboratorio de Computadoras": {
           "horas_semanales": 3.0,
@@ -2414,9 +2891,9 @@
           "horas_semestre": 128.0
         },
         "Laboratorio de Química": {
-          "horas_semanales": 13.0,
-          "secciones": 5,
-          "horas_semestre": 208.0
+          "horas_semanales": 4.0,
+          "secciones": 2,
+          "horas_semestre": 64.0
         },
         "Taller": {
           "horas_semanales": 8.0,
@@ -2434,9 +2911,20 @@
       "periodo": "2036-02",
       "ambientes": {
         "Aula": {
+<<<<<<< HEAD
           "horas_semanales": 183.0,
           "secciones": 77,
           "horas_semestre": 2928.0
+=======
+          "horas_semanales": 185.0,
+          "secciones": 75,
+          "horas_semestre": 2960.0
+        },
+        "Laboratorio de Biología": {
+          "horas_semanales": 10.0,
+          "secciones": 3,
+          "horas_semestre": 160.0
+>>>>>>> e8c6a12184dbc7be0759e794450f0a93a3d98caa
         },
         "Laboratorio de Computadoras": {
           "horas_semanales": 3.0,
@@ -2449,9 +2937,9 @@
           "horas_semestre": 128.0
         },
         "Laboratorio de Química": {
-          "horas_semanales": 13.0,
-          "secciones": 5,
-          "horas_semestre": 208.0
+          "horas_semanales": 4.0,
+          "secciones": 2,
+          "horas_semestre": 64.0
         },
         "Taller": {
           "horas_semanales": 8.0,
@@ -2742,7 +3230,7 @@
           "estudiantes": 4,
           "horas_semanales": 4.0,
           "secciones": 1,
-          "horas_totales": 2.0
+          "horas_totales": 4.0
         },
         {
           "programa": "LLYA",
@@ -2960,20 +3448,20 @@
           "curso": "Biología",
           "tipo_ambiente": "Aula",
           "estudiantes": 3,
-          "horas_semanales": 2.0,
+          "horas_semanales": 1.0,
           "secciones": 1,
-          "horas_totales": 2.0
+          "horas_totales": 1.0
         },
         {
           "programa": "MYC",
           "semestre": 3,
           "codigo_curso": "1200",
           "curso": "Biología",
-          "tipo_ambiente": "Laboratorio de Química",
+          "tipo_ambiente": "Laboratorio de Biología",
           "estudiantes": 3,
-          "horas_semanales": 3.0,
+          "horas_semanales": 4.0,
           "secciones": 1,
-          "horas_totales": 3.0
+          "horas_totales": 4.0
         },
         {
           "programa": "MYC",
@@ -3044,7 +3532,7 @@
           "estudiantes": 4,
           "horas_semanales": 4.0,
           "secciones": 1,
-          "horas_totales": 2.0
+          "horas_totales": 4.0
         },
         {
           "programa": "LLYA",
@@ -3339,20 +3827,20 @@
           "curso": "Biología",
           "tipo_ambiente": "Aula",
           "estudiantes": 1,
-          "horas_semanales": 2.0,
+          "horas_semanales": 1.0,
           "secciones": 1,
-          "horas_totales": 2.0
+          "horas_totales": 1.0
         },
         {
           "programa": "MYC",
           "semestre": 3,
           "codigo_curso": "1200",
           "curso": "Biología",
-          "tipo_ambiente": "Laboratorio de Química",
+          "tipo_ambiente": "Laboratorio de Biología",
           "estudiantes": 1,
-          "horas_semanales": 3.0,
+          "horas_semanales": 4.0,
           "secciones": 1,
-          "horas_totales": 3.0
+          "horas_totales": 4.0
         },
         {
           "programa": "MYC",
@@ -3489,7 +3977,7 @@
           "estudiantes": 4,
           "horas_semanales": 4.0,
           "secciones": 1,
-          "horas_totales": 2.0
+          "horas_totales": 4.0
         },
         {
           "programa": "LLYA",
@@ -3806,20 +4294,20 @@
           "curso": "Biología",
           "tipo_ambiente": "Aula",
           "estudiantes": 3,
-          "horas_semanales": 2.0,
+          "horas_semanales": 1.0,
           "secciones": 1,
-          "horas_totales": 2.0
+          "horas_totales": 1.0
         },
         {
           "programa": "MYC",
           "semestre": 3,
           "codigo_curso": "1200",
           "curso": "Biología",
-          "tipo_ambiente": "Laboratorio de Química",
+          "tipo_ambiente": "Laboratorio de Biología",
           "estudiantes": 3,
-          "horas_semanales": 3.0,
+          "horas_semanales": 4.0,
           "secciones": 1,
-          "horas_totales": 3.0
+          "horas_totales": 4.0
         },
         {
           "programa": "MYC",
@@ -4011,7 +4499,7 @@
           "estudiantes": 5,
           "horas_semanales": 4.0,
           "secciones": 1,
-          "horas_totales": 2.0
+          "horas_totales": 4.0
         },
         {
           "programa": "LLYA",
@@ -4427,20 +4915,20 @@
           "curso": "Biología",
           "tipo_ambiente": "Aula",
           "estudiantes": 2,
-          "horas_semanales": 2.0,
+          "horas_semanales": 1.0,
           "secciones": 1,
-          "horas_totales": 2.0
+          "horas_totales": 1.0
         },
         {
           "programa": "MYC",
           "semestre": 3,
           "codigo_curso": "1200",
           "curso": "Biología",
-          "tipo_ambiente": "Laboratorio de Química",
+          "tipo_ambiente": "Laboratorio de Biología",
           "estudiantes": 2,
-          "horas_semanales": 3.0,
+          "horas_semanales": 4.0,
           "secciones": 1,
-          "horas_totales": 3.0
+          "horas_totales": 4.0
         },
         {
           "programa": "MYC",
@@ -4601,7 +5089,7 @@
           "semestre": 6,
           "codigo_curso": "5733",
           "curso": "Didáctica de las Ciencias Naturales I",
-          "tipo_ambiente": "Laboratorio de Química",
+          "tipo_ambiente": "Laboratorio de Biología",
           "estudiantes": 3,
           "horas_semanales": 3.0,
           "secciones": 1,
@@ -4742,7 +5230,7 @@
           "estudiantes": 4,
           "horas_semanales": 4.0,
           "secciones": 1,
-          "horas_totales": 2.0
+          "horas_totales": 4.0
         },
         {
           "programa": "LLYA",
@@ -5235,20 +5723,20 @@
           "curso": "Biología",
           "tipo_ambiente": "Aula",
           "estudiantes": 3,
-          "horas_semanales": 2.0,
+          "horas_semanales": 1.0,
           "secciones": 1,
-          "horas_totales": 2.0
+          "horas_totales": 1.0
         },
         {
           "programa": "MYC",
           "semestre": 3,
           "codigo_curso": "1200",
           "curso": "Biología",
-          "tipo_ambiente": "Laboratorio de Química",
+          "tipo_ambiente": "Laboratorio de Biología",
           "estudiantes": 3,
-          "horas_semanales": 3.0,
+          "horas_semanales": 4.0,
           "secciones": 1,
-          "horas_totales": 3.0
+          "horas_totales": 4.0
         },
         {
           "programa": "MYC",
@@ -5409,7 +5897,7 @@
           "semestre": 6,
           "codigo_curso": "5733",
           "curso": "Didáctica de las Ciencias Naturales I",
-          "tipo_ambiente": "Laboratorio de Química",
+          "tipo_ambiente": "Laboratorio de Biología",
           "estudiantes": 1,
           "horas_semanales": 3.0,
           "secciones": 1,
@@ -5605,7 +6093,7 @@
           "estudiantes": 5,
           "horas_semanales": 4.0,
           "secciones": 1,
-          "horas_totales": 2.0
+          "horas_totales": 4.0
         },
         {
           "programa": "LLYA",
@@ -6089,7 +6577,7 @@
           "estudiantes": 4,
           "horas_semanales": 6.0,
           "secciones": 1,
-          "horas_totales": 1.0
+          "horas_totales": 6.0
         },
         {
           "programa": "MYC",
@@ -6175,20 +6663,20 @@
           "curso": "Biología",
           "tipo_ambiente": "Aula",
           "estudiantes": 2,
-          "horas_semanales": 2.0,
+          "horas_semanales": 1.0,
           "secciones": 1,
-          "horas_totales": 2.0
+          "horas_totales": 1.0
         },
         {
           "programa": "MYC",
           "semestre": 3,
           "codigo_curso": "1200",
           "curso": "Biología",
-          "tipo_ambiente": "Laboratorio de Química",
+          "tipo_ambiente": "Laboratorio de Biología",
           "estudiantes": 2,
-          "horas_semanales": 3.0,
+          "horas_semanales": 4.0,
           "secciones": 1,
-          "horas_totales": 3.0
+          "horas_totales": 4.0
         },
         {
           "programa": "MYC",
@@ -6349,7 +6837,7 @@
           "semestre": 6,
           "codigo_curso": "5733",
           "curso": "Didáctica de las Ciencias Naturales I",
-          "tipo_ambiente": "Laboratorio de Química",
+          "tipo_ambiente": "Laboratorio de Biología",
           "estudiantes": 3,
           "horas_semanales": 3.0,
           "secciones": 1,
@@ -6514,7 +7002,7 @@
           "semestre": 8,
           "codigo_curso": "6228",
           "curso": "Didáctica de las Ciencias Naturales II",
-          "tipo_ambiente": "Laboratorio de Química",
+          "tipo_ambiente": "Laboratorio de Biología",
           "estudiantes": 2,
           "horas_semanales": 3.0,
           "secciones": 1,
@@ -6567,7 +7055,7 @@
           "estudiantes": 4,
           "horas_semanales": 4.0,
           "secciones": 1,
-          "horas_totales": 2.0
+          "horas_totales": 4.0
         },
         {
           "programa": "LLYA",
@@ -7051,7 +7539,7 @@
           "estudiantes": 2,
           "horas_semanales": 6.0,
           "secciones": 1,
-          "horas_totales": 1.0
+          "horas_totales": 6.0
         },
         {
           "programa": "LLYA",
@@ -7170,20 +7658,20 @@
           "curso": "Biología",
           "tipo_ambiente": "Aula",
           "estudiantes": 3,
-          "horas_semanales": 2.0,
+          "horas_semanales": 1.0,
           "secciones": 1,
-          "horas_totales": 2.0
+          "horas_totales": 1.0
         },
         {
           "programa": "MYC",
           "semestre": 3,
           "codigo_curso": "1200",
           "curso": "Biología",
-          "tipo_ambiente": "Laboratorio de Química",
+          "tipo_ambiente": "Laboratorio de Biología",
           "estudiantes": 3,
-          "horas_semanales": 3.0,
+          "horas_semanales": 4.0,
           "secciones": 1,
-          "horas_totales": 3.0
+          "horas_totales": 4.0
         },
         {
           "programa": "MYC",
@@ -7344,7 +7832,7 @@
           "semestre": 6,
           "codigo_curso": "5733",
           "curso": "Didáctica de las Ciencias Naturales I",
-          "tipo_ambiente": "Laboratorio de Química",
+          "tipo_ambiente": "Laboratorio de Biología",
           "estudiantes": 2,
           "horas_semanales": 3.0,
           "secciones": 1,
@@ -7509,7 +7997,7 @@
           "semestre": 8,
           "codigo_curso": "6228",
           "curso": "Didáctica de las Ciencias Naturales II",
-          "tipo_ambiente": "Laboratorio de Química",
+          "tipo_ambiente": "Laboratorio de Biología",
           "estudiantes": 1,
           "horas_semanales": 3.0,
           "secciones": 1,
@@ -7595,7 +8083,7 @@
           "estudiantes": 5,
           "horas_semanales": 4.0,
           "secciones": 1,
-          "horas_totales": 2.0
+          "horas_totales": 4.0
         },
         {
           "programa": "LLYA",
@@ -8079,7 +8567,7 @@
           "estudiantes": 6,
           "horas_semanales": 6.0,
           "secciones": 1,
-          "horas_totales": 1.0
+          "horas_totales": 6.0
         },
         {
           "programa": "LLYA",
@@ -8231,20 +8719,20 @@
           "curso": "Biología",
           "tipo_ambiente": "Aula",
           "estudiantes": 2,
-          "horas_semanales": 2.0,
+          "horas_semanales": 1.0,
           "secciones": 1,
-          "horas_totales": 2.0
+          "horas_totales": 1.0
         },
         {
           "programa": "MYC",
           "semestre": 3,
           "codigo_curso": "1200",
           "curso": "Biología",
-          "tipo_ambiente": "Laboratorio de Química",
+          "tipo_ambiente": "Laboratorio de Biología",
           "estudiantes": 2,
-          "horas_semanales": 3.0,
+          "horas_semanales": 4.0,
           "secciones": 1,
-          "horas_totales": 3.0
+          "horas_totales": 4.0
         },
         {
           "programa": "MYC",
@@ -8405,7 +8893,7 @@
           "semestre": 6,
           "codigo_curso": "5733",
           "curso": "Didáctica de las Ciencias Naturales I",
-          "tipo_ambiente": "Laboratorio de Química",
+          "tipo_ambiente": "Laboratorio de Biología",
           "estudiantes": 3,
           "horas_semanales": 3.0,
           "secciones": 1,
@@ -8570,7 +9058,7 @@
           "semestre": 8,
           "codigo_curso": "6228",
           "curso": "Didáctica de las Ciencias Naturales II",
-          "tipo_ambiente": "Laboratorio de Química",
+          "tipo_ambiente": "Laboratorio de Biología",
           "estudiantes": 3,
           "horas_semanales": 3.0,
           "secciones": 1,
@@ -8667,7 +9155,7 @@
           "estudiantes": 7,
           "horas_semanales": 4.0,
           "secciones": 1,
-          "horas_totales": 2.0
+          "horas_totales": 4.0
         },
         {
           "programa": "LLYA",
@@ -9151,7 +9639,7 @@
           "estudiantes": 3,
           "horas_semanales": 6.0,
           "secciones": 1,
-          "horas_totales": 1.0
+          "horas_totales": 6.0
         },
         {
           "programa": "LLYA",
@@ -9303,20 +9791,20 @@
           "curso": "Biología",
           "tipo_ambiente": "Aula",
           "estudiantes": 5,
-          "horas_semanales": 2.0,
+          "horas_semanales": 1.0,
           "secciones": 1,
-          "horas_totales": 2.0
+          "horas_totales": 1.0
         },
         {
           "programa": "MYC",
           "semestre": 3,
           "codigo_curso": "1200",
           "curso": "Biología",
-          "tipo_ambiente": "Laboratorio de Química",
+          "tipo_ambiente": "Laboratorio de Biología",
           "estudiantes": 5,
-          "horas_semanales": 3.0,
+          "horas_semanales": 4.0,
           "secciones": 1,
-          "horas_totales": 3.0
+          "horas_totales": 4.0
         },
         {
           "programa": "MYC",
@@ -9477,7 +9965,7 @@
           "semestre": 6,
           "codigo_curso": "5733",
           "curso": "Didáctica de las Ciencias Naturales I",
-          "tipo_ambiente": "Laboratorio de Química",
+          "tipo_ambiente": "Laboratorio de Biología",
           "estudiantes": 2,
           "horas_semanales": 3.0,
           "secciones": 1,
@@ -9642,7 +10130,7 @@
           "semestre": 8,
           "codigo_curso": "6228",
           "curso": "Didáctica de las Ciencias Naturales II",
-          "tipo_ambiente": "Laboratorio de Química",
+          "tipo_ambiente": "Laboratorio de Biología",
           "estudiantes": 2,
           "horas_semanales": 3.0,
           "secciones": 1,
@@ -9739,7 +10227,7 @@
           "estudiantes": 7,
           "horas_semanales": 4.0,
           "secciones": 1,
-          "horas_totales": 2.0
+          "horas_totales": 4.0
         },
         {
           "programa": "LLYA",
@@ -10223,7 +10711,7 @@
           "estudiantes": 7,
           "horas_semanales": 6.0,
           "secciones": 1,
-          "horas_totales": 1.0
+          "horas_totales": 6.0
         },
         {
           "programa": "LLYA",
@@ -10375,20 +10863,20 @@
           "curso": "Biología",
           "tipo_ambiente": "Aula",
           "estudiantes": 3,
-          "horas_semanales": 2.0,
+          "horas_semanales": 1.0,
           "secciones": 1,
-          "horas_totales": 2.0
+          "horas_totales": 1.0
         },
         {
           "programa": "MYC",
           "semestre": 3,
           "codigo_curso": "1200",
           "curso": "Biología",
-          "tipo_ambiente": "Laboratorio de Química",
+          "tipo_ambiente": "Laboratorio de Biología",
           "estudiantes": 3,
-          "horas_semanales": 3.0,
+          "horas_semanales": 4.0,
           "secciones": 1,
-          "horas_totales": 3.0
+          "horas_totales": 4.0
         },
         {
           "programa": "MYC",
@@ -10549,7 +11037,7 @@
           "semestre": 6,
           "codigo_curso": "5733",
           "curso": "Didáctica de las Ciencias Naturales I",
-          "tipo_ambiente": "Laboratorio de Química",
+          "tipo_ambiente": "Laboratorio de Biología",
           "estudiantes": 3,
           "horas_semanales": 3.0,
           "secciones": 1,
@@ -10714,7 +11202,7 @@
           "semestre": 8,
           "codigo_curso": "6228",
           "curso": "Didáctica de las Ciencias Naturales II",
-          "tipo_ambiente": "Laboratorio de Química",
+          "tipo_ambiente": "Laboratorio de Biología",
           "estudiantes": 3,
           "horas_semanales": 3.0,
           "secciones": 1,
@@ -10811,7 +11299,7 @@
           "estudiantes": 6,
           "horas_semanales": 4.0,
           "secciones": 1,
-          "horas_totales": 2.0
+          "horas_totales": 4.0
         },
         {
           "programa": "LLYA",
@@ -11295,7 +11783,7 @@
           "estudiantes": 3,
           "horas_semanales": 6.0,
           "secciones": 1,
-          "horas_totales": 1.0
+          "horas_totales": 6.0
         },
         {
           "programa": "LLYA",
@@ -11447,20 +11935,20 @@
           "curso": "Biología",
           "tipo_ambiente": "Aula",
           "estudiantes": 4,
-          "horas_semanales": 2.0,
+          "horas_semanales": 1.0,
           "secciones": 1,
-          "horas_totales": 2.0
+          "horas_totales": 1.0
         },
         {
           "programa": "MYC",
           "semestre": 3,
           "codigo_curso": "1200",
           "curso": "Biología",
-          "tipo_ambiente": "Laboratorio de Química",
+          "tipo_ambiente": "Laboratorio de Biología",
           "estudiantes": 4,
-          "horas_semanales": 3.0,
+          "horas_semanales": 4.0,
           "secciones": 1,
-          "horas_totales": 3.0
+          "horas_totales": 4.0
         },
         {
           "programa": "MYC",
@@ -11621,7 +12109,7 @@
           "semestre": 6,
           "codigo_curso": "5733",
           "curso": "Didáctica de las Ciencias Naturales I",
-          "tipo_ambiente": "Laboratorio de Química",
+          "tipo_ambiente": "Laboratorio de Biología",
           "estudiantes": 2,
           "horas_semanales": 3.0,
           "secciones": 1,
@@ -11786,7 +12274,7 @@
           "semestre": 8,
           "codigo_curso": "6228",
           "curso": "Didáctica de las Ciencias Naturales II",
-          "tipo_ambiente": "Laboratorio de Química",
+          "tipo_ambiente": "Laboratorio de Biología",
           "estudiantes": 2,
           "horas_semanales": 3.0,
           "secciones": 1,
@@ -11883,7 +12371,7 @@
           "estudiantes": 8,
           "horas_semanales": 4.0,
           "secciones": 1,
-          "horas_totales": 2.0
+          "horas_totales": 4.0
         },
         {
           "programa": "LLYA",
@@ -12367,7 +12855,7 @@
           "estudiantes": 7,
           "horas_semanales": 6.0,
           "secciones": 1,
-          "horas_totales": 1.0
+          "horas_totales": 6.0
         },
         {
           "programa": "LLYA",
@@ -12519,20 +13007,20 @@
           "curso": "Biología",
           "tipo_ambiente": "Aula",
           "estudiantes": 3,
-          "horas_semanales": 2.0,
+          "horas_semanales": 1.0,
           "secciones": 1,
-          "horas_totales": 2.0
+          "horas_totales": 1.0
         },
         {
           "programa": "MYC",
           "semestre": 3,
           "codigo_curso": "1200",
           "curso": "Biología",
-          "tipo_ambiente": "Laboratorio de Química",
+          "tipo_ambiente": "Laboratorio de Biología",
           "estudiantes": 3,
-          "horas_semanales": 3.0,
+          "horas_semanales": 4.0,
           "secciones": 1,
-          "horas_totales": 3.0
+          "horas_totales": 4.0
         },
         {
           "programa": "MYC",
@@ -12693,7 +13181,7 @@
           "semestre": 6,
           "codigo_curso": "5733",
           "curso": "Didáctica de las Ciencias Naturales I",
-          "tipo_ambiente": "Laboratorio de Química",
+          "tipo_ambiente": "Laboratorio de Biología",
           "estudiantes": 5,
           "horas_semanales": 3.0,
           "secciones": 1,
@@ -12858,7 +13346,7 @@
           "semestre": 8,
           "codigo_curso": "6228",
           "curso": "Didáctica de las Ciencias Naturales II",
-          "tipo_ambiente": "Laboratorio de Química",
+          "tipo_ambiente": "Laboratorio de Biología",
           "estudiantes": 3,
           "horas_semanales": 3.0,
           "secciones": 1,
@@ -12955,7 +13443,7 @@
           "estudiantes": 9,
           "horas_semanales": 4.0,
           "secciones": 1,
-          "horas_totales": 2.0
+          "horas_totales": 4.0
         },
         {
           "programa": "LLYA",
@@ -13439,7 +13927,7 @@
           "estudiantes": 3,
           "horas_semanales": 6.0,
           "secciones": 1,
-          "horas_totales": 1.0
+          "horas_totales": 6.0
         },
         {
           "programa": "LLYA",
@@ -13591,20 +14079,20 @@
           "curso": "Biología",
           "tipo_ambiente": "Aula",
           "estudiantes": 7,
-          "horas_semanales": 2.0,
+          "horas_semanales": 1.0,
           "secciones": 1,
-          "horas_totales": 2.0
+          "horas_totales": 1.0
         },
         {
           "programa": "MYC",
           "semestre": 3,
           "codigo_curso": "1200",
           "curso": "Biología",
-          "tipo_ambiente": "Laboratorio de Química",
+          "tipo_ambiente": "Laboratorio de Biología",
           "estudiantes": 7,
-          "horas_semanales": 3.0,
+          "horas_semanales": 4.0,
           "secciones": 1,
-          "horas_totales": 3.0
+          "horas_totales": 4.0
         },
         {
           "programa": "MYC",
@@ -13765,7 +14253,7 @@
           "semestre": 6,
           "codigo_curso": "5733",
           "curso": "Didáctica de las Ciencias Naturales I",
-          "tipo_ambiente": "Laboratorio de Química",
+          "tipo_ambiente": "Laboratorio de Biología",
           "estudiantes": 3,
           "horas_semanales": 3.0,
           "secciones": 1,
@@ -13930,7 +14418,7 @@
           "semestre": 8,
           "codigo_curso": "6228",
           "curso": "Didáctica de las Ciencias Naturales II",
-          "tipo_ambiente": "Laboratorio de Química",
+          "tipo_ambiente": "Laboratorio de Biología",
           "estudiantes": 2,
           "horas_semanales": 3.0,
           "secciones": 1,
@@ -14027,7 +14515,7 @@
           "estudiantes": 9,
           "horas_semanales": 4.0,
           "secciones": 1,
-          "horas_totales": 2.0
+          "horas_totales": 4.0
         },
         {
           "programa": "LLYA",
@@ -14511,7 +14999,7 @@
           "estudiantes": 8,
           "horas_semanales": 6.0,
           "secciones": 1,
-          "horas_totales": 1.0
+          "horas_totales": 6.0
         },
         {
           "programa": "LLYA",
@@ -14663,20 +15151,20 @@
           "curso": "Biología",
           "tipo_ambiente": "Aula",
           "estudiantes": 3,
-          "horas_semanales": 2.0,
+          "horas_semanales": 1.0,
           "secciones": 1,
-          "horas_totales": 2.0
+          "horas_totales": 1.0
         },
         {
           "programa": "MYC",
           "semestre": 3,
           "codigo_curso": "1200",
           "curso": "Biología",
-          "tipo_ambiente": "Laboratorio de Química",
+          "tipo_ambiente": "Laboratorio de Biología",
           "estudiantes": 3,
-          "horas_semanales": 3.0,
+          "horas_semanales": 4.0,
           "secciones": 1,
-          "horas_totales": 3.0
+          "horas_totales": 4.0
         },
         {
           "programa": "MYC",
@@ -14837,7 +15325,7 @@
           "semestre": 6,
           "codigo_curso": "5733",
           "curso": "Didáctica de las Ciencias Naturales I",
-          "tipo_ambiente": "Laboratorio de Química",
+          "tipo_ambiente": "Laboratorio de Biología",
           "estudiantes": 5,
           "horas_semanales": 3.0,
           "secciones": 1,
@@ -15002,7 +15490,7 @@
           "semestre": 8,
           "codigo_curso": "6228",
           "curso": "Didáctica de las Ciencias Naturales II",
-          "tipo_ambiente": "Laboratorio de Química",
+          "tipo_ambiente": "Laboratorio de Biología",
           "estudiantes": 5,
           "horas_semanales": 3.0,
           "secciones": 1,
@@ -15099,7 +15587,7 @@
           "estudiantes": 9,
           "horas_semanales": 4.0,
           "secciones": 1,
-          "horas_totales": 2.0
+          "horas_totales": 4.0
         },
         {
           "programa": "LLYA",
@@ -15583,7 +16071,7 @@
           "estudiantes": 5,
           "horas_semanales": 6.0,
           "secciones": 1,
-          "horas_totales": 1.0
+          "horas_totales": 6.0
         },
         {
           "programa": "LLYA",
@@ -15735,20 +16223,20 @@
           "curso": "Biología",
           "tipo_ambiente": "Aula",
           "estudiantes": 7,
-          "horas_semanales": 2.0,
+          "horas_semanales": 1.0,
           "secciones": 1,
-          "horas_totales": 2.0
+          "horas_totales": 1.0
         },
         {
           "programa": "MYC",
           "semestre": 3,
           "codigo_curso": "1200",
           "curso": "Biología",
-          "tipo_ambiente": "Laboratorio de Química",
+          "tipo_ambiente": "Laboratorio de Biología",
           "estudiantes": 7,
-          "horas_semanales": 3.0,
+          "horas_semanales": 4.0,
           "secciones": 1,
-          "horas_totales": 3.0
+          "horas_totales": 4.0
         },
         {
           "programa": "MYC",
@@ -15909,7 +16397,7 @@
           "semestre": 6,
           "codigo_curso": "5733",
           "curso": "Didáctica de las Ciencias Naturales I",
-          "tipo_ambiente": "Laboratorio de Química",
+          "tipo_ambiente": "Laboratorio de Biología",
           "estudiantes": 3,
           "horas_semanales": 3.0,
           "secciones": 1,
@@ -16074,7 +16562,7 @@
           "semestre": 8,
           "codigo_curso": "6228",
           "curso": "Didáctica de las Ciencias Naturales II",
-          "tipo_ambiente": "Laboratorio de Química",
+          "tipo_ambiente": "Laboratorio de Biología",
           "estudiantes": 3,
           "horas_semanales": 3.0,
           "secciones": 1,
@@ -16171,7 +16659,7 @@
           "estudiantes": 9,
           "horas_semanales": 4.0,
           "secciones": 1,
-          "horas_totales": 2.0
+          "horas_totales": 4.0
         },
         {
           "programa": "LLYA",
@@ -16655,7 +17143,7 @@
           "estudiantes": 10,
           "horas_semanales": 6.0,
           "secciones": 1,
-          "horas_totales": 1.0
+          "horas_totales": 6.0
         },
         {
           "programa": "LLYA",
@@ -16807,20 +17295,20 @@
           "curso": "Biología",
           "tipo_ambiente": "Aula",
           "estudiantes": 3,
-          "horas_semanales": 2.0,
+          "horas_semanales": 1.0,
           "secciones": 1,
-          "horas_totales": 2.0
+          "horas_totales": 1.0
         },
         {
           "programa": "MYC",
           "semestre": 3,
           "codigo_curso": "1200",
           "curso": "Biología",
-          "tipo_ambiente": "Laboratorio de Química",
+          "tipo_ambiente": "Laboratorio de Biología",
           "estudiantes": 3,
-          "horas_semanales": 3.0,
+          "horas_semanales": 4.0,
           "secciones": 1,
-          "horas_totales": 3.0
+          "horas_totales": 4.0
         },
         {
           "programa": "MYC",
@@ -16981,7 +17469,7 @@
           "semestre": 6,
           "codigo_curso": "5733",
           "curso": "Didáctica de las Ciencias Naturales I",
-          "tipo_ambiente": "Laboratorio de Química",
+          "tipo_ambiente": "Laboratorio de Biología",
           "estudiantes": 7,
           "horas_semanales": 3.0,
           "secciones": 1,
@@ -17146,7 +17634,7 @@
           "semestre": 8,
           "codigo_curso": "6228",
           "curso": "Didáctica de las Ciencias Naturales II",
-          "tipo_ambiente": "Laboratorio de Química",
+          "tipo_ambiente": "Laboratorio de Biología",
           "estudiantes": 5,
           "horas_semanales": 3.0,
           "secciones": 1,
@@ -17243,7 +17731,7 @@
           "estudiantes": 11,
           "horas_semanales": 4.0,
           "secciones": 1,
-          "horas_totales": 2.0
+          "horas_totales": 4.0
         },
         {
           "programa": "LLYA",
@@ -17727,7 +18215,7 @@
           "estudiantes": 5,
           "horas_semanales": 6.0,
           "secciones": 1,
-          "horas_totales": 1.0
+          "horas_totales": 6.0
         },
         {
           "programa": "LLYA",
@@ -17879,20 +18367,20 @@
           "curso": "Biología",
           "tipo_ambiente": "Aula",
           "estudiantes": 8,
-          "horas_semanales": 2.0,
+          "horas_semanales": 1.0,
           "secciones": 1,
-          "horas_totales": 2.0
+          "horas_totales": 1.0
         },
         {
           "programa": "MYC",
           "semestre": 3,
           "codigo_curso": "1200",
           "curso": "Biología",
-          "tipo_ambiente": "Laboratorio de Química",
+          "tipo_ambiente": "Laboratorio de Biología",
           "estudiantes": 8,
-          "horas_semanales": 3.0,
+          "horas_semanales": 4.0,
           "secciones": 1,
-          "horas_totales": 3.0
+          "horas_totales": 4.0
         },
         {
           "programa": "MYC",
@@ -18053,7 +18541,7 @@
           "semestre": 6,
           "codigo_curso": "5733",
           "curso": "Didáctica de las Ciencias Naturales I",
-          "tipo_ambiente": "Laboratorio de Química",
+          "tipo_ambiente": "Laboratorio de Biología",
           "estudiantes": 4,
           "horas_semanales": 3.0,
           "secciones": 1,
@@ -18218,7 +18706,7 @@
           "semestre": 8,
           "codigo_curso": "6228",
           "curso": "Didáctica de las Ciencias Naturales II",
-          "tipo_ambiente": "Laboratorio de Química",
+          "tipo_ambiente": "Laboratorio de Biología",
           "estudiantes": 3,
           "horas_semanales": 3.0,
           "secciones": 1,
@@ -18315,7 +18803,7 @@
           "estudiantes": 11,
           "horas_semanales": 4.0,
           "secciones": 1,
-          "horas_totales": 2.0
+          "horas_totales": 4.0
         },
         {
           "programa": "LLYA",
@@ -18799,7 +19287,7 @@
           "estudiantes": 12,
           "horas_semanales": 6.0,
           "secciones": 1,
-          "horas_totales": 1.0
+          "horas_totales": 6.0
         },
         {
           "programa": "LLYA",
@@ -18951,20 +19439,20 @@
           "curso": "Biología",
           "tipo_ambiente": "Aula",
           "estudiantes": 5,
-          "horas_semanales": 2.0,
+          "horas_semanales": 1.0,
           "secciones": 1,
-          "horas_totales": 2.0
+          "horas_totales": 1.0
         },
         {
           "programa": "MYC",
           "semestre": 3,
           "codigo_curso": "1200",
           "curso": "Biología",
-          "tipo_ambiente": "Laboratorio de Química",
+          "tipo_ambiente": "Laboratorio de Biología",
           "estudiantes": 5,
-          "horas_semanales": 3.0,
+          "horas_semanales": 4.0,
           "secciones": 1,
-          "horas_totales": 3.0
+          "horas_totales": 4.0
         },
         {
           "programa": "MYC",
@@ -19125,7 +19613,7 @@
           "semestre": 6,
           "codigo_curso": "5733",
           "curso": "Didáctica de las Ciencias Naturales I",
-          "tipo_ambiente": "Laboratorio de Química",
+          "tipo_ambiente": "Laboratorio de Biología",
           "estudiantes": 7,
           "horas_semanales": 3.0,
           "secciones": 1,
@@ -19290,7 +19778,7 @@
           "semestre": 8,
           "codigo_curso": "6228",
           "curso": "Didáctica de las Ciencias Naturales II",
-          "tipo_ambiente": "Laboratorio de Química",
+          "tipo_ambiente": "Laboratorio de Biología",
           "estudiantes": 7,
           "horas_semanales": 3.0,
           "secciones": 1,
