@@ -21,10 +21,10 @@
       "estudiantes": 8
     },
     "distribucion_pico": {
-      "aula": 179.0,
+      "aula": 183.0,
       "laboratorio": 24.0,
       "taller": 8.0,
-      "virtual": 24.0,
+      "virtual": 20.0,
       "total": 235.0
     }
   },
@@ -543,40 +543,40 @@
         "myc": 8
       },
       "horas_semanales": {
-        "aula": 171.0,
+        "aula": 175.0,
         "laboratorio": 24.0,
         "taller": 8.0,
-        "virtual": 20.0,
+        "virtual": 16.0,
         "total": 223.0
       },
       "horas_semestre": {
-        "aula": 2736.0,
+        "aula": 2800.0,
         "laboratorio": 384.0,
         "taller": 128.0,
-        "virtual": 320.0,
+        "virtual": 256.0,
         "total": 3568.0
       },
       "secciones": {
-        "aula": 73,
+        "aula": 75,
         "laboratorio": 9,
         "taller": 2,
-        "virtual": 9,
+        "virtual": 7,
         "total": 93
       },
       "detalle_por_programa": {
         "LLYA": {
           "estudiantes": 13,
           "horas_semanales": {
-            "aula": 98.0,
+            "aula": 102.0,
             "laboratorio": 0.0,
             "taller": 8.0,
-            "virtual": 14.0
+            "virtual": 10.0
           },
           "secciones": {
-            "aula": 43,
+            "aula": 45,
             "laboratorio": 0,
             "taller": 2,
-            "virtual": 6
+            "virtual": 4
           }
         },
         "MYC": {
@@ -606,40 +606,40 @@
         "myc": 3
       },
       "horas_semanales": {
-        "aula": 179.0,
+        "aula": 183.0,
         "laboratorio": 24.0,
         "taller": 8.0,
-        "virtual": 24.0,
+        "virtual": 20.0,
         "total": 235.0
       },
       "horas_semestre": {
-        "aula": 2864.0,
+        "aula": 2928.0,
         "laboratorio": 384.0,
         "taller": 128.0,
-        "virtual": 384.0,
+        "virtual": 320.0,
         "total": 3760.0
       },
       "secciones": {
-        "aula": 75,
+        "aula": 77,
         "laboratorio": 9,
         "taller": 2,
-        "virtual": 11,
+        "virtual": 9,
         "total": 97
       },
       "detalle_por_programa": {
         "LLYA": {
           "estudiantes": 5,
           "horas_semanales": {
-            "aula": 102.0,
+            "aula": 106.0,
             "laboratorio": 0.0,
             "taller": 8.0,
-            "virtual": 18.0
+            "virtual": 14.0
           },
           "secciones": {
-            "aula": 44,
+            "aula": 46,
             "laboratorio": 0,
             "taller": 2,
-            "virtual": 8
+            "virtual": 6
           }
         },
         "MYC": {
@@ -669,40 +669,40 @@
         "myc": 9
       },
       "horas_semanales": {
-        "aula": 179.0,
+        "aula": 183.0,
         "laboratorio": 24.0,
         "taller": 8.0,
-        "virtual": 24.0,
+        "virtual": 20.0,
         "total": 235.0
       },
       "horas_semestre": {
-        "aula": 2864.0,
+        "aula": 2928.0,
         "laboratorio": 384.0,
         "taller": 128.0,
-        "virtual": 384.0,
+        "virtual": 320.0,
         "total": 3760.0
       },
       "secciones": {
-        "aula": 75,
+        "aula": 77,
         "laboratorio": 9,
         "taller": 2,
-        "virtual": 11,
+        "virtual": 9,
         "total": 97
       },
       "detalle_por_programa": {
         "LLYA": {
           "estudiantes": 15,
           "horas_semanales": {
-            "aula": 102.0,
+            "aula": 106.0,
             "laboratorio": 0.0,
             "taller": 8.0,
-            "virtual": 18.0
+            "virtual": 14.0
           },
           "secciones": {
-            "aula": 44,
+            "aula": 46,
             "laboratorio": 0,
             "taller": 2,
-            "virtual": 8
+            "virtual": 6
           }
         },
         "MYC": {
@@ -732,40 +732,40 @@
         "myc": 3
       },
       "horas_semanales": {
-        "aula": 179.0,
+        "aula": 183.0,
         "laboratorio": 24.0,
         "taller": 8.0,
-        "virtual": 24.0,
+        "virtual": 20.0,
         "total": 235.0
       },
       "horas_semestre": {
-        "aula": 2864.0,
+        "aula": 2928.0,
         "laboratorio": 384.0,
         "taller": 128.0,
-        "virtual": 384.0,
+        "virtual": 320.0,
         "total": 3760.0
       },
       "secciones": {
-        "aula": 75,
+        "aula": 77,
         "laboratorio": 9,
         "taller": 2,
-        "virtual": 11,
+        "virtual": 9,
         "total": 97
       },
       "detalle_por_programa": {
         "LLYA": {
           "estudiantes": 5,
           "horas_semanales": {
-            "aula": 102.0,
+            "aula": 106.0,
             "laboratorio": 0.0,
             "taller": 8.0,
-            "virtual": 18.0
+            "virtual": 14.0
           },
           "secciones": {
-            "aula": 44,
+            "aula": 46,
             "laboratorio": 0,
             "taller": 2,
-            "virtual": 8
+            "virtual": 6
           }
         },
         "MYC": {
@@ -795,40 +795,40 @@
         "myc": 9
       },
       "horas_semanales": {
-        "aula": 179.0,
+        "aula": 183.0,
         "laboratorio": 24.0,
         "taller": 8.0,
-        "virtual": 24.0,
+        "virtual": 20.0,
         "total": 235.0
       },
       "horas_semestre": {
-        "aula": 2864.0,
+        "aula": 2928.0,
         "laboratorio": 384.0,
         "taller": 128.0,
-        "virtual": 384.0,
+        "virtual": 320.0,
         "total": 3760.0
       },
       "secciones": {
-        "aula": 75,
+        "aula": 77,
         "laboratorio": 9,
         "taller": 2,
-        "virtual": 11,
+        "virtual": 9,
         "total": 97
       },
       "detalle_por_programa": {
         "LLYA": {
           "estudiantes": 16,
           "horas_semanales": {
-            "aula": 102.0,
+            "aula": 106.0,
             "laboratorio": 0.0,
             "taller": 8.0,
-            "virtual": 18.0
+            "virtual": 14.0
           },
           "secciones": {
-            "aula": 44,
+            "aula": 46,
             "laboratorio": 0,
             "taller": 2,
-            "virtual": 8
+            "virtual": 6
           }
         },
         "MYC": {
@@ -858,40 +858,40 @@
         "myc": 3
       },
       "horas_semanales": {
-        "aula": 179.0,
+        "aula": 183.0,
         "laboratorio": 24.0,
         "taller": 8.0,
-        "virtual": 24.0,
+        "virtual": 20.0,
         "total": 235.0
       },
       "horas_semestre": {
-        "aula": 2864.0,
+        "aula": 2928.0,
         "laboratorio": 384.0,
         "taller": 128.0,
-        "virtual": 384.0,
+        "virtual": 320.0,
         "total": 3760.0
       },
       "secciones": {
-        "aula": 75,
+        "aula": 77,
         "laboratorio": 9,
         "taller": 2,
-        "virtual": 11,
+        "virtual": 9,
         "total": 97
       },
       "detalle_por_programa": {
         "LLYA": {
           "estudiantes": 5,
           "horas_semanales": {
-            "aula": 102.0,
+            "aula": 106.0,
             "laboratorio": 0.0,
             "taller": 8.0,
-            "virtual": 18.0
+            "virtual": 14.0
           },
           "secciones": {
-            "aula": 44,
+            "aula": 46,
             "laboratorio": 0,
             "taller": 2,
-            "virtual": 8
+            "virtual": 6
           }
         },
         "MYC": {
@@ -921,40 +921,40 @@
         "myc": 10
       },
       "horas_semanales": {
-        "aula": 179.0,
+        "aula": 183.0,
         "laboratorio": 24.0,
         "taller": 8.0,
-        "virtual": 24.0,
+        "virtual": 20.0,
         "total": 235.0
       },
       "horas_semestre": {
-        "aula": 2864.0,
+        "aula": 2928.0,
         "laboratorio": 384.0,
         "taller": 128.0,
-        "virtual": 384.0,
+        "virtual": 320.0,
         "total": 3760.0
       },
       "secciones": {
-        "aula": 75,
+        "aula": 77,
         "laboratorio": 9,
         "taller": 2,
-        "virtual": 11,
+        "virtual": 9,
         "total": 97
       },
       "detalle_por_programa": {
         "LLYA": {
           "estudiantes": 17,
           "horas_semanales": {
-            "aula": 102.0,
+            "aula": 106.0,
             "laboratorio": 0.0,
             "taller": 8.0,
-            "virtual": 18.0
+            "virtual": 14.0
           },
           "secciones": {
-            "aula": 44,
+            "aula": 46,
             "laboratorio": 0,
             "taller": 2,
-            "virtual": 8
+            "virtual": 6
           }
         },
         "MYC": {
@@ -984,40 +984,40 @@
         "myc": 3
       },
       "horas_semanales": {
-        "aula": 179.0,
+        "aula": 183.0,
         "laboratorio": 24.0,
         "taller": 8.0,
-        "virtual": 24.0,
+        "virtual": 20.0,
         "total": 235.0
       },
       "horas_semestre": {
-        "aula": 2864.0,
+        "aula": 2928.0,
         "laboratorio": 384.0,
         "taller": 128.0,
-        "virtual": 384.0,
+        "virtual": 320.0,
         "total": 3760.0
       },
       "secciones": {
-        "aula": 75,
+        "aula": 77,
         "laboratorio": 9,
         "taller": 2,
-        "virtual": 11,
+        "virtual": 9,
         "total": 97
       },
       "detalle_por_programa": {
         "LLYA": {
           "estudiantes": 5,
           "horas_semanales": {
-            "aula": 102.0,
+            "aula": 106.0,
             "laboratorio": 0.0,
             "taller": 8.0,
-            "virtual": 18.0
+            "virtual": 14.0
           },
           "secciones": {
-            "aula": 44,
+            "aula": 46,
             "laboratorio": 0,
             "taller": 2,
-            "virtual": 8
+            "virtual": 6
           }
         },
         "MYC": {
@@ -1047,40 +1047,40 @@
         "myc": 10
       },
       "horas_semanales": {
-        "aula": 179.0,
+        "aula": 183.0,
         "laboratorio": 24.0,
         "taller": 8.0,
-        "virtual": 24.0,
+        "virtual": 20.0,
         "total": 235.0
       },
       "horas_semestre": {
-        "aula": 2864.0,
+        "aula": 2928.0,
         "laboratorio": 384.0,
         "taller": 128.0,
-        "virtual": 384.0,
+        "virtual": 320.0,
         "total": 3760.0
       },
       "secciones": {
-        "aula": 75,
+        "aula": 77,
         "laboratorio": 9,
         "taller": 2,
-        "virtual": 11,
+        "virtual": 9,
         "total": 97
       },
       "detalle_por_programa": {
         "LLYA": {
           "estudiantes": 17,
           "horas_semanales": {
-            "aula": 102.0,
+            "aula": 106.0,
             "laboratorio": 0.0,
             "taller": 8.0,
-            "virtual": 18.0
+            "virtual": 14.0
           },
           "secciones": {
-            "aula": 44,
+            "aula": 46,
             "laboratorio": 0,
             "taller": 2,
-            "virtual": 8
+            "virtual": 6
           }
         },
         "MYC": {
@@ -1110,40 +1110,40 @@
         "myc": 5
       },
       "horas_semanales": {
-        "aula": 179.0,
+        "aula": 183.0,
         "laboratorio": 24.0,
         "taller": 8.0,
-        "virtual": 24.0,
+        "virtual": 20.0,
         "total": 235.0
       },
       "horas_semestre": {
-        "aula": 2864.0,
+        "aula": 2928.0,
         "laboratorio": 384.0,
         "taller": 128.0,
-        "virtual": 384.0,
+        "virtual": 320.0,
         "total": 3760.0
       },
       "secciones": {
-        "aula": 75,
+        "aula": 77,
         "laboratorio": 9,
         "taller": 2,
-        "virtual": 11,
+        "virtual": 9,
         "total": 97
       },
       "detalle_por_programa": {
         "LLYA": {
           "estudiantes": 8,
           "horas_semanales": {
-            "aula": 102.0,
+            "aula": 106.0,
             "laboratorio": 0.0,
             "taller": 8.0,
-            "virtual": 18.0
+            "virtual": 14.0
           },
           "secciones": {
-            "aula": 44,
+            "aula": 46,
             "laboratorio": 0,
             "taller": 2,
-            "virtual": 8
+            "virtual": 6
           }
         },
         "MYC": {
@@ -1173,40 +1173,40 @@
         "myc": 13
       },
       "horas_semanales": {
-        "aula": 179.0,
+        "aula": 183.0,
         "laboratorio": 24.0,
         "taller": 8.0,
-        "virtual": 24.0,
+        "virtual": 20.0,
         "total": 235.0
       },
       "horas_semestre": {
-        "aula": 2864.0,
+        "aula": 2928.0,
         "laboratorio": 384.0,
         "taller": 128.0,
-        "virtual": 384.0,
+        "virtual": 320.0,
         "total": 3760.0
       },
       "secciones": {
-        "aula": 75,
+        "aula": 77,
         "laboratorio": 9,
         "taller": 2,
-        "virtual": 11,
+        "virtual": 9,
         "total": 97
       },
       "detalle_por_programa": {
         "LLYA": {
           "estudiantes": 21,
           "horas_semanales": {
-            "aula": 102.0,
+            "aula": 106.0,
             "laboratorio": 0.0,
             "taller": 8.0,
-            "virtual": 18.0
+            "virtual": 14.0
           },
           "secciones": {
-            "aula": 44,
+            "aula": 46,
             "laboratorio": 0,
             "taller": 2,
-            "virtual": 8
+            "virtual": 6
           }
         },
         "MYC": {
@@ -1236,40 +1236,40 @@
         "myc": 4
       },
       "horas_semanales": {
-        "aula": 179.0,
+        "aula": 183.0,
         "laboratorio": 24.0,
         "taller": 8.0,
-        "virtual": 24.0,
+        "virtual": 20.0,
         "total": 235.0
       },
       "horas_semestre": {
-        "aula": 2864.0,
+        "aula": 2928.0,
         "laboratorio": 384.0,
         "taller": 128.0,
-        "virtual": 384.0,
+        "virtual": 320.0,
         "total": 3760.0
       },
       "secciones": {
-        "aula": 75,
+        "aula": 77,
         "laboratorio": 9,
         "taller": 2,
-        "virtual": 11,
+        "virtual": 9,
         "total": 97
       },
       "detalle_por_programa": {
         "LLYA": {
           "estudiantes": 7,
           "horas_semanales": {
-            "aula": 102.0,
+            "aula": 106.0,
             "laboratorio": 0.0,
             "taller": 8.0,
-            "virtual": 18.0
+            "virtual": 14.0
           },
           "secciones": {
-            "aula": 44,
+            "aula": 46,
             "laboratorio": 0,
             "taller": 2,
-            "virtual": 8
+            "virtual": 6
           }
         },
         "MYC": {
@@ -1553,8 +1553,8 @@
       },
       "distribucion_tipo_ambiente": {
         "aula": {
-          "horas_semanales": 7.2,
-          "porcentaje": 75.0
+          "horas_semanales": 9.6,
+          "porcentaje": 100.0
         },
         "laboratorio": {
           "horas_semanales": 0,
@@ -1565,8 +1565,8 @@
           "porcentaje": 0
         },
         "virtual": {
-          "horas_semanales": 2.4,
-          "porcentaje": 25.0
+          "horas_semanales": 0,
+          "porcentaje": 0
         }
       }
     },
@@ -1671,10 +1671,10 @@
       "año": 2031,
       "total_estudiantes_año": 13,
       "horas_anuales": {
-        "aula": 5600.0,
+        "aula": 5728.0,
         "laboratorio": 768.0,
         "taller": 256.0,
-        "virtual": 704.0,
+        "virtual": 576.0,
         "total": 7328.0
       },
       "promedio_semanal": {
@@ -1687,10 +1687,10 @@
       "año": 2032,
       "total_estudiantes_año": 15,
       "horas_anuales": {
-        "aula": 5728.0,
+        "aula": 5856.0,
         "laboratorio": 768.0,
         "taller": 256.0,
-        "virtual": 768.0,
+        "virtual": 640.0,
         "total": 7520.0
       },
       "promedio_semanal": {
@@ -1703,10 +1703,10 @@
       "año": 2033,
       "total_estudiantes_año": 16,
       "horas_anuales": {
-        "aula": 5728.0,
+        "aula": 5856.0,
         "laboratorio": 768.0,
         "taller": 256.0,
-        "virtual": 768.0,
+        "virtual": 640.0,
         "total": 7520.0
       },
       "promedio_semanal": {
@@ -1719,10 +1719,10 @@
       "año": 2034,
       "total_estudiantes_año": 17,
       "horas_anuales": {
-        "aula": 5728.0,
+        "aula": 5856.0,
         "laboratorio": 768.0,
         "taller": 256.0,
-        "virtual": 768.0,
+        "virtual": 640.0,
         "total": 7520.0
       },
       "promedio_semanal": {
@@ -1735,10 +1735,10 @@
       "año": 2035,
       "total_estudiantes_año": 17,
       "horas_anuales": {
-        "aula": 5728.0,
+        "aula": 5856.0,
         "laboratorio": 768.0,
         "taller": 256.0,
-        "virtual": 768.0,
+        "virtual": 640.0,
         "total": 7520.0
       },
       "promedio_semanal": {
@@ -1751,10 +1751,10 @@
       "año": 2036,
       "total_estudiantes_año": 21,
       "horas_anuales": {
-        "aula": 5728.0,
+        "aula": 5856.0,
         "laboratorio": 768.0,
         "taller": 256.0,
-        "virtual": 768.0,
+        "virtual": 640.0,
         "total": 7520.0
       },
       "promedio_semanal": {
@@ -2049,9 +2049,44 @@
       "periodo": "2031-01",
       "ambientes": {
         "Aula": {
-          "horas_semanales": 171.0,
-          "secciones": 73,
-          "horas_semestre": 2736.0
+          "horas_semanales": 175.0,
+          "secciones": 75,
+          "horas_semestre": 2800.0
+        },
+        "Laboratorio de Computadoras": {
+          "horas_semanales": 3.0,
+          "secciones": 1,
+          "horas_semestre": 48.0
+        },
+        "Laboratorio de Física": {
+          "horas_semanales": 8.0,
+          "secciones": 3,
+          "horas_semestre": 128.0
+        },
+        "Laboratorio de Química": {
+          "horas_semanales": 13.0,
+          "secciones": 5,
+          "horas_semestre": 208.0
+        },
+        "Taller": {
+          "horas_semanales": 8.0,
+          "secciones": 2,
+          "horas_semestre": 128.0
+        },
+        "Virtual": {
+          "horas_semanales": 16.0,
+          "secciones": 7,
+          "horas_semestre": 256.0
+        }
+      }
+    },
+    {
+      "periodo": "2031-02",
+      "ambientes": {
+        "Aula": {
+          "horas_semanales": 183.0,
+          "secciones": 77,
+          "horas_semestre": 2928.0
         },
         "Laboratorio de Computadoras": {
           "horas_semanales": 3.0,
@@ -2081,47 +2116,12 @@
       }
     },
     {
-      "periodo": "2031-02",
-      "ambientes": {
-        "Aula": {
-          "horas_semanales": 179.0,
-          "secciones": 75,
-          "horas_semestre": 2864.0
-        },
-        "Laboratorio de Computadoras": {
-          "horas_semanales": 3.0,
-          "secciones": 1,
-          "horas_semestre": 48.0
-        },
-        "Laboratorio de Física": {
-          "horas_semanales": 8.0,
-          "secciones": 3,
-          "horas_semestre": 128.0
-        },
-        "Laboratorio de Química": {
-          "horas_semanales": 13.0,
-          "secciones": 5,
-          "horas_semestre": 208.0
-        },
-        "Taller": {
-          "horas_semanales": 8.0,
-          "secciones": 2,
-          "horas_semestre": 128.0
-        },
-        "Virtual": {
-          "horas_semanales": 24.0,
-          "secciones": 11,
-          "horas_semestre": 384.0
-        }
-      }
-    },
-    {
       "periodo": "2032-01",
       "ambientes": {
         "Aula": {
-          "horas_semanales": 179.0,
-          "secciones": 75,
-          "horas_semestre": 2864.0
+          "horas_semanales": 183.0,
+          "secciones": 77,
+          "horas_semestre": 2928.0
         },
         "Laboratorio de Computadoras": {
           "horas_semanales": 3.0,
@@ -2144,9 +2144,9 @@
           "horas_semestre": 128.0
         },
         "Virtual": {
-          "horas_semanales": 24.0,
-          "secciones": 11,
-          "horas_semestre": 384.0
+          "horas_semanales": 20.0,
+          "secciones": 9,
+          "horas_semestre": 320.0
         }
       }
     },
@@ -2154,9 +2154,9 @@
       "periodo": "2032-02",
       "ambientes": {
         "Aula": {
-          "horas_semanales": 179.0,
-          "secciones": 75,
-          "horas_semestre": 2864.0
+          "horas_semanales": 183.0,
+          "secciones": 77,
+          "horas_semestre": 2928.0
         },
         "Laboratorio de Computadoras": {
           "horas_semanales": 3.0,
@@ -2179,9 +2179,9 @@
           "horas_semestre": 128.0
         },
         "Virtual": {
-          "horas_semanales": 24.0,
-          "secciones": 11,
-          "horas_semestre": 384.0
+          "horas_semanales": 20.0,
+          "secciones": 9,
+          "horas_semestre": 320.0
         }
       }
     },
@@ -2189,9 +2189,9 @@
       "periodo": "2033-01",
       "ambientes": {
         "Aula": {
-          "horas_semanales": 179.0,
-          "secciones": 75,
-          "horas_semestre": 2864.0
+          "horas_semanales": 183.0,
+          "secciones": 77,
+          "horas_semestre": 2928.0
         },
         "Laboratorio de Computadoras": {
           "horas_semanales": 3.0,
@@ -2214,9 +2214,9 @@
           "horas_semestre": 128.0
         },
         "Virtual": {
-          "horas_semanales": 24.0,
-          "secciones": 11,
-          "horas_semestre": 384.0
+          "horas_semanales": 20.0,
+          "secciones": 9,
+          "horas_semestre": 320.0
         }
       }
     },
@@ -2224,9 +2224,9 @@
       "periodo": "2033-02",
       "ambientes": {
         "Aula": {
-          "horas_semanales": 179.0,
-          "secciones": 75,
-          "horas_semestre": 2864.0
+          "horas_semanales": 183.0,
+          "secciones": 77,
+          "horas_semestre": 2928.0
         },
         "Laboratorio de Computadoras": {
           "horas_semanales": 3.0,
@@ -2249,9 +2249,9 @@
           "horas_semestre": 128.0
         },
         "Virtual": {
-          "horas_semanales": 24.0,
-          "secciones": 11,
-          "horas_semestre": 384.0
+          "horas_semanales": 20.0,
+          "secciones": 9,
+          "horas_semestre": 320.0
         }
       }
     },
@@ -2259,9 +2259,9 @@
       "periodo": "2034-01",
       "ambientes": {
         "Aula": {
-          "horas_semanales": 179.0,
-          "secciones": 75,
-          "horas_semestre": 2864.0
+          "horas_semanales": 183.0,
+          "secciones": 77,
+          "horas_semestre": 2928.0
         },
         "Laboratorio de Computadoras": {
           "horas_semanales": 3.0,
@@ -2284,9 +2284,9 @@
           "horas_semestre": 128.0
         },
         "Virtual": {
-          "horas_semanales": 24.0,
-          "secciones": 11,
-          "horas_semestre": 384.0
+          "horas_semanales": 20.0,
+          "secciones": 9,
+          "horas_semestre": 320.0
         }
       }
     },
@@ -2294,9 +2294,9 @@
       "periodo": "2034-02",
       "ambientes": {
         "Aula": {
-          "horas_semanales": 179.0,
-          "secciones": 75,
-          "horas_semestre": 2864.0
+          "horas_semanales": 183.0,
+          "secciones": 77,
+          "horas_semestre": 2928.0
         },
         "Laboratorio de Computadoras": {
           "horas_semanales": 3.0,
@@ -2319,9 +2319,9 @@
           "horas_semestre": 128.0
         },
         "Virtual": {
-          "horas_semanales": 24.0,
-          "secciones": 11,
-          "horas_semestre": 384.0
+          "horas_semanales": 20.0,
+          "secciones": 9,
+          "horas_semestre": 320.0
         }
       }
     },
@@ -2329,9 +2329,9 @@
       "periodo": "2035-01",
       "ambientes": {
         "Aula": {
-          "horas_semanales": 179.0,
-          "secciones": 75,
-          "horas_semestre": 2864.0
+          "horas_semanales": 183.0,
+          "secciones": 77,
+          "horas_semestre": 2928.0
         },
         "Laboratorio de Computadoras": {
           "horas_semanales": 3.0,
@@ -2354,9 +2354,9 @@
           "horas_semestre": 128.0
         },
         "Virtual": {
-          "horas_semanales": 24.0,
-          "secciones": 11,
-          "horas_semestre": 384.0
+          "horas_semanales": 20.0,
+          "secciones": 9,
+          "horas_semestre": 320.0
         }
       }
     },
@@ -2364,9 +2364,9 @@
       "periodo": "2035-02",
       "ambientes": {
         "Aula": {
-          "horas_semanales": 179.0,
-          "secciones": 75,
-          "horas_semestre": 2864.0
+          "horas_semanales": 183.0,
+          "secciones": 77,
+          "horas_semestre": 2928.0
         },
         "Laboratorio de Computadoras": {
           "horas_semanales": 3.0,
@@ -2389,9 +2389,9 @@
           "horas_semestre": 128.0
         },
         "Virtual": {
-          "horas_semanales": 24.0,
-          "secciones": 11,
-          "horas_semestre": 384.0
+          "horas_semanales": 20.0,
+          "secciones": 9,
+          "horas_semestre": 320.0
         }
       }
     },
@@ -2399,9 +2399,9 @@
       "periodo": "2036-01",
       "ambientes": {
         "Aula": {
-          "horas_semanales": 179.0,
-          "secciones": 75,
-          "horas_semestre": 2864.0
+          "horas_semanales": 183.0,
+          "secciones": 77,
+          "horas_semestre": 2928.0
         },
         "Laboratorio de Computadoras": {
           "horas_semanales": 3.0,
@@ -2424,9 +2424,9 @@
           "horas_semestre": 128.0
         },
         "Virtual": {
-          "horas_semanales": 24.0,
-          "secciones": 11,
-          "horas_semestre": 384.0
+          "horas_semanales": 20.0,
+          "secciones": 9,
+          "horas_semestre": 320.0
         }
       }
     },
@@ -2434,9 +2434,9 @@
       "periodo": "2036-02",
       "ambientes": {
         "Aula": {
-          "horas_semanales": 179.0,
-          "secciones": 75,
-          "horas_semestre": 2864.0
+          "horas_semanales": 183.0,
+          "secciones": 77,
+          "horas_semestre": 2928.0
         },
         "Laboratorio de Computadoras": {
           "horas_semanales": 3.0,
@@ -2459,9 +2459,9 @@
           "horas_semestre": 128.0
         },
         "Virtual": {
-          "horas_semanales": 24.0,
-          "secciones": 11,
-          "horas_semestre": 384.0
+          "horas_semanales": 20.0,
+          "secciones": 9,
+          "horas_semestre": 320.0
         }
       }
     }
@@ -7069,7 +7069,7 @@
           "semestre": 9,
           "codigo_curso": "5079",
           "curso": "Seminario de Integración Didáctica",
-          "tipo_ambiente": "Virtual",
+          "tipo_ambiente": "Aula",
           "estudiantes": 2,
           "horas_semanales": 2.0,
           "secciones": 1,
@@ -7080,7 +7080,7 @@
           "semestre": 9,
           "codigo_curso": "5079",
           "curso": "Seminario de Integración Didáctica",
-          "tipo_ambiente": "Virtual",
+          "tipo_ambiente": "Aula",
           "estudiantes": 2,
           "horas_semanales": 2.0,
           "secciones": 1,
@@ -8097,7 +8097,7 @@
           "semestre": 9,
           "codigo_curso": "5079",
           "curso": "Seminario de Integración Didáctica",
-          "tipo_ambiente": "Virtual",
+          "tipo_ambiente": "Aula",
           "estudiantes": 1,
           "horas_semanales": 2.0,
           "secciones": 1,
@@ -8108,7 +8108,7 @@
           "semestre": 9,
           "codigo_curso": "5079",
           "curso": "Seminario de Integración Didáctica",
-          "tipo_ambiente": "Virtual",
+          "tipo_ambiente": "Aula",
           "estudiantes": 1,
           "horas_semanales": 2.0,
           "secciones": 1,
@@ -9169,7 +9169,7 @@
           "semestre": 9,
           "codigo_curso": "5079",
           "curso": "Seminario de Integración Didáctica",
-          "tipo_ambiente": "Virtual",
+          "tipo_ambiente": "Aula",
           "estudiantes": 3,
           "horas_semanales": 2.0,
           "secciones": 1,
@@ -9180,7 +9180,7 @@
           "semestre": 9,
           "codigo_curso": "5079",
           "curso": "Seminario de Integración Didáctica",
-          "tipo_ambiente": "Virtual",
+          "tipo_ambiente": "Aula",
           "estudiantes": 3,
           "horas_semanales": 2.0,
           "secciones": 1,
@@ -10241,7 +10241,7 @@
           "semestre": 9,
           "codigo_curso": "5079",
           "curso": "Seminario de Integración Didáctica",
-          "tipo_ambiente": "Virtual",
+          "tipo_ambiente": "Aula",
           "estudiantes": 1,
           "horas_semanales": 2.0,
           "secciones": 1,
@@ -10252,7 +10252,7 @@
           "semestre": 9,
           "codigo_curso": "5079",
           "curso": "Seminario de Integración Didáctica",
-          "tipo_ambiente": "Virtual",
+          "tipo_ambiente": "Aula",
           "estudiantes": 1,
           "horas_semanales": 2.0,
           "secciones": 1,
@@ -11313,7 +11313,7 @@
           "semestre": 9,
           "codigo_curso": "5079",
           "curso": "Seminario de Integración Didáctica",
-          "tipo_ambiente": "Virtual",
+          "tipo_ambiente": "Aula",
           "estudiantes": 4,
           "horas_semanales": 2.0,
           "secciones": 1,
@@ -11324,7 +11324,7 @@
           "semestre": 9,
           "codigo_curso": "5079",
           "curso": "Seminario de Integración Didáctica",
-          "tipo_ambiente": "Virtual",
+          "tipo_ambiente": "Aula",
           "estudiantes": 4,
           "horas_semanales": 2.0,
           "secciones": 1,
@@ -12385,7 +12385,7 @@
           "semestre": 9,
           "codigo_curso": "5079",
           "curso": "Seminario de Integración Didáctica",
-          "tipo_ambiente": "Virtual",
+          "tipo_ambiente": "Aula",
           "estudiantes": 1,
           "horas_semanales": 2.0,
           "secciones": 1,
@@ -12396,7 +12396,7 @@
           "semestre": 9,
           "codigo_curso": "5079",
           "curso": "Seminario de Integración Didáctica",
-          "tipo_ambiente": "Virtual",
+          "tipo_ambiente": "Aula",
           "estudiantes": 1,
           "horas_semanales": 2.0,
           "secciones": 1,
@@ -13457,7 +13457,7 @@
           "semestre": 9,
           "codigo_curso": "5079",
           "curso": "Seminario de Integración Didáctica",
-          "tipo_ambiente": "Virtual",
+          "tipo_ambiente": "Aula",
           "estudiantes": 4,
           "horas_semanales": 2.0,
           "secciones": 1,
@@ -13468,7 +13468,7 @@
           "semestre": 9,
           "codigo_curso": "5079",
           "curso": "Seminario de Integración Didáctica",
-          "tipo_ambiente": "Virtual",
+          "tipo_ambiente": "Aula",
           "estudiantes": 4,
           "horas_semanales": 2.0,
           "secciones": 1,
@@ -14529,7 +14529,7 @@
           "semestre": 9,
           "codigo_curso": "5079",
           "curso": "Seminario de Integración Didáctica",
-          "tipo_ambiente": "Virtual",
+          "tipo_ambiente": "Aula",
           "estudiantes": 1,
           "horas_semanales": 2.0,
           "secciones": 1,
@@ -14540,7 +14540,7 @@
           "semestre": 9,
           "codigo_curso": "5079",
           "curso": "Seminario de Integración Didáctica",
-          "tipo_ambiente": "Virtual",
+          "tipo_ambiente": "Aula",
           "estudiantes": 1,
           "horas_semanales": 2.0,
           "secciones": 1,
@@ -15601,7 +15601,7 @@
           "semestre": 9,
           "codigo_curso": "5079",
           "curso": "Seminario de Integración Didáctica",
-          "tipo_ambiente": "Virtual",
+          "tipo_ambiente": "Aula",
           "estudiantes": 3,
           "horas_semanales": 2.0,
           "secciones": 1,
@@ -15612,7 +15612,7 @@
           "semestre": 9,
           "codigo_curso": "5079",
           "curso": "Seminario de Integración Didáctica",
-          "tipo_ambiente": "Virtual",
+          "tipo_ambiente": "Aula",
           "estudiantes": 3,
           "horas_semanales": 2.0,
           "secciones": 1,
@@ -16673,7 +16673,7 @@
           "semestre": 9,
           "codigo_curso": "5079",
           "curso": "Seminario de Integración Didáctica",
-          "tipo_ambiente": "Virtual",
+          "tipo_ambiente": "Aula",
           "estudiantes": 2,
           "horas_semanales": 2.0,
           "secciones": 1,
@@ -16684,7 +16684,7 @@
           "semestre": 9,
           "codigo_curso": "5079",
           "curso": "Seminario de Integración Didáctica",
-          "tipo_ambiente": "Virtual",
+          "tipo_ambiente": "Aula",
           "estudiantes": 2,
           "horas_semanales": 2.0,
           "secciones": 1,
@@ -17745,7 +17745,7 @@
           "semestre": 9,
           "codigo_curso": "5079",
           "curso": "Seminario de Integración Didáctica",
-          "tipo_ambiente": "Virtual",
+          "tipo_ambiente": "Aula",
           "estudiantes": 5,
           "horas_semanales": 2.0,
           "secciones": 1,
@@ -17756,7 +17756,7 @@
           "semestre": 9,
           "codigo_curso": "5079",
           "curso": "Seminario de Integración Didáctica",
-          "tipo_ambiente": "Virtual",
+          "tipo_ambiente": "Aula",
           "estudiantes": 5,
           "horas_semanales": 2.0,
           "secciones": 1,
@@ -18817,7 +18817,7 @@
           "semestre": 9,
           "codigo_curso": "5079",
           "curso": "Seminario de Integración Didáctica",
-          "tipo_ambiente": "Virtual",
+          "tipo_ambiente": "Aula",
           "estudiantes": 2,
           "horas_semanales": 2.0,
           "secciones": 1,
@@ -18828,7 +18828,7 @@
           "semestre": 9,
           "codigo_curso": "5079",
           "curso": "Seminario de Integración Didáctica",
-          "tipo_ambiente": "Virtual",
+          "tipo_ambiente": "Aula",
           "estudiantes": 2,
           "horas_semanales": 2.0,
           "secciones": 1,
